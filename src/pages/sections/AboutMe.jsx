@@ -3,7 +3,7 @@ const AboutMe = () => {
 	return (
 		<div className="w-full rounded-3xl p-2 h-fit bg-white/10 border-2 border-white/20 hover:shadow-2xl hover:shadow-yellow-600/30 transition ease relative overflow-hidden">
 			<div className="w-96 h-96 absolute bg-blue-500/20 blur-3xl shadow-2xl shadow-blue-500 rounded-full -top-52 -right-10 z-0"></div>
-			<div className='flex flex-col justify-center items-center gap-y-10 bg-zinc-900 p-8 rounded-2xl z-10'>
+			<div className='flex flex-col justify-center items-center gap-y-10 bg-zinc-900 p-8 rounded-2xl z-10 max-[540px]:p-4'>
 				<h1 className="text-7xl max-[540px]:text-5xl" style={{ textShadow: "0px 0px 10px white" }}>About Me</h1>
 				<div className="w-full gap-x-5">
 					<div className="w-full">

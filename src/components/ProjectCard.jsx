@@ -8,22 +8,22 @@ const ProjectCard = (props) => {
 				<div className="flex justify-between items-start gap-x-20 w-full z-20 max-[1200px]:flex-col max-[1200px]:gap-y-5">
 					<div className="flex flex-col gap-y-5">
 						<h1 className="text-3xl z-10" style={{textShadow:"0px 0px 10px white"}}>{props.title}</h1>
-						<p className="text-xl z-10 text-wrap max-[540px]:text-lg">{props.description}</p>
+						<p className="text-xl z-10 text-wrap max-[540px]:text-base">{props.description}</p>
 						<ul className="flex flex-wrap gap-3">
 							{props.usedTech.map((tech, index) => (
-								<li key={index} className="px-3 py-1 w-fit bg-white/10 rounded-full">{tech}</li>
+								<li key={index} className="px-3 py-1 w-fit bg-white/10 rounded-full max-[540px]:text-sm">{tech}</li>
 							))}
 						</ul>
 					</div>
 					<div className="w-fit text-nowrap">
-						<ul className="flex flex-col gap-y-5 max-[1200px]:flex-row max-[1200px]:gap-x-5 flex-wrap">
+						<ul className="flex flex-col gap-y-5 max-[1200px]:flex-row max-[1200px]:gap-x-5 flex-wrap max-[540px]:flex-row">
 							<li>
-								<a className="text-xl px-3 py-1 bg-white/10 backdrop-blur-lg rounded-lg" target="_blank" rel="noopener noreferrer" href={props.live}>
+								<a className="text-xl px-3 py-1 bg-green-700/30 border border-green-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={props.live}>
 									Live Demo 🔗
 								</a>
 							</li>
 							<li>
-								<a className="text-xl px-3 py-1 bg-white/10 backdrop-blur-lg rounded-lg" target="_blank" rel="noopener noreferrer" href={props.gitHUB}>
+								<a className="text-xl px-3 py-1 bg-yellow-500/30 border border-yellow-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={props.gitHUB}>
 									Repository 📁
 								</a>
 							</li>
