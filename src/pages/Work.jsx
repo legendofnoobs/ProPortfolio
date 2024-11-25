@@ -4,9 +4,9 @@ import { projectsData } from "../data";
 
 const Work = () => {
 	return (
-		<section className="w-full flex flex-col items-center py-10 px-80 gap-y-10 max-[1400px]:px-60 max-[1200px]:px-48 max-[1024px]:px-36 max-[900px]:px-20 max-[430px]:px-0 max-[636px]:px-7">
+		<section className="w-full flex flex-col items-start py-10 px-80 gap-y-10 max-[1400px]:px-60 max-[1200px]:px-48 max-[1024px]:px-36 max-[900px]:px-20 max-[430px]:px-0 max-[636px]:px-7">
 			<Besmellah />
-			
+			<h1 className="text-4xl">⬇️ <span style={{textShadow:"0px 0px 10px white"}}>Selected Work</span></h1>
 			<div className="flex flex-col items-center gap-y-10 w-full">
 				{projectsData.map((project) => (
 					<ProjectCard

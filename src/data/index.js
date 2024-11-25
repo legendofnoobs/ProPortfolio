@@ -44,16 +44,16 @@ export const technologies = [
 ];
 
 // =================================================================
-import AdviceApp from "../assets/ProjectsAssets/Advice app.webp";
-import Calculator from "../assets/ProjectsAssets/Calculator.webp";
-import CalorieCounter from "../assets/ProjectsAssets/Calorie counter.webp";
+// import AdviceApp from "../assets/ProjectsAssets/Advice app.webp";
+// import Calculator from "../assets/ProjectsAssets/Calculator.webp";
+// import CalorieCounter from "../assets/ProjectsAssets/Calorie counter.webp";
+// import PalindromeChecker from "../assets/ProjectsAssets/Palindrome Cheker.webp";
+// import PortfolioV1 from "../assets/ProjectsAssets/PortfolioV1.webp";
 import Cover from "../assets/ProjectsAssets/Cover.webp";
 import MusicPlayer from "../assets/ProjectsAssets/Music Player.webp";
-import PalindromeChecker from "../assets/ProjectsAssets/Palindrome Cheker.webp";
 import SpaceTourism from "../assets/ProjectsAssets/Space tourism.webp";
 import TodoApp from "../assets/ProjectsAssets/Todo app.webp";
 import WeatherApp from "../assets/ProjectsAssets/Weather app.webp";
-import PortfolioV1 from "../assets/ProjectsAssets/PortfolioV1.webp";
 import PortfolioV2 from "../assets/ProjectsAssets/PortfolioV2.png";
 import NikeLanding from "../assets/ProjectsAssets/Nike Landing.webp";
 import grillandgo from "../assets/ProjectsAssets/grillandgo.webp";
@@ -75,7 +75,7 @@ export const projectsData = [
 		id: "1",
 		imgURL: SnapGram,
 		title: "SnapGram website",
-		description: "SnapGram website to demonstrate skills in React.js, Typescript, Tailwind.css, Shadcn/ui, TanStack, and Appwrite services.It was driven to me by Mr. Adrian From Javascript Mastery. It is Fully functional and responsive",
+		description: "SnapGram website to demonstrate skills in React.js, Typescript, Tailwind.css, Shadcn/ui, TanStack, and Appwrite services. It is Fully functional and responsive",
 		live: "https://snap-graam.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/SnapGram",
 		usedTech: ["React.js","Typescript","Shadcn/ui","TanStack", "Appwrite"]
@@ -84,7 +84,7 @@ export const projectsData = [
 		id: "2",
 		imgURL: Brainwave,
 		title: "Brainwave website",
-		description: "Brainwave website to demonstrate skills in React.js and Tailwind.css.It was driven to me by Mr. Adrian From Javascript Mastery. It is Fully functional and responsive",
+		description: "Brainwave website to demonstrate skills in React.js and Tailwind.css. It is Fully functional and responsive",
 		live: "https://brainwavelegendofnoobs.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/Brainwave",
 		usedTech: ["React.js", "Tailwind.css"]
@@ -179,49 +179,49 @@ export const projectsData = [
 		gitHUB: "https://github.com/legendofnoobs/music-player",
 		usedTech: ["HTML", "CSS", "JavaScript"]
 	},
-	{
-		id: "13",
-		imgURL: Calculator,
-		title: "Calculator App",
-		description: "A simple calculator app to demonstrate JavaScript skills. It is Fully functional and responsive",
-		live: "https://calculatorlegendofnoobs.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/Calculator",
-		usedTech: ["HTML", "CSS", "JavaScript"]
-	},
-	{
-		id: "14",
-		imgURL: CalorieCounter,
-		title: "Calorie Counter App",
-		description: "A simple calorie counter app to keep on track with your diet. It is Fully functional and responsive",
-		live: "https://caloriecounterlegendofnoobs.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/Calorie-Counter",
-		usedTech: ["HTML", "CSS", "JavaScript"]
-	},
-	{
-		id: "15",
-		imgURL: AdviceApp,
-		title: "Advice App",
-		description: "A simple Advice app to demonstrate JavaScript and API skills. It is fully functional and responsive.",
-		live: "https://adviceapplegendofnoobs.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/AdviceApp",
-		usedTech: ["HTML", "CSS", "JavaScript", "API"]
-	},
-	{
-		id: "16",
-		imgURL: PalindromeChecker,
-		title: "Palindrome Checker website",
-		description: "A simple Palindrome Checker app to demonstrate JavaScript array skills. It is Fully functional and responsive",
-		live: "https://basicpalindromechecker.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/Palindrome-Checker",
-		usedTech: ["HTML", "CSS", "JavaScript"]
-	},
-	{
-		id: "17",
-		imgURL: PortfolioV1,
-		title: "PortfolioV1 website",
-		description: "A simple PortfolioV1 to demonstrate HTML and CSS skills. It is Fully functional and responsive",
-		live: "https://ahmedalirashed.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/Portfolio",
-		usedTech: ["HTML", "CSS"]
-	},
+	// {
+	// 	id: "13",
+	// 	imgURL: Calculator,
+	// 	title: "Calculator App",
+	// 	description: "A simple calculator app to demonstrate JavaScript skills. It is Fully functional and responsive",
+	// 	live: "https://calculatorlegendofnoobs.netlify.app/",
+	// 	gitHUB: "https://github.com/legendofnoobs/Calculator",
+	// 	usedTech: ["HTML", "CSS", "JavaScript"]
+	// },
+	// {
+	// 	id: "14",
+	// 	imgURL: CalorieCounter,
+	// 	title: "Calorie Counter App",
+	// 	description: "A simple calorie counter app to keep on track with your diet. It is Fully functional and responsive",
+	// 	live: "https://caloriecounterlegendofnoobs.netlify.app/",
+	// 	gitHUB: "https://github.com/legendofnoobs/Calorie-Counter",
+	// 	usedTech: ["HTML", "CSS", "JavaScript"]
+	// },
+	// {
+	// 	id: "15",
+	// 	imgURL: AdviceApp,
+	// 	title: "Advice App",
+	// 	description: "A simple Advice app to demonstrate JavaScript and API skills. It is fully functional and responsive.",
+	// 	live: "https://adviceapplegendofnoobs.netlify.app/",
+	// 	gitHUB: "https://github.com/legendofnoobs/AdviceApp",
+	// 	usedTech: ["HTML", "CSS", "JavaScript", "API"]
+	// },
+	// {
+	// 	id: "16",
+	// 	imgURL: PalindromeChecker,
+	// 	title: "Palindrome Checker website",
+	// 	description: "A simple Palindrome Checker app to demonstrate JavaScript array skills. It is Fully functional and responsive",
+	// 	live: "https://basicpalindromechecker.netlify.app/",
+	// 	gitHUB: "https://github.com/legendofnoobs/Palindrome-Checker",
+	// 	usedTech: ["HTML", "CSS", "JavaScript"]
+	// },
+	// {
+	// 	id: "17",
+	// 	imgURL: PortfolioV1,
+	// 	title: "PortfolioV1 website",
+	// 	description: "A simple PortfolioV1 to demonstrate HTML and CSS skills. It is Fully functional and responsive",
+	// 	live: "https://ahmedalirashed.netlify.app/",
+	// 	gitHUB: "https://github.com/legendofnoobs/Portfolio",
+	// 	usedTech: ["HTML", "CSS"]
+	// },
 ]
