@@ -2,7 +2,7 @@
 
 const ProjectCard = (props) => {
 	return (
-		<div className="h-fit w-full p-2 bg-white/10 rounded-3xl border-2 border-white/20 hover:shadow-2xl hover:shadow-green-600/30 transition ease">
+		<div className="h-fit w-full p-2 rounded-3xl border-2 border-white/20 hover:shadow-2xl hover:shadow-green-600/30 transition ease bg-gradient-to-r from-slate-800 via-slate-400 to-slate-800">
 			<div className="max-w-full h-fit p-10 bg-zinc-900 rounded-2xl flex flex-col items-start justify-start relative overflow-hidden gap-y-5 max-[450px]:p-3">
 				<div className="w-96 h-96 absolute bg-red-600/30 blur-3xl shadow-2xl shadow-red-500 rounded-full -top-52 -right-10 z-0"></div>
 				<div className="flex justify-between items-start gap-x-20 w-full z-20 max-[1200px]:flex-col max-[1200px]:gap-y-5">

@@ -12,30 +12,33 @@ const AboutMe = () => {
 							<p className="text-2xl font-bold max-[540px]:text-xl">Software Engineering Student.</p>
 							<p className="text-xl max-[540px]:text-lg">I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</p>
 						</div>
-						<div className="mb-5 w-full">
-							<h1 className="text-5xl mb-5 max-[540px]:text-3xl">Certifications:</h1>
-							<ul className=" list-disc pl-6 text-xl max-[540px]:text-lg">
-								<li>Web Design Certification - FreeCodeCamp.</li>
-								<li>JavaScript Certification – FreeCodeCamp.</li>
-								<li>FullStack with ASP.NET MVC Core – CLS Solutions.</li>
-								<li>Software Engineering Bachelor. (In Progress)</li>
-							</ul>
+						<div className="flex">
+							<div className="w-full">
+								<h1 className="text-5xl mb-5 max-[540px]:text-3xl">Additional Skills:</h1>
+								<ul className=" list-disc pl-6 text-xl mb-5 max-[540px]:text-lg">
+									<li>JSON</li>
+									<li>Basic Git</li>
+									<li>Version Control</li>
+									<li>Data Structures</li>
+									<li>Design Patterns</li>
+									<li>SQL and Databases</li>
+									<li>Basic Linux Commands</li>
+									<li>Object Oriented Programming</li>
+									<li>Good Knowledge of Software Process And Life Cycle</li>
+									<li>Good Knowledge of Software Requirements and Specification</li>
+								</ul>
+							</div>
+							<div className="mb-5 w-full">
+								<h1 className="text-5xl mb-5 max-[540px]:text-3xl">Certifications:</h1>
+								<ul className=" list-disc pl-6 text-xl max-[540px]:text-lg">
+									<li>Web Design Certification - FreeCodeCamp.</li>
+									<li>JavaScript Certification – FreeCodeCamp.</li>
+									<li>FullStack with ASP.NET MVC Core – CLS Solutions.</li>
+									<li>Software Engineering Bachelor. (In Progress)</li>
+								</ul>
+							</div>
 						</div>
-						<div className="w-full">
-							<h1 className="text-5xl mb-5 max-[540px]:text-3xl">Additional Skills:</h1>
-							<ul className=" list-disc pl-6 text-xl mb-5 max-[540px]:text-lg">
-								<li>JSON</li>
-								<li>Basic Git</li>
-								<li>Version Control</li>
-								<li>Data Structures</li>
-								<li>Design Patterns</li>
-								<li>SQL and Databases</li>
-								<li>Basic Linux Commands</li>
-								<li>Object Oriented Programming</li>
-								<li>Good Knowledge of Software Process And Life Cycle</li>
-								<li>Good Knowledge of Software Requirements and Specification</li>
-							</ul>
-						</div>
+						
 					</div>
 				</div>
 			</div>
