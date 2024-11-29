@@ -44,11 +44,11 @@ export const technologies = [
 ];
 
 // =================================================================
-// import AdviceApp from "../assets/ProjectsAssets/Advice app.webp";
-// import Calculator from "../assets/ProjectsAssets/Calculator.webp";
-// import CalorieCounter from "../assets/ProjectsAssets/Calorie counter.webp";
-// import PalindromeChecker from "../assets/ProjectsAssets/Palindrome Cheker.webp";
-// import PortfolioV1 from "../assets/ProjectsAssets/PortfolioV1.webp";
+import AdviceApp from "../assets/ProjectsAssets/Advice app.webp";
+import Calculator from "../assets/ProjectsAssets/Calculator.webp";
+import CalorieCounter from "../assets/ProjectsAssets/Calorie counter.webp";
+import PalindromeChecker from "../assets/ProjectsAssets/Palindrome Cheker.webp";
+import PortfolioV1 from "../assets/ProjectsAssets/PortfolioV1.webp";
 import Cover from "../assets/ProjectsAssets/Cover.webp";
 import MusicPlayer from "../assets/ProjectsAssets/Music Player.webp";
 import SpaceTourism from "../assets/ProjectsAssets/Space tourism.webp";
@@ -68,8 +68,6 @@ import groovePdf from "../assets/pdf/GrooveMusicApp.pdf"
 export const cvLink = "https://docs.google.com/document/d/e/2PACX-1vRXb2_UZhZKpHpKVr3a-ZBqd8Z9wHggiFpYa-t2ocr9okXId8dxwtJ_Wpaff2k9W_9NWVHWX8wve-c6/pub"
 
 
-
-
 export const projectsData = [
 	{
 		id: "1",
@@ -82,33 +80,6 @@ export const projectsData = [
 	},
 	{
 		id: "2",
-		imgURL: Brainwave,
-		title: "Brainwave website",
-		description: "Brainwave website to demonstrate skills in React.js and Tailwind.css. It is Fully functional and responsive",
-		live: "https://brainwavelegendofnoobs.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/Brainwave",
-		usedTech: ["React.js", "Tailwind.css"]
-	},
-	{
-		id: "3",
-		imgURL: SpaceTourism,
-		title: "Space Tourism website",
-		description: "Space tourism website to demonstrate skills. It was a challenge on Frontend Mentor. It is Fully functional and responsive",
-		live: "https://space-tourism-ahmed-rashed.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/space-tourism-revisited",
-		usedTech: ["React.js","Tailwind.css"]
-	},
-	{
-		id: "4",
-		imgURL: WeatherApp,
-		title: "Weather App",
-		description: "A simple Weather app to demonstrate JavaScript skills. Made this app as an individual project before college requested a web development course's project and just handed it 💀. It is Fully functional and responsive",
-		live: "https://weatherapplegendofnoobs.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/WeatherApp",
-		usedTech: ["HTML", "CSS", "JavaScript", "API"]
-	},
-	{
-		id: "5",
 		imgURL: GymApp,
 		title: "Gym App",
 		description: "A simple Gym app to demonstrate React.js, Material UI and API skills. Made with a Freemium API so do not panic if the app do not load any exersices. It is Fully functional and responsive",
@@ -118,51 +89,6 @@ export const projectsData = [
 	},
 	{
 		id: "6",
-		imgURL: NikeLanding,
-		title: "Nike Landing website",
-		description: "A simple Nike Landing page to demonstrate Tailwind.css and React skills. It is fully functional and responsive.",
-		live: "https://nikelandingnoob.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/Nike-landing",
-		usedTech: ["React.js", "Tailwind.css"]
-	},
-	{
-		id: "7",
-		imgURL: TodoApp,
-		title: "Todo App",
-		description: "A simple Todo app to demonstrate JavaScript and React skills. It is Fully functional and responsive",
-		live: "https://todoappahemdali.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/todo-app",
-		usedTech: ["React.js", "CSS", "Local Storage"]
-	},
-	{
-		id: "8",
-		imgURL: PortfolioV2,
-		title: "PortfolioV2",
-		description: "A simple PortfolioV2 to demonstrate React.js, Tailwind.css, and Framer Motion skills. It is Fully functional and responsive",
-		live: "https://ahmedalirashedv2.netlify.app/#Home",
-		gitHUB: "https://github.com/legendofnoobs/React-Portfolio",
-		usedTech: ["React.js", "Tailwind.css","Framer Motion"]
-	},
-	{
-		id: "9",
-		imgURL: grillandgo,
-		title: "grill & go website",
-		description: "A simple restaurant website to demonstrate React.js and Tailwind.css skills. It is Fully functional and responsive",
-		live: "https://grillandgo.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/restaurant-webpage",
-		usedTech: ["React.js", "Tailwind.css"]
-	},
-	{
-		id: "10",
-		imgURL: MoviesLand,
-		title: "MoviesLand Website",
-		description: "A simple movies website to demonstrate React.js, css, and API skills. It is Fully functional and responsive",
-		live: "https://movieslandlegendofnoobs.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/movie-app",
-		usedTech: ["React.js", "CSS", "API"]
-	},
-	{
-		id: "11",
 		imgURL: Cover,
 		title: "A Music App Design",
 		description: "For Human Computer Interaction's course, I worked on this project with my colleagues to make a good looking UI inspired by Apple music and Spotify.",
@@ -171,7 +97,25 @@ export const projectsData = [
 		usedTech: ["Figma"]
 	},
 	{
-		id: "12",
+		id: "3",
+		imgURL: Brainwave,
+		title: "Brainwave website",
+		description: "Brainwave website to demonstrate skills in React.js and Tailwind.css. It is Fully functional and responsive",
+		live: "https://brainwavelegendofnoobs.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/Brainwave",
+		usedTech: ["React.js", "Tailwind.css"]
+	},
+	{
+		id: "4",
+		imgURL: SpaceTourism,
+		title: "Space Tourism website",
+		description: "Space tourism website to demonstrate skills. It was a challenge on Frontend Mentor. It is Fully functional and responsive",
+		live: "https://space-tourism-ahmed-rashed.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/space-tourism-revisited",
+		usedTech: ["React.js","Tailwind.css"]
+	},
+	{
+		id: "7",
 		imgURL: MusicPlayer,
 		title: "Music Player website",
 		description: "A simple Music app to demonstrate my skills in JavaScript and CSS. Some music to chill and keep calm. It is Fully functional and responsive",
@@ -179,49 +123,107 @@ export const projectsData = [
 		gitHUB: "https://github.com/legendofnoobs/music-player",
 		usedTech: ["HTML", "CSS", "JavaScript"]
 	},
-	// {
-	// 	id: "13",
-	// 	imgURL: Calculator,
-	// 	title: "Calculator App",
-	// 	description: "A simple calculator app to demonstrate JavaScript skills. It is Fully functional and responsive",
-	// 	live: "https://calculatorlegendofnoobs.netlify.app/",
-	// 	gitHUB: "https://github.com/legendofnoobs/Calculator",
-	// 	usedTech: ["HTML", "CSS", "JavaScript"]
-	// },
-	// {
-	// 	id: "14",
-	// 	imgURL: CalorieCounter,
-	// 	title: "Calorie Counter App",
-	// 	description: "A simple calorie counter app to keep on track with your diet. It is Fully functional and responsive",
-	// 	live: "https://caloriecounterlegendofnoobs.netlify.app/",
-	// 	gitHUB: "https://github.com/legendofnoobs/Calorie-Counter",
-	// 	usedTech: ["HTML", "CSS", "JavaScript"]
-	// },
-	// {
-	// 	id: "15",
-	// 	imgURL: AdviceApp,
-	// 	title: "Advice App",
-	// 	description: "A simple Advice app to demonstrate JavaScript and API skills. It is fully functional and responsive.",
-	// 	live: "https://adviceapplegendofnoobs.netlify.app/",
-	// 	gitHUB: "https://github.com/legendofnoobs/AdviceApp",
-	// 	usedTech: ["HTML", "CSS", "JavaScript", "API"]
-	// },
-	// {
-	// 	id: "16",
-	// 	imgURL: PalindromeChecker,
-	// 	title: "Palindrome Checker website",
-	// 	description: "A simple Palindrome Checker app to demonstrate JavaScript array skills. It is Fully functional and responsive",
-	// 	live: "https://basicpalindromechecker.netlify.app/",
-	// 	gitHUB: "https://github.com/legendofnoobs/Palindrome-Checker",
-	// 	usedTech: ["HTML", "CSS", "JavaScript"]
-	// },
-	// {
-	// 	id: "17",
-	// 	imgURL: PortfolioV1,
-	// 	title: "PortfolioV1 website",
-	// 	description: "A simple PortfolioV1 to demonstrate HTML and CSS skills. It is Fully functional and responsive",
-	// 	live: "https://ahmedalirashed.netlify.app/",
-	// 	gitHUB: "https://github.com/legendofnoobs/Portfolio",
-	// 	usedTech: ["HTML", "CSS"]
-	// },
+]
+
+
+export const OtherProjectsData = [
+	{
+		id: "1",
+		imgURL: PortfolioV2,
+		title: "PortfolioV2",
+		description: "A simple PortfolioV2 to demonstrate React.js, Tailwind.css, and Framer Motion skills. It is Fully functional and responsive",
+		live: "https://ahmedalirashedv2.netlify.app/#Home",
+		gitHUB: "https://github.com/legendofnoobs/React-Portfolio",
+		usedTech: ["React.js", "Tailwind.css","Framer Motion"]
+	},
+	{
+		id: "2",
+		imgURL: WeatherApp,
+		title: "Weather App",
+		description: "A simple Weather app to demonstrate JavaScript skills. Made this app as an individual project before college requested a web development course's project and just handed it 💀. It is Fully functional and responsive",
+		live: "https://weatherapplegendofnoobs.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/WeatherApp",
+		usedTech: ["HTML", "CSS", "JavaScript", "API"]
+	},
+	{
+		id: "3",
+		imgURL: NikeLanding,
+		title: "Nike Landing website",
+		description: "A simple Nike Landing page to demonstrate Tailwind.css and React skills. It is fully functional and responsive.",
+		live: "https://nikelandingnoob.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/Nike-landing",
+		usedTech: ["React.js", "Tailwind.css"]
+	},
+	{
+		id: "4",
+		imgURL: MoviesLand,
+		title: "MoviesLand Website",
+		description: "A simple movies website to demonstrate React.js, css, and API skills. It is Fully functional and responsive",
+		live: "https://movieslandlegendofnoobs.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/movie-app",
+		usedTech: ["React.js", "CSS", "API"]
+	},
+	{
+		id: "5",
+		imgURL: TodoApp,
+		title: "Todo App",
+		description: "A simple Todo app to demonstrate JavaScript and React skills. It is Fully functional and responsive",
+		live: "https://todoappahemdali.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/todo-app",
+		usedTech: ["React.js", "CSS", "Local Storage"]
+	},
+	{
+		id: "6",
+		imgURL: grillandgo,
+		title: "grill & go website",
+		description: "A simple restaurant website to demonstrate React.js and Tailwind.css skills. It is Fully functional and responsive",
+		live: "https://grillandgo.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/restaurant-webpage",
+		usedTech: ["React.js", "Tailwind.css"]
+	},
+	{
+		id: "7",
+		imgURL: Calculator,
+		title: "Calculator App",
+		description: "A simple calculator app to demonstrate JavaScript skills. It is Fully functional and responsive",
+		live: "https://calculatorlegendofnoobs.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/Calculator",
+		usedTech: ["HTML", "CSS", "JavaScript"]
+	},
+	{
+		id: "8",
+		imgURL: CalorieCounter,
+		title: "Calorie Counter App",
+		description: "A simple calorie counter app to keep on track with your diet. It is Fully functional and responsive",
+		live: "https://caloriecounterlegendofnoobs.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/Calorie-Counter",
+		usedTech: ["HTML", "CSS", "JavaScript"]
+	},
+	{
+		id: "9",
+		imgURL: AdviceApp,
+		title: "Advice App",
+		description: "A simple Advice app to demonstrate JavaScript and API skills. It is fully functional and responsive.",
+		live: "https://adviceapplegendofnoobs.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/AdviceApp",
+		usedTech: ["HTML", "CSS", "JavaScript", "API"]
+	},
+	{
+		id: "10",
+		imgURL: PalindromeChecker,
+		title: "Palindrome Checker website",
+		description: "A simple Palindrome Checker app to demonstrate JavaScript array skills. It is Fully functional and responsive",
+		live: "https://basicpalindromechecker.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/Palindrome-Checker",
+		usedTech: ["HTML", "CSS", "JavaScript"]
+	},
+	{
+		id: "11",
+		imgURL: PortfolioV1,
+		title: "PortfolioV1 website",
+		description: "A simple PortfolioV1 to demonstrate HTML and CSS skills. It is Fully functional and responsive",
+		live: "https://ahmedalirashed.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/Portfolio",
+		usedTech: ["HTML", "CSS"]
+	},
 ]
