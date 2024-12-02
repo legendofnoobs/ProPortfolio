@@ -12,7 +12,7 @@ const AboutMe = () => {
 							<p className="text-2xl font-bold max-[540px]:text-xl">Software Engineering Student.</p>
 							<p className="text-xl max-[540px]:text-lg">I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</p>
 						</div>
-						<div className="flex">
+						<div className="flex max-[540px]:flex-col">
 							<div className="w-full">
 								<h1 className="text-5xl mb-5 max-[540px]:text-3xl">Additional Skills:</h1>
 								<ul className=" list-disc pl-6 text-xl mb-5 max-[540px]:text-lg">

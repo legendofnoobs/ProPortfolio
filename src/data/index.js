@@ -18,6 +18,7 @@ import MaterialUiLogo from "../assets/tech/materialui.webp";
 import RapidLogo from "../assets/tech/rapidapilogo.webp";
 import csharpLogo from "../assets/tech/cSharp.webp";
 import pythonLogo from "../assets/tech/pythonLogo.webp";
+import MSSql from "../assets/tech/microsoft-sql-server-logo.svg";
 
 
 export const technologies = [
@@ -25,6 +26,7 @@ export const technologies = [
 	{ name: "JAVA", imgURL: JavaLogo },
 	{ name: "c#", imgURL: csharpLogo },
 	{ name: "python", imgURL: pythonLogo },
+	{ name: "MSSql", imgURL: MSSql },
 	{ name: "MySql", imgURL: MySqlLogo },
 	{ name: "HTML", imgURL: HtmlLogo },
 	{ name: "CSS", imgURL: CssLogo },

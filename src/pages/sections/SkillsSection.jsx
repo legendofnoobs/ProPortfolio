@@ -11,7 +11,7 @@ const SkillsSection = () => {
 					<div className="flex flex-wrap justify-center items-center gap-14 p-1">
 						{technologies.map((tech, index) => (
 							<div key={index} className="rounded-xl z-10">
-								<img src={tech.imgURL} alt={tech.name} width={90} className="rounded-xl" loading='lazy'/>
+								<img src={tech.imgURL} alt={tech.name} width={56} className="rounded-xl" loading='lazy'/>
 							</div>
 						))}
 					</div>
