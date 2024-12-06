@@ -49,11 +49,17 @@ const ProjectCard = (props) => {
 	return (
 		<motion.div
 			className="h-fit w-full p-2 rounded-3xl border-2 border-white/20 hover:shadow-2xl hover:shadow-green-600/30 transition ease bg-gradient-to-r from-slate-800 via-slate-400 to-slate-800"
-			initial={{ x: "-100%" }} // Start off-screen to the left
-			whileInView={{ x: 0 }} // When in view, slide to center
-			exit={{ opacity: 0, x: "100%" }} // When out of view, slide off-screen to the left
-			transition={{ type:"spring" }} // Smooth transition
-			viewport={{ once: true }} // Trigger animation every time it comes into view
+			// initial={{ opacity: 0, scale: 0.7 }}
+			// //animate={{ opacity: 1, scale: 1 }} // Start off-screen to the left
+			// whileInView={{ opacity: 1, scale: 1 }} // When in view, slide to center
+			// exit={{ opacity: 0 }} // When out of view, slide off-screen to the left
+			// transition={{ type:"spring" }} // Smooth transition
+			// viewport={{ once: true }} // Trigger animation every time it comes into view
+			initial={{ opacity: 0, scale: 0.7 }}
+			whileInView={{ opacity: 1, scale: 1 }}
+			exit={{ opacity: 0 }}
+			transition={{ type: "spring", stiffness: 200, damping: 30 }}
+			viewport={{ once: false, margin: "-100px" }}
 		>
 			<div className="max-w-full h-fit p-6 bg-zinc-900 rounded-2xl flex flex-col items-start justify-start relative overflow-hidden gap-y-5 max-[450px]:p-3">
 				<div className="w-96 h-96 absolute bg-red-600/30 blur-3xl shadow-2xl shadow-red-500 rounded-full -top-52 -right-10 z-0"></div>
