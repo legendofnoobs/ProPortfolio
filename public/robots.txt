@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ahmedrashed.netlify.app/sitemap.xml

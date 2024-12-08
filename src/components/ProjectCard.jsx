@@ -13,8 +13,8 @@ const ProjectCard = (props) => {
 				<div className="w-96 h-96 absolute bg-red-600/30 blur-3xl shadow-2xl shadow-red-500 rounded-full -top-52 -right-10 z-0"></div>
 				<div className="flex justify-between items-start gap-x-20 w-full z-20 max-[1200px]:flex-col max-[1200px]:gap-y-5">
 					<div className="flex flex-col gap-y-5">
-						<h1 className="text-3xl z-10" style={{textShadow:"0px 0px 10px white"}}>{props.title}</h1>
-						<p className="text-xl z-10 text-wrap max-[540px]:text-base">{props.description}</p>
+						<h1 className="text-3xl z-10">{props.title}</h1>
+						<p className="text-xl z-10 text-wrap max-[540px]:text-base ">{props.description}</p>
 						<ul className="flex flex-wrap gap-3">
 							{props.usedTech.map((tech, index) => (
 								<li key={index} className="px-3 py-1 w-fit bg-white/10 rounded-full max-[540px]:text-sm">{tech}</li>

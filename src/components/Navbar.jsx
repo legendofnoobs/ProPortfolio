@@ -13,7 +13,7 @@ const Navbar = () => {
 	return (
 		<nav className="bg-transparent flex justify-between items-center p-7 max-[1400px]:bg-black/30 max-[1400px]:backdrop-blur-2xl">
 			<div className="w-80">
-				<h1 className="text-2xl max-[430px]:text-xl">Ahmed Rashed</h1>
+				<h1 className="text-2xl max-[430px]:text-lg">Ahmed Rashed</h1>
 				<p className="text-white/50 max-[430px]:text-sm">Software Engineer</p>
 			</div>
 			<ul className="flex justify-between gap-3 bg-white/10 backdrop-blur-xl rounded-full p-1">
