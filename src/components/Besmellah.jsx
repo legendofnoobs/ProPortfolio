@@ -12,7 +12,7 @@ const Besmellah = () => {
 				</div>
 				<div className="max-w-full h-[610px] bg-zinc-900 rounded-b-2xl flex flex-col items-center justify-center gap-y-20 relative overflow-hidden max-[540px]:h-fit max-[540px]:py-5">
 					<div className="w-6/12 h-4/6 absolute bg-red-600/30 blur-3xl shadow-2xl shadow-red-500 rounded-full -top-52 -right-10 z-0"></div>
-					<h1 className="text-8xl px-10 z-10 max-[450px]:text-5xl leading-tight max-[1034px]:text-6xl" style={{textShadow:"0px 0px 10px white"}}>I like Building Web Apps & Products.</h1>
+					<h1 className="text-8xl px-10 z-10 leading-tight max-[450px]:text-5xl max-[1034px]:text-6xl" style={{fontFamily: "Arial, sans-serif", textShadow: "rgba(255,255,255,0.8) 0px 0px 7px"}}>I like Building Web Apps & Products.</h1>
 					<p className="text-3xl z-10 w-full text-right pr-20 max-[540px]:text-2xl max-[540px]:p-0 max-[540px]:text-center">Student At AASTMT</p>
 					<div className="w-6/12 h-4/6 absolute bg-blue-700/30 blur-3xl shadow-2xl shadow-blue-700 rounded-full -bottom-52 -left-10 z-0"></div>
 				</div>
