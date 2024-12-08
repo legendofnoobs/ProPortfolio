@@ -1,5 +1,6 @@
 
 import { technologies } from '../../data/index.js'; // Adjust the path if needed
+import { motion } from 'motion/react';
 
 const SkillsSection = () => {
 	return (
@@ -10,9 +11,12 @@ const SkillsSection = () => {
 				<div className="flex flex-col justify-center items-center">
 					<div className="flex flex-wrap justify-center items-center gap-14 p-1">
 						{technologies.map((tech, index) => (
-							<div key={index} className="rounded-xl z-10">
-								<img src={tech.imgURL} alt={tech.name} className="rounded-xl w-24 max-[540px]:w-14 max-[540px]:rounded-md" loading='lazy'/>
-							</div>
+							<motion.div key={index} className="rounded-xl z-10" initial={{ opacity: 0, y: 20 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							transition={{ delay: index * 0.2 }} // Delay each card
+							viewport={{ once: true }}>
+								<img src={tech.imgURL} alt={tech.name} className="rounded-xl w-24 max-[540px]:w-14 max-[540px]:rounded-md" />
+							</motion.div>
 						))}
 					</div>
 				</div>
