@@ -10,6 +10,10 @@ const Navbar = () => {
 		setActivePath(location.pathname);
 	}, [location]);
 
+	const scrollToTop = () => {
+		window.scrollTo({ top: 0 });
+	};
+
 	return (
 		<nav className="bg-transparent flex justify-between items-center p-7 max-[1400px]:bg-black/30 max-[1400px]:backdrop-blur-2xl">
 			<div className="w-80">
@@ -21,13 +25,13 @@ const Navbar = () => {
 					className={`px-5 py-2 rounded-full text-md transition-colors duration-300 hover:bg-white/20 w-[82px] ${activePath === "/" ? "bg-white/10 text-white" : ""
 						}`}
 				>
-					<Link to="/">Work</Link>
+					<Link to="/" onClick={scrollToTop}>Work</Link>
 				</li>
 				<li
 					className={`px-5 py-2 rounded-full text-md transition-colors duration-300 hover:bg-white/20 w-[82px] flex justify-center ${activePath === "/info" ? "bg-white/10 text-white" : ""
 						}`}
 				>
-					<Link to="/info">Info</Link>
+					<Link to="/info" onClick={scrollToTop}>Info</Link>
 				</li>
 			</ul>
 			<ul className="flex justify-between gap-5 text-md max-[768px]:hidden">
