@@ -1,4 +1,4 @@
-import { motion } from "motion/react";
+
 import { Link } from "react-router-dom";
 
 /* eslint-disable react/prop-types */
