@@ -15,6 +15,7 @@ const SelectedWork = () => {
 						live={project.live}
 						gitHUB={project.gitHUB}
 						imgURL={project.imgURL}
+						id={project.id}
 					/>
 				))}
 			</div>
