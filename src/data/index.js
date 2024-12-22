@@ -87,6 +87,17 @@ import SnapGram from "../assets/ProjectsAssets/SnapGram.png";
 	import music1 from "../assets/ProjectsAssets/Highlights/musicplayer/music1.webp"
 	import music2 from "../assets/ProjectsAssets/Highlights/musicplayer/music2.webp"
 	import music3 from "../assets/ProjectsAssets/Highlights/musicplayer/music3.webp"
+	// =====================================================================
+	import groove1 from "../assets/ProjectsAssets/Highlights/groove/1.webp"
+	import groove2 from "../assets/ProjectsAssets/Highlights/groove/2.webp"
+	import groove3 from "../assets/ProjectsAssets/Highlights/groove/3.webp"
+	import groove4 from "../assets/ProjectsAssets/Highlights/groove/4.webp"
+	import groove5 from "../assets/ProjectsAssets/Highlights/groove/5.webp"
+	import groove6 from "../assets/ProjectsAssets/Highlights/groove/6.webp"
+	import groove7 from "../assets/ProjectsAssets/Highlights/groove/7.webp"
+	import groove8 from "../assets/ProjectsAssets/Highlights/groove/8.webp"
+	import groove9 from "../assets/ProjectsAssets/Highlights/groove/9.webp"
+
 // =====================================================================
 
 
@@ -142,6 +153,15 @@ export const projectsData = [
 		usedTech: ["Figma"],
 		gallery: [
 			Cover,
+			groove1,
+            groove2,
+            groove3,
+            groove4,
+            groove5,
+			groove6,
+            groove7,
+            groove8,
+            groove9,
 		],
 	},
 	{

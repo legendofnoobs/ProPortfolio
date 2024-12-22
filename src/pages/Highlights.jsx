@@ -33,7 +33,7 @@ const Highlights = () => {
 			{/* Gallery Section */}
 			<div className="w-full flex flex-col gap-y-10">
 				{project.gallery.map((image, index) => (
-					<div key={index} className="relative border-2 border-white/20 rounded-xl bg-gradient-to-r from-slate-800 via-slate-400 to-slate-800 hover:shadow-2xl hover:shadow-green-600/30 transition ease-linear p-2">
+					<div key={index} className="relative border-2 border-white/20 rounded-xl bg-gradient-to-r from-slate-800 via-slate-400 to-slate-800 hover:shadow-2xl hover:scale-[1.02] transition ease-linear p-2">
 						<img
 							src={image}
 							alt={`${project.title} screenshot ${index + 1}`}
