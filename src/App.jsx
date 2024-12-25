@@ -40,7 +40,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Work />} />
           <Route path="/info" element={<Info />} />
-          <Route path="/highlights/:id" element={<Highlights />} /> {/* Add Highlights Route */}
+          <Route path="work/highlights/:id" element={<Highlights />} /> {/* Add Highlights Route */}
         </Routes>
       </div>
       <footer>
