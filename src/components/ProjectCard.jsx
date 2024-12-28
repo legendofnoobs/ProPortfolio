@@ -9,7 +9,7 @@ const ProjectCard = (props) => {
 	return (
 		<div className="h-fit w-full p-2 rounded-3xl border-2 border-white/20 hover:shadow-[0px_0px_50px_20px_rgb(234,179,8,0.1)] transition ease bg-gradient-to-r from-slate-800 via-slate-400 to-slate-800">
 			<div className="max-w-full h-fit p-6 bg-zinc-900 rounded-2xl flex flex-col items-start justify-start relative overflow-hidden gap-y-5 max-[450px]:p-3">
-				<div className="w-96 h-96 absolute bg-red-600/80 blur-[200px] rounded-full -top-52 -right-10 z-0"></div>
+				<div className="w-96 h-96 absolute bg-red-600/20 blur-3xl rounded-full -top-52 -right-10 z-0"></div>
 				<div className="flex justify-between items-start gap-x-20 w-full z-20 max-[1200px]:flex-col max-[1200px]:gap-y-5">
 					<div className="flex flex-col gap-y-5">
 						<h1 className="text-3xl z-10">{props.title}</h1>
