@@ -48,7 +48,7 @@ const ProjectCard = (props) => {
 						width={16}
 						height={9} />
 				</div>
-				<div className="w-96 h-96 absolute bg-blue-700/80 blur-[200px] rounded-full -bottom-52 -left-10 z-0"></div>
+				<div className="w-96 h-96 absolute bg-blue-700/80 blur-[100px] rounded-full -bottom-52 -left-10 z-0"></div>
 			</div>
 		</div>
 	);
