@@ -99,7 +99,14 @@ import SnapGram from "../assets/ProjectsAssets/SnapGram.png";
 	import groove9 from "../assets/ProjectsAssets/Highlights/groove/9.webp"
 
 // =====================================================================
-
+	import codeEditor from "../assets/ProjectsAssets/codeEditor.png"
+	import editor1 from "../assets/ProjectsAssets/Highlights/codeEditor/editor1.webp"
+	import editor2 from "../assets/ProjectsAssets/Highlights/codeEditor/editor2.webp"
+	import editor3 from "../assets/ProjectsAssets/Highlights/codeEditor/editor3.webp"
+	import editor4 from "../assets/ProjectsAssets/Highlights/codeEditor/editor4.webp"
+	import editor5 from "../assets/ProjectsAssets/Highlights/codeEditor/editor5.webp"
+	import editor6 from "../assets/ProjectsAssets/Highlights/codeEditor/editor6.webp"
+// =====================================================================
 
 import groovePdf from "../assets/pdf/GrooveMusicApp.pdf"
 
@@ -108,9 +115,27 @@ export const cvLink = "https://docs.google.com/document/d/e/2PACX-1vRXb2_UZhZKpH
 
 export const projectsData = [
 	{
+		id: "12",
+		imgURL: codeEditor,
+		title: "Code Editor",
+		description: "A simple Code Editor to demonstrate Next.js skills. It is Fully functional and responsive. Online IDE with multi-language support (10 languages). Customizable experience with 5 VSCode themes. Smart output handling with Success & Error states. Community-driven code sharing system. Advanced filtering & search capabilities. Personal profile with execution history tracking. Comprehensive statistics dashboard. Customizable font size controls.",
+		live: "https://code-editor-nine-chi.vercel.app/",
+		gitHUB: "https://github.com/legendofnoobs/code_editor",
+		usedTech: ["Next.js", "React.js", "Typescript", "Tailwind.css", "Clerk", "Monaco Editor", "Convex", "Framer Motion", "Zustand", "Lucid React", "React Hot Toast", "Svix"],
+		gallery: [
+			codeEditor,
+			editor1,
+			editor2,
+			editor3,
+			editor4,
+			editor5,
+			editor6,
+		],
+	},
+	{
 		id: "1",
 		imgURL: SnapGram,
-		title: "SnapGram website",
+		title: "SnapGram",
 		description: "SnapGram website to demonstrate skills in React.js, Typescript, Tailwind.css, Shadcn/ui, TanStack, and Appwrite services. It is Fully functional and responsive",
 		live: "https://snap-graam.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/SnapGram",
@@ -162,23 +187,6 @@ export const projectsData = [
             groove7,
             groove8,
             groove9,
-		],
-	},
-	{
-		id: "4",
-		imgURL: Brainwave,
-		title: "Brainwave website",
-		description: "Brainwave website to demonstrate skills in React.js and Tailwind.css. It is Fully functional and responsive",
-		live: "https://brainwavelegendofnoobs.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/Brainwave",
-		usedTech: ["React.js", "Tailwind.css"],
-		gallery: [
-			brain1,
-			brain2,
-			brain3,
-			brain4,
-			brain5,
-			brain6,
 		],
 	},
 	{
