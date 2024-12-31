@@ -53,7 +53,6 @@ import TodoApp from "../assets/ProjectsAssets/Todo app.webp";
 import WeatherApp from "../assets/ProjectsAssets/Weather app.webp";
 import PortfolioV2 from "../assets/ProjectsAssets/PortfolioV2.png";
 import NikeLanding from "../assets/ProjectsAssets/Nike Landing.webp";
-import Brainwave from "../assets/ProjectsAssets/BrainWave.webp";
 import MoviesLand from "../assets/ProjectsAssets/MoviesLand.webp";
 import GymApp from "../assets/ProjectsAssets/GymApp.webp";
 import SnapGram from "../assets/ProjectsAssets/SnapGram.png";
@@ -72,12 +71,6 @@ import SnapGram from "../assets/ProjectsAssets/SnapGram.png";
 	import gym4 from "../assets/ProjectsAssets/Highlights/gymapp/gym4.webp"
 	import gym5 from "../assets/ProjectsAssets/Highlights/gymapp/gym5.webp"
 // =====================================================================
-	import brain1 from "../assets/ProjectsAssets/Highlights/brainwave/brain1.webp"
-	import brain2 from "../assets/ProjectsAssets/Highlights/brainwave/brain2.webp"
-	import brain3 from "../assets/ProjectsAssets/Highlights/brainwave/brain3.webp"
-	import brain4 from "../assets/ProjectsAssets/Highlights/brainwave/brain4.webp"
-	import brain5 from "../assets/ProjectsAssets/Highlights/brainwave/brain5.webp"
-	import brain6 from "../assets/ProjectsAssets/Highlights/brainwave/brain6.webp"
 // =====================================================================
 	import space1 from "../assets/ProjectsAssets/Highlights/space/space1.webp"
 	import space2 from "../assets/ProjectsAssets/Highlights/space/space2.webp"
