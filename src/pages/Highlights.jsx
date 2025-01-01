@@ -38,6 +38,8 @@ const Highlights = () => {
 							src={image}
 							alt={`${project.title} screenshot ${index + 1}`}
 							className="shadow-lg rounded-lg"
+							width={1100}
+							height={600}
 						/>
 					</div>
 				))}
