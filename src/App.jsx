@@ -36,7 +36,7 @@ export default function App() {
       <header className="fixed w-full z-30">
         <Navbar />
       </header>
-      <div className="pt-28 px-20 max-[1400px]:px-7">
+      <div className="pt-28 px-20 max-[1400px]:px-7 overflow-hidden">
         <Routes>
           <Route path="/" element={<Work />} />
           <Route path="/info" element={<Info />} />
