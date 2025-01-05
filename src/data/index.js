@@ -114,7 +114,7 @@ export const projectsData = [
 		description: "A simple Code Editor to demonstrate Next.js skills. It is Fully functional and responsive. Online IDE with multi-language support (10 languages). Customizable experience with 5 VSCode themes. Smart output handling with Success & Error states. Community-driven code sharing system. Advanced filtering & search capabilities. Personal profile with execution history tracking. Comprehensive statistics dashboard. Customizable font size controls.",
 		live: "https://code-editor-nine-chi.vercel.app/",
 		gitHUB: "https://github.com/legendofnoobs/code_editor",
-		usedTech: ["Next.js", "React.js", "Typescript", "Tailwind.css", "Clerk", "Monaco Editor", "Convex", "Framer Motion", "Zustand", "Lucid React", "React Hot Toast", "Svix"],
+		usedTech: ["Next.js", "Typescript", "Tailwind.css", "Clerk", "Convex", "Framer Motion", "Zustand"],
 		gallery: [
 			codeEditor,
 			editor1,
