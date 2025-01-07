@@ -36,7 +36,7 @@ const ProjectCard = (props) => {
 							</li>
 						</ul>
 					</div>
-					<div className="w-fit text-nowrap">
+					<div className="w-full bg-violet-600 text-nowrap">
 						<ul className="flex flex-wrap gap-3 mb-5">
 							{props.usedTech.map((tech, index) => (
 								<li key={index} className="px-3 py-1 w-fit bg-white/10 rounded-full max-[540px]:text-sm">{tech}</li>

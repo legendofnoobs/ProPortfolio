@@ -16,7 +16,7 @@ const Navbar = () => {
 
 	return (
 		<nav className="bg-transparent flex justify-between items-center p-7 max-[1400px]:bg-black/30 max-[1400px]:backdrop-blur-2xl">
-			<div className="w-80 max-[360px]:hidden">
+			<div className="w-[416px] max-[360px]:hidden text-nowrap">
 				<h1 className="text-2xl max-[430px]:text-lg">Ahmed Rashed</h1>
 				<p className="text-white/50 max-[430px]:text-sm">Software Engineer</p>
 			</div>
@@ -34,17 +34,17 @@ const Navbar = () => {
 					<Link to="/info" onClick={scrollToTop}>Info</Link>
 				</li>
 			</ul>
-			<ul className="flex justify-between gap-5 text-md max-[768px]:hidden">
-				<li className="p-1 rounded-md hover:bg-white/10 px-2 transition-colors duration-300">
+			<ul className="flex justify-between gap-5 text-md max-[1100px]:hidden">
+				<li className="px-5 py-2 rounded-full hover:bg-white/10 transition-colors duration-300">
 					<a target="_blank" href="mailto:ahmedalirashed203@gmail.com" aria-label="Mail">Mail</a>
 				</li>
-				<li className="p-1 rounded-md hover:bg-white/10 px-2 transition-colors duration-300">
+				<li className="px-5 py-2 rounded-full hover:bg-white/10 transition-colors duration-300">
 					<a target="_blank" href="https://www.linkedin.com/in/ahmed-rashed-573940288/" aria-label="LinkedIn">LinkedIn</a>
 				</li>
-				<li className="p-1 px-2 rounded-md hover:bg-white/10 transition-colors duration-300">
+				<li className="px-5 py-2 rounded-full hover:bg-white/10 transition-colors duration-300">
 					<a target="_blank" href="https://github.com/legendofnoobs" aria-label="GitHub">GitHub</a>
 				</li>
-				<li className="bg-white text-black p-1 rounded-md font-semibold px-2 transition-colors duration-300 hover:bg-gray-200">
+				<li className="px-5 py-2 bg-white/10 text-white  rounded-full font-semibold transition-colors duration-300 hover:bg-white/20">
 					<a target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vRXb2_UZhZKpHpKVr3a-ZBqd8Z9wHggiFpYa-t2ocr9okXId8dxwtJ_Wpaff2k9W_9NWVHWX8wve-c6/pub" aria-label="Resume">Resume</a>
 				</li>
 			</ul>
