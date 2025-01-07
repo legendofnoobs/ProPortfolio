@@ -16,25 +16,23 @@ const Navbar = () => {
 
 	return (
 		<nav className="bg-transparent flex justify-between items-center p-7 max-[1400px]:bg-black/30 max-[1400px]:backdrop-blur-2xl">
-			<div className="w-[416px] max-[360px]:hidden text-nowrap">
-				<h1 className="text-2xl max-[430px]:text-lg">Ahmed Rashed</h1>
+			<div className="w-96 max-[360px]:hidden text-nowrap">
+				<Link to={`/`}>
+					<h1 className="text-2xl max-[430px]:text-lg">Ahmed Rashed</h1>
+				</Link>
 				<p className="text-white/50 max-[430px]:text-sm">Software Engineer</p>
 			</div>
 			<ul className="flex justify-between gap-3 bg-white/10 backdrop-blur-xl rounded-full p-1">
-				<li
-					className={`px-5 py-2 rounded-full text-md transition-colors duration-300 hover:bg-white/20 w-[82px] ${activePath === "/" ? "bg-white/10 text-white" : ""
-						}`}
-				>
-					<Link to="/" onClick={scrollToTop}>Work</Link>
+				<li>
+					<Link className={`px-5 py-2 rounded-full text-md transition-colors duration-300 hover:bg-white/20 w-[82px] flex justify-center ${activePath === "/" ? "bg-white/10 text-white" : ""
+						}`} to="/" onClick={scrollToTop}>Work</Link>
 				</li>
-				<li
-					className={`px-5 py-2 rounded-full text-md transition-colors duration-300 hover:bg-white/20 w-[82px] flex justify-center ${activePath === "/info" ? "bg-white/10 text-white" : ""
-						}`}
-				>
-					<Link to="/info" onClick={scrollToTop}>Info</Link>
+				<li>
+					<Link className={`px-5 py-2 rounded-full text-md transition-colors duration-300 hover:bg-white/20 w-[82px] flex justify-center ${activePath === "/info" ? "bg-white/10 text-white" : ""
+						}`} to="/info" onClick={scrollToTop}>Info</Link>
 				</li>
 			</ul>
-			<ul className="flex justify-between gap-5 text-md max-[1100px]:hidden">
+			<ul className="flex justify-between gap-2 text-md max-[1100px]:hidden">
 				<li className="px-5 py-2 rounded-full hover:bg-white/10 transition-colors duration-300">
 					<a target="_blank" href="mailto:ahmedalirashed203@gmail.com" aria-label="Mail">Mail</a>
 				</li>
@@ -45,7 +43,7 @@ const Navbar = () => {
 					<a target="_blank" href="https://github.com/legendofnoobs" aria-label="GitHub">GitHub</a>
 				</li>
 				<li className="px-5 py-2 bg-white/10 text-white  rounded-full font-semibold transition-colors duration-300 hover:bg-white/20">
-					<a target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vRXb2_UZhZKpHpKVr3a-ZBqd8Z9wHggiFpYa-t2ocr9okXId8dxwtJ_Wpaff2k9W_9NWVHWX8wve-c6/pub" aria-label="Resume">Resume</a>
+					<a target="_blank" href="https://drive.google.com/file/d/1BBU8BkyQ3j618yX8IIONTVcoyFKWtOWB/view?usp=sharing" aria-label="Resume">Resume</a>
 				</li>
 			</ul>
 		</nav>

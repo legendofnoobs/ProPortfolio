@@ -15,7 +15,7 @@ const ProjectCard = (props) => {
 					<div className="flex flex-row justify-between items-center w-full">
 						<h1 className="text-3xl z-10 text-nowrap">{props.title}</h1>
 						{/* <p className="text-xl z-10 text-wrap max-[540px]:text-base ">{props.description}</p> */}
-						<ul className="flex flex-row gap-5 max-[1200px]:flex-row max-[1200px]:gap-x-5 flex-wrap max-[540px]:flex-row justify-end max-[1500px]:hidden">
+						<ul className="flex flex-row gap-5 max-[1200px]:flex-row max-[1200px]:gap-x-5 flex-wrap max-[540px]:flex-row justify-end max-[1655px]:hidden">
 							<li>
 								<a className="text-lg px-3 py-1 bg-green-700/40 border border-transparent transition-all hover:border-green-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={props.live}>
 									Live Demo 🔗
@@ -36,13 +36,13 @@ const ProjectCard = (props) => {
 							</li>
 						</ul>
 					</div>
-					<div className="w-full bg-violet-600 text-nowrap">
+					<div className="w-full text-nowrap">
 						<ul className="flex flex-wrap gap-3 mb-5">
 							{props.usedTech.map((tech, index) => (
 								<li key={index} className="px-3 py-1 w-fit bg-white/10 rounded-full max-[540px]:text-sm">{tech}</li>
 							))}
 						</ul>
-						<ul className="flex flex-row gap-3 max-[1200px]:flex-row max-[1200px]:gap-5 flex-wrap max-[540px]:flex-row justify-center min-[1501px]:hidden max-[768px]:justify-start">
+						<ul className="flex flex-row gap-3 max-[1200px]:flex-row max-[1200px]:gap-5 flex-wrap max-[540px]:flex-row justify-start min-[1656px]:hidden">
 							<li>
 								<a className="text-lg px-3 py-1 bg-green-700/40 border border-transparent transition-all hover:border-green-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={props.live}>
 									Live Demo 🔗
