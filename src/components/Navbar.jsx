@@ -1,5 +1,6 @@
 import { useLocation, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { motion } from "motion/react";
 
 const Navbar = () => {
 	const location = useLocation(); // Get the current URL path
@@ -15,7 +16,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="bg-transparent flex justify-between items-center p-7 max-[1400px]:bg-black/30 max-[1400px]:backdrop-blur-2xl">
+		<motion.nav className="bg-transparent flex justify-between items-center p-7 max-[1400px]:bg-black/30 max-[1400px]:backdrop-blur-2xl" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ type: "tween", duration: 1 }}>
 			<div className="w-96 max-[360px]:hidden text-nowrap">
 				<Link to={`/`}>
 					<h1 className="text-2xl max-[430px]:text-lg">Ahmed Rashed</h1>
@@ -46,7 +47,7 @@ const Navbar = () => {
 					<a target="_blank" href="https://drive.google.com/file/d/1BBU8BkyQ3j618yX8IIONTVcoyFKWtOWB/view?usp=sharing" aria-label="Resume">Resume</a>
 				</li>
 			</ul>
-		</nav>
+		</motion.nav>
 	);
 };
 
