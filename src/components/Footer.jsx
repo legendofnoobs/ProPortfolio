@@ -1,6 +1,6 @@
 const Footer = () => {
 	return (
-		<div className="flex flex-col lg:flex-row gap-y-2 items-center py-20 bg-transparent border-t-[1px] border-gray-700 justify-between px-7 lg:flex-row-reverse">
+		<div className="flex flex-col gap-y-2 items-center py-20 bg-transparent border-t-[1px] border-gray-700 justify-between px-7 lg:flex-row-reverse">
 			<ul className="flex justify-between gap-3 text-md">
 				<li className="px-5 max-[540px]:px-2 py-2 max-[540px]:py-1 rounded-full hover:bg-white/10 transition-colors duration-300">
 					<a target="_blank" href="mailto:ahmedalirashed203@gmail.com" aria-label="Mail">Mail</a>
