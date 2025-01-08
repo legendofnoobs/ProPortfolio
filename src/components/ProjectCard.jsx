@@ -8,7 +8,7 @@ import { motion } from "motion/react";
 const ProjectCard = (props) => {
 
 	return (
-		<motion.div className="h-fit w-full p-2 rounded-3xl border-2 border-white/20 hover:shadow-[0px_0px_550px_100px_rgb(66,135,245,0.1)] transition-shadow duration-300 ease bg-gradient-to-r from-slate-800 via-slate-400 to-slate-800 group" initial={{ opacity: 0, y: 200 }} whileInView={{ opacity: 1, y: 0 }} transition={{ type: "tween", duration: 0.5 }} viewport={{ once: true, amount: 0.3 }}>
+		<motion.div className="h-fit w-full p-2 rounded-3xl border-2 border-white/20 hover:shadow-[0px_0px_550px_10px_rgb(66,135,245,0.1)] transition-shadow duration-300 ease bg-gradient-to-r from-slate-800 via-slate-400 to-slate-800 group" initial={{ opacity: 0, y: 200 }} whileInView={{ opacity: 1, y: 0 }} transition={{ type: "tween", duration: 0.5 }} viewport={{ once: true, amount: 0.3 }}>
 			<div className="max-w-full h-fit p-6 bg-zinc-900 bg-gradient-to-tr from-blue-900 via-zinc-900 to-red-900 rounded-2xl flex flex-col items-start justify-start relative overflow-hidden gap-y-5 max-[450px]:p-3 max-[450px]:bg-gradient-to-t">
 				{/* <div className={`w-96 h-96 absolute bg-red-600/50 blur-[100px] rounded-full -top-52 -right-10 z-0`}></div> */}
 				<div className="flex flex-col justify-between items-start gap-5 w-full z-20 max-[1200px]:flex-col max-[1200px]:gap-y-5">
