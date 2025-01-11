@@ -42,7 +42,7 @@ const ProjectCard = (props) => {
 								<li key={index} className="px-3 py-1 w-fit bg-white/10 rounded-full max-[540px]:text-sm">{tech}</li>
 							))}
 						</ul>
-						<ul className="flex flex-row gap-3 max-[1200px]:flex-row max-[1200px]:gap-5 flex-wrap max-[540px]:flex-row justify-start min-[1656px]:hidden">
+						<ul className="flex flex-row gap-3 max-[1200px]:flex-row max-[1200px]:gap-5 flex-wrap max-[540px]:flex-row justify-start min-[1656px]:hidden mb-5">
 							<li>
 								<a className="text-lg px-3 py-1 bg-green-700/40 border border-transparent transition-all hover:border-green-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={props.live}>
 									Live Demo 🔗
