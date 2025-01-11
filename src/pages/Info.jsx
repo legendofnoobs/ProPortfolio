@@ -1,5 +1,5 @@
 import AboutMe from "./sections/AboutMe"
-import SkillsSection from "./sections/SkillsSection"
+import SkillsSection from "./sections/SkillsSection copy"
 
 const Info = () => {
 	return (

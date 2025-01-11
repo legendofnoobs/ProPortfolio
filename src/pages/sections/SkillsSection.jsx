@@ -15,7 +15,7 @@ const SkillsSection = () => {
 							whileInView={{ opacity: 1, y: 0 }}
 							transition={{ delay: index * 0.2 }} // Delay each card
 							viewport={{ once: true }}>
-								<img src={tech.imgURL} alt={tech.name} className="rounded-xl w-24 max-[540px]:w-14 max-[540px]:rounded-md" />
+								<img src={tech.imgURL} alt={tech.name} className="rounded-xl w-20 max-[540px]:w-14 max-[540px]:rounded-md" />
 							</motion.div>
 						))}
 					</div>

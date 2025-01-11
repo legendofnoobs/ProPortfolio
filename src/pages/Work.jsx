@@ -4,20 +4,34 @@ import SelectedWork from "../components/SelectedWork";
 import OtherWork from "../components/OtherWork";
 import { motion } from "motion/react";
 
+const floatAnimation = {
+	y: [0, -20, 0], // Moves the element up and down
+	transition: {
+		duration: 2, // Duration of one loop
+		repeat: Infinity, // Loop indefinitely
+		ease: "easeInOut", // Smooth easing
+	},
+};
+
 const Work = () => {
 	// State to manage the current section
 	const [selectedSection, setSelectedSection] = useState("Selected Work");
 
 	return (
 		<section className="w-full flex flex-col items-start pt-10 pb-44 px-80 gap-y-10 max-[1400px]:px-60 max-[1200px]:px-48 max-[1024px]:px-36 max-[900px]:px-20 max-[430px]:px-0 max-[636px]:px-7 fle">
-			<Besmellah />
+			<div className="h-[calc(100svh-112px)]">
+				<Besmellah />
+				<motion.div animate={floatAnimation} className="w-fit h-fit bg-transparent border-[1px] rounded-full m-auto mt-16 p-2">
+					<p className="text-5xl">↓</p>
+				</motion.div>
+			</div>
 
 			{/* Navigation */}
 			<motion.div className="flex gap-x-4 text-md bg-white/10 backdrop-blur-xl rounded-full p-1" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ type: "tween", duration: 1, delay: 1 }}>
 				<button
 					className={`px-4 py-2 rounded-full transition-colors duration-300 hover:bg-white/20 ${selectedSection === "Selected Work"
-							? "bg-white/10 text-white"
-							: ""
+						? "bg-white/10 text-white"
+						: ""
 						}`}
 					onClick={() => setSelectedSection("Selected Work")}
 				>
@@ -25,8 +39,8 @@ const Work = () => {
 				</button>
 				<button
 					className={`px-4 py-2 rounded-full transition-colors duration-300 hover:bg-white/20 ${selectedSection === "Other Work"
-							? "bg-white/10 text-white"
-							: ""
+						? "bg-white/10 text-white"
+						: ""
 						}`}
 					onClick={() => setSelectedSection("Other Work")}
 				>

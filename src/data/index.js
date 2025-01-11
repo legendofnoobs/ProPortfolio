@@ -1,10 +1,9 @@
 import ReactLogo from "../assets/tech/react.webp";
+import NextLogo from "../assets/tech/Next.js/Next.js_Symbol_Alternative_0.svg";
 import BootstrapLogo from "../assets/tech/bootstrap.webp";
 import CppLogo from "../assets/tech/C++-Logo.wine.webp";
-import CssLogo from "../assets/tech/css.webp";
 import FigmaLogo from "../assets/tech/figma.webp";
 import GitHubLogo from "../assets/tech/GitHub-Logo.webp";
-import HtmlLogo from "../assets/tech/HTML5_badge.webp";
 import JavaLogo from "../assets/tech/java-logo-vector.webp";
 import JsLogo from "../assets/tech/js.webp";
 import LinuxLogo from "../assets/tech/linux.webp";
@@ -12,37 +11,132 @@ import MySqlLogo from "../assets/tech/MySQL.webp";
 import NodeLogo from "../assets/tech/node.webp";
 import NpmLogo from "../assets/tech/npm-logo.webp";
 import TailwindLogo from "../assets/tech/tailwindcss.webp";
-import ViteLogo from "../assets/tech/vite-shadow.webp";
 import FramerMotion from "../assets/tech/framer-motion.webp";
-import MaterialUiLogo from "../assets/tech/materialui.webp";
-import RapidLogo from "../assets/tech/rapidapilogo.webp";
 import csharpLogo from "../assets/tech/cSharp.webp";
 import pythonLogo from "../assets/tech/pythonLogo.webp";
 import MSSql from "../assets/tech/microsoft-sql-server-logo.svg";
 
 
 export const technologies = [
-	{ name: "C++", imgURL: CppLogo },
-	{ name: "JAVA", imgURL: JavaLogo },
-	{ name: "c#", imgURL: csharpLogo },
-	{ name: "python", imgURL: pythonLogo },
-	{ name: "MSSql", imgURL: MSSql },
-	{ name: "MySql", imgURL: MySqlLogo },
-	{ name: "HTML", imgURL: HtmlLogo },
-	{ name: "CSS", imgURL: CssLogo },
-	{ name: "GitHub", imgURL: GitHubLogo },
-	{ name: "Bootstrap", imgURL: BootstrapLogo },
-	{ name: "JAVASCRIPT", imgURL: JsLogo },
-	{ name: "Figma", imgURL: FigmaLogo },
-	{ name: "React", imgURL: ReactLogo },
-	{ name: "Node.js", imgURL: NodeLogo },
-	{ name: "Linux", imgURL: LinuxLogo },
-	{ name: "NPM", imgURL: NpmLogo },
-	{ name: "Tailwind CSS", imgURL: TailwindLogo },
-	{ name: "Vite", imgURL: ViteLogo },
-	{ name: "Framer Motion", imgURL: FramerMotion },
-	{ name: "Material UI", imgURL: MaterialUiLogo },
-	{ name: "Rapid API", imgURL: RapidLogo },
+	{
+		name: "React.js",
+		imgURL: ReactLogo,
+		ImageBgColor: "bg-[#222222]",
+		decription: "Javascript Framework",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
+	},
+	{
+		name: "Next.js",
+		imgURL: NextLogo,
+		ImageBgColor: "bg-[#000000]",
+		decription: "React Framework",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(255,255,255,0.5)]"
+	},
+	{
+		name: "Javascript",
+		imgURL: JsLogo,
+		ImageBgColor: "bg-yellow-300",
+		decription: "Programming Language",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(240,219,79,0.5)]"
+	},
+	{
+		name: "Tailwind CSS",
+		imgURL: TailwindLogo,
+		ImageBgColor: "bg-blue-900",
+		decription: "Css Library",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
+	},
+	{
+		name: "Framer Motion",
+		imgURL: FramerMotion,
+		ImageBgColor: "bg-purple-950",
+		decription: "Animations Library",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(174,23,208,0.5)]"
+	},
+	{
+		name: "GitHub",
+		imgURL: GitHubLogo,
+		ImageBgColor: "bg-black",
+		decription: "CI/CD Tool",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(255,255,255,0.5)]"
+	},
+	{
+		name: "Figma",
+		imgURL: FigmaLogo,
+		ImageBgColor: "bg-gradient-to-r from-orange-500 via-purple-500 to-green-500",
+		decription: "Designing Tool",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(242,78,30,0.5)]"
+	},
+	{
+		name: "Node.js",
+		imgURL: NodeLogo,
+		ImageBgColor: "bg-green-950",
+		decription: "Javascript Runtime",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(131,205,41,0.5)]"
+	},
+	{
+		name: "Npm",
+		imgURL: NpmLogo,
+		ImageBgColor: "bg-[#e32e37]",
+		decription: "Package Manager",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(227,46,55,0.5)]"
+	},
+	{
+		name: "Bootstrap",
+		imgURL: BootstrapLogo,
+		ImageBgColor: "bg-purple-950",
+		decription: "Css Library",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(174,23,208,0.5)]"
+	},
+	{
+		name: "c#",
+		imgURL: csharpLogo,
+		ImageBgColor: "bg-purple-950",
+		decription: "Programming Language",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(174,23,208,0.5)]"
+	},
+	{
+		name: "Python",
+		imgURL: pythonLogo,
+		ImageBgColor: "bg-gradient-to-r from-yellow-500/50 to-blue-500/50",
+		decription: "Programming Language",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
+	},
+	{
+		name: "MSSQL server",
+		imgURL: MSSql,
+		ImageBgColor: "bg-white/50",
+		decription: "Database Tool",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(255,255,255,0.5)]"
+	},
+	{
+		name: "MySql",
+		imgURL: MySqlLogo,
+		ImageBgColor: "bg-blue-950",
+		decription: "Database Tool",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
+	},
+	{
+		name: "Linux",
+		imgURL: LinuxLogo,
+		ImageBgColor: "bg-white",
+		decription: "Operating System",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(242,78,30,0.5)]"
+	},
+	{
+		name: "Java",
+		imgURL: JavaLogo,
+		ImageBgColor: "bg-blue-950/90",
+		decription: "Programming Language",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(242,78,30,0.5)]"
+	},
+	{
+		name: "c++",
+		imgURL: CppLogo,
+		ImageBgColor: "bg-blue-600",
+		decription: "Programming Language",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
+	},
 ];
 
 // =================================================================
@@ -57,48 +151,48 @@ import MoviesLand from "../assets/ProjectsAssets/MoviesLand.webp";
 import GymApp from "../assets/ProjectsAssets/GymApp.webp";
 import SnapGram from "../assets/ProjectsAssets/SnapGram.png";
 // =====================================================================
-	import snapgramHighlight1 from "../assets/ProjectsAssets/Highlights/snapgram/snapgramHighlight1.webp"
-	import snapgramHighlight2 from "../assets/ProjectsAssets/Highlights/snapgram/snapgramHighlight2.webp"
-	import snapgramHighlight3 from "../assets/ProjectsAssets/Highlights/snapgram/snapgramHighlight3.webp"
-	import snapgramHighlight4 from "../assets/ProjectsAssets/Highlights/snapgram/snapgramHighlight4.webp"
-	import snapgramHighlight5 from "../assets/ProjectsAssets/Highlights/snapgram/snapgramHighlight5.webp"
-	import snapgramHighlight6 from "../assets/ProjectsAssets/Highlights/snapgram/snapgram6.png"
-	import snapgramHighlight7 from "../assets/ProjectsAssets/Highlights/snapgram/snapgram7.png"
+import snapgramHighlight1 from "../assets/ProjectsAssets/Highlights/snapgram/snapgramHighlight1.webp"
+import snapgramHighlight2 from "../assets/ProjectsAssets/Highlights/snapgram/snapgramHighlight2.webp"
+import snapgramHighlight3 from "../assets/ProjectsAssets/Highlights/snapgram/snapgramHighlight3.webp"
+import snapgramHighlight4 from "../assets/ProjectsAssets/Highlights/snapgram/snapgramHighlight4.webp"
+import snapgramHighlight5 from "../assets/ProjectsAssets/Highlights/snapgram/snapgramHighlight5.webp"
+import snapgramHighlight6 from "../assets/ProjectsAssets/Highlights/snapgram/snapgram6.png"
+import snapgramHighlight7 from "../assets/ProjectsAssets/Highlights/snapgram/snapgram7.png"
 // =====================================================================
-	import gym1 from "../assets/ProjectsAssets/Highlights/gymapp/gym1.webp"
-	import gym2 from "../assets/ProjectsAssets/Highlights/gymapp/gym2.webp"
-	import gym3 from "../assets/ProjectsAssets/Highlights/gymapp/gym3.webp"
-	import gym4 from "../assets/ProjectsAssets/Highlights/gymapp/gym4.webp"
-	import gym5 from "../assets/ProjectsAssets/Highlights/gymapp/gym5.webp"
+import gym1 from "../assets/ProjectsAssets/Highlights/gymapp/gym1.webp"
+import gym2 from "../assets/ProjectsAssets/Highlights/gymapp/gym2.webp"
+import gym3 from "../assets/ProjectsAssets/Highlights/gymapp/gym3.webp"
+import gym4 from "../assets/ProjectsAssets/Highlights/gymapp/gym4.webp"
+import gym5 from "../assets/ProjectsAssets/Highlights/gymapp/gym5.webp"
 // =====================================================================
 // =====================================================================
-	import space1 from "../assets/ProjectsAssets/Highlights/space/space1.webp"
-	import space2 from "../assets/ProjectsAssets/Highlights/space/space2.webp"
-	import space3 from "../assets/ProjectsAssets/Highlights/space/space3.webp"
-	import space4 from "../assets/ProjectsAssets/Highlights/space/space4.webp"
+import space1 from "../assets/ProjectsAssets/Highlights/space/space1.webp"
+import space2 from "../assets/ProjectsAssets/Highlights/space/space2.webp"
+import space3 from "../assets/ProjectsAssets/Highlights/space/space3.webp"
+import space4 from "../assets/ProjectsAssets/Highlights/space/space4.webp"
 // =====================================================================
-	import music1 from "../assets/ProjectsAssets/Highlights/musicplayer/music1.webp"
-	import music2 from "../assets/ProjectsAssets/Highlights/musicplayer/music2.webp"
-	import music3 from "../assets/ProjectsAssets/Highlights/musicplayer/music3.webp"
-	// =====================================================================
-	import groove1 from "../assets/ProjectsAssets/Highlights/groove/1.webp"
-	import groove2 from "../assets/ProjectsAssets/Highlights/groove/2.webp"
-	import groove3 from "../assets/ProjectsAssets/Highlights/groove/3.webp"
-	import groove4 from "../assets/ProjectsAssets/Highlights/groove/4.webp"
-	import groove5 from "../assets/ProjectsAssets/Highlights/groove/5.webp"
-	import groove6 from "../assets/ProjectsAssets/Highlights/groove/6.webp"
-	import groove7 from "../assets/ProjectsAssets/Highlights/groove/7.webp"
-	import groove8 from "../assets/ProjectsAssets/Highlights/groove/8.webp"
-	import groove9 from "../assets/ProjectsAssets/Highlights/groove/9.webp"
+import music1 from "../assets/ProjectsAssets/Highlights/musicplayer/music1.webp"
+import music2 from "../assets/ProjectsAssets/Highlights/musicplayer/music2.webp"
+import music3 from "../assets/ProjectsAssets/Highlights/musicplayer/music3.webp"
+// =====================================================================
+import groove1 from "../assets/ProjectsAssets/Highlights/groove/1.webp"
+import groove2 from "../assets/ProjectsAssets/Highlights/groove/2.webp"
+import groove3 from "../assets/ProjectsAssets/Highlights/groove/3.webp"
+import groove4 from "../assets/ProjectsAssets/Highlights/groove/4.webp"
+import groove5 from "../assets/ProjectsAssets/Highlights/groove/5.webp"
+import groove6 from "../assets/ProjectsAssets/Highlights/groove/6.webp"
+import groove7 from "../assets/ProjectsAssets/Highlights/groove/7.webp"
+import groove8 from "../assets/ProjectsAssets/Highlights/groove/8.webp"
+import groove9 from "../assets/ProjectsAssets/Highlights/groove/9.webp"
 
 // =====================================================================
-	import codeEditor from "../assets/ProjectsAssets/codeEditor.png"
-	import editor1 from "../assets/ProjectsAssets/Highlights/codeEditor/editor1.webp"
-	import editor2 from "../assets/ProjectsAssets/Highlights/codeEditor/editor2.webp"
-	import editor3 from "../assets/ProjectsAssets/Highlights/codeEditor/editor3.webp"
-	import editor4 from "../assets/ProjectsAssets/Highlights/codeEditor/editor4.webp"
-	import editor5 from "../assets/ProjectsAssets/Highlights/codeEditor/editor5.webp"
-	import editor6 from "../assets/ProjectsAssets/Highlights/codeEditor/editor6.webp"
+import codeEditor from "../assets/ProjectsAssets/codeEditor.png"
+import editor1 from "../assets/ProjectsAssets/Highlights/codeEditor/editor1.webp"
+import editor2 from "../assets/ProjectsAssets/Highlights/codeEditor/editor2.webp"
+import editor3 from "../assets/ProjectsAssets/Highlights/codeEditor/editor3.webp"
+import editor4 from "../assets/ProjectsAssets/Highlights/codeEditor/editor4.webp"
+import editor5 from "../assets/ProjectsAssets/Highlights/codeEditor/editor5.webp"
+import editor6 from "../assets/ProjectsAssets/Highlights/codeEditor/editor6.webp"
 // =====================================================================
 
 import groovePdf from "../assets/pdf/GrooveMusicApp.pdf"
@@ -132,7 +226,7 @@ export const projectsData = [
 		description: "SnapGram website to demonstrate skills in React.js, Typescript, Tailwind.css, Shadcn/ui, TanStack, and Appwrite services. It is Fully functional and responsive",
 		live: "https://snap-graam.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/SnapGram",
-		usedTech: ["React.js","Tailwind.css", "Typescript", "Shadcn/ui", "TanStack", "Appwrite"],
+		usedTech: ["React.js", "Tailwind.css", "Typescript", "Shadcn/ui", "TanStack", "Appwrite"],
 		gallery: [
 			snapgramHighlight1,
 			SnapGram,
@@ -172,14 +266,14 @@ export const projectsData = [
 		gallery: [
 			Cover,
 			groove1,
-            groove2,
-            groove3,
-            groove4,
-            groove5,
+			groove2,
+			groove3,
+			groove4,
+			groove5,
 			groove6,
-            groove7,
-            groove8,
-            groove9,
+			groove7,
+			groove8,
+			groove9,
 		],
 	},
 	{
@@ -189,7 +283,7 @@ export const projectsData = [
 		description: "Space tourism website to demonstrate skills. It was a challenge on Frontend Mentor. It is Fully functional and responsive",
 		live: "https://space-tourism-ahmed-rashed.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/space-tourism-revisited",
-		usedTech: ["React.js", "Tailwind.css","Framer Motion"],
+		usedTech: ["React.js", "Tailwind.css", "Framer Motion"],
 		gallery: [
 			space1,
 			space2,
