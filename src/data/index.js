@@ -242,6 +242,7 @@ export const projectsData = [
 			editor5,
 			editor6,
 		],
+		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]"
 	},
 	{
 		id: "1",
@@ -261,23 +262,7 @@ export const projectsData = [
 			snapgramHighlight6,
 			snapgramHighlight7,
 		],
-	},
-	{
-		id: "2",
-		imgURL: GymApp,
-		title: "Gym App",
-		description: "A simple Gym app to demonstrate React.js, Material UI and API skills. Made with a Freemium API so do not panic if the app do not load any exersices. It is Fully functional and responsive",
-		live: "https://minegymandexercisesapp.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/gym-app",
-		usedTech: ["React.js", "Tailwind.css", "RapidAPI", "MaterialUI"],
-		gallery: [
-			GymApp,
-			gym1,
-			gym2,
-			gym3,
-			gym4,
-			gym5,
-		],
+		hover: "group-hover:bg-pink-600/50 group-hover:blur-[150px]"
 	},
 	{
 		id: "3",
@@ -299,6 +284,7 @@ export const projectsData = [
 			groove8,
 			groove9,
 		],
+		hover: "group-hover:bg-purple-600/50 group-hover:blur-[150px]"
 	},
 	{
 		id: "5",
@@ -314,6 +300,79 @@ export const projectsData = [
 			space3,
 			space4,
 		],
+		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]"
+	},
+]
+
+
+export const OtherProjectsData = [
+	{
+		id: "2",
+		imgURL: GymApp,
+		title: "Gym App",
+		description: "A simple Gym app to demonstrate React.js, Material UI and API skills. Made with a Freemium API so do not panic if the app do not load any exersices. It is Fully functional and responsive",
+		live: "https://minegymandexercisesapp.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/gym-app",
+		usedTech: ["React.js", "Tailwind.css", "RapidAPI", "MaterialUI"],
+		gallery: [
+			GymApp,
+			gym1,
+			gym2,
+			gym3,
+			gym4,
+			gym5,
+		],
+		hover: "group-hover:bg-red-600/50 group-hover:blur-[150px]"
+	},
+	{
+		id: "7",
+		imgURL: PortfolioV2,
+		title: "PortfolioV2",
+		description: "A simple PortfolioV2 to demonstrate React.js, Tailwind.css, and Framer Motion skills. It is Fully functional and responsive",
+		live: "https://ahmedalirashedv2.netlify.app/#Home",
+		gitHUB: "https://github.com/legendofnoobs/React-Portfolio",
+		usedTech: ["React.js", "Tailwind.css", "Framer Motion"],
+		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]"
+	},
+	{
+		id: "8",
+		imgURL: WeatherApp,
+		title: "Weather App",
+		description: "A simple Weather app to demonstrate JavaScript skills. Made this app as an individual project before college requested a web development course's project and just handed it 💀. It is Fully functional and responsive",
+		live: "https://weatherapplegendofnoobs.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/WeatherApp",
+		usedTech: ["HTML", "CSS", "JavaScript", "API"],
+		hover: "group-hover:bg-violet-600/50 group-hover:blur-[150px]"
+	},
+	{
+		id: "9",
+		imgURL: NikeLanding,
+		title: "Nike Landing website",
+		description: "A simple Nike Landing page to demonstrate Tailwind.css and React skills. It is fully functional and responsive.",
+		live: "https://nikelandingnoob.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/Nike-landing",
+		usedTech: ["React.js", "Tailwind.css"],
+		hover: "group-hover:bg-orange-600/50 group-hover:blur-[150px]"
+	},
+	{
+		id: "10",
+		imgURL: MoviesLand,
+		title: "MoviesLand Website",
+		description: "A simple movies website to demonstrate React.js, css, and API skills. It is Fully functional and responsive",
+		live: "https://movieslandlegendofnoobs.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/movie-app",
+		usedTech: ["React.js", "CSS", "API"],
+		hover: "group-hover:bg-yellow-600/50 group-hover:blur-[150px]"
+	},
+	{
+		id: "11",
+		imgURL: TodoApp,
+		title: "Todo App",
+		description: "A simple Todo app to demonstrate JavaScript and React skills. It is Fully functional and responsive",
+		live: "https://todoappahemdali.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/todo-app",
+		usedTech: ["React.js", "CSS", "Local Storage"],
+		hover: "group-hover:bg-red-600/50 group-hover:blur-[150px]"
 	},
 	{
 		id: "6",
@@ -328,54 +387,6 @@ export const projectsData = [
 			music2,
 			music3,
 		],
+		hover: "group-hover:bg-yellow-600/50 group-hover:blur-[150px]"
 	},
-]
-
-
-export const OtherProjectsData = [
-	{
-		id: "7",
-		imgURL: PortfolioV2,
-		title: "PortfolioV2",
-		description: "A simple PortfolioV2 to demonstrate React.js, Tailwind.css, and Framer Motion skills. It is Fully functional and responsive",
-		live: "https://ahmedalirashedv2.netlify.app/#Home",
-		gitHUB: "https://github.com/legendofnoobs/React-Portfolio",
-		usedTech: ["React.js", "Tailwind.css", "Framer Motion"]
-	},
-	{
-		id: "8",
-		imgURL: WeatherApp,
-		title: "Weather App",
-		description: "A simple Weather app to demonstrate JavaScript skills. Made this app as an individual project before college requested a web development course's project and just handed it 💀. It is Fully functional and responsive",
-		live: "https://weatherapplegendofnoobs.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/WeatherApp",
-		usedTech: ["HTML", "CSS", "JavaScript", "API"]
-	},
-	{
-		id: "9",
-		imgURL: NikeLanding,
-		title: "Nike Landing website",
-		description: "A simple Nike Landing page to demonstrate Tailwind.css and React skills. It is fully functional and responsive.",
-		live: "https://nikelandingnoob.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/Nike-landing",
-		usedTech: ["React.js", "Tailwind.css"]
-	},
-	{
-		id: "10",
-		imgURL: MoviesLand,
-		title: "MoviesLand Website",
-		description: "A simple movies website to demonstrate React.js, css, and API skills. It is Fully functional and responsive",
-		live: "https://movieslandlegendofnoobs.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/movie-app",
-		usedTech: ["React.js", "CSS", "API"]
-	},
-	{
-		id: "11",
-		imgURL: TodoApp,
-		title: "Todo App",
-		description: "A simple Todo app to demonstrate JavaScript and React skills. It is Fully functional and responsive",
-		live: "https://todoappahemdali.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/todo-app",
-		usedTech: ["React.js", "CSS", "Local Storage"]
-	}
 ]

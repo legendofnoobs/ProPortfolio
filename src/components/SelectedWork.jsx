@@ -16,6 +16,7 @@ const SelectedWork = () => {
 						gitHUB={project.gitHUB}
 						imgURL={project.imgURL}
 						id={project.id}
+						hover={project.hover}
 					/>
 				))}
 			</div>

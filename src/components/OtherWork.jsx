@@ -15,6 +15,7 @@ const OtherWork = () => {
 						live={project.live}
 						gitHUB={project.gitHUB}
 						imgURL={project.imgURL}
+						hover={project.hover}
 					/>
 				))}
 			</div>
