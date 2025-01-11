@@ -89,18 +89,18 @@ export const technologies = [
 		hover: "hover:shadow-[0px_0px_50px_1px_rgb(174,23,208,0.5)]"
 	},
 	{
-		name: "c#",
-		imgURL: csharpLogo,
-		ImageBgColor: "bg-purple-950",
-		decription: "Programming Language",
-		hover: "hover:shadow-[0px_0px_50px_1px_rgb(174,23,208,0.5)]"
-	},
-	{
 		name: "Python",
 		imgURL: pythonLogo,
 		ImageBgColor: "bg-gradient-to-r from-yellow-500/50 to-blue-500/50",
 		decription: "Programming Language",
 		hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
+	},
+	{
+		name: "c#",
+		imgURL: csharpLogo,
+		ImageBgColor: "bg-purple-950",
+		decription: "Programming Language",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(174,23,208,0.5)]"
 	},
 	{
 		name: "MSSQL server",
