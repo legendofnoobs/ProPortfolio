@@ -18,7 +18,7 @@ const Work = () => {
 	const [selectedSection, setSelectedSection] = useState("Selected Work");
 
 	return (
-		<section className="w-full flex flex-col items-start pt-10 pb-44 px-80 gap-y-10 max-[1400px]:px-60 max-[1200px]:px-48 max-[1024px]:px-36 max-[900px]:px-20 max-[430px]:px-0 max-[636px]:px-7 fle">
+		<section className="w-full flex flex-col items-start pt-10 pb-44 px-64 gap-y-10 max-[1400px]:px-60 max-[1200px]:px-48 max-[1024px]:px-36 max-[900px]:px-20 max-[430px]:px-0 max-[636px]:px-7 fle">
 			<div className="h-[calc(100svh-112px)]">
 				<Besmellah />
 				<motion.div animate={floatAnimation} className="w-fit h-fit bg-transparent border-[1px] rounded-full m-auto mt-16 p-2">
