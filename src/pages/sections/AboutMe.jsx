@@ -8,7 +8,7 @@ const AboutMe = () => {
 					<h1 className="text-7xl max-[540px]:text-5xl text-center mb-4 z-10 relative" style={{ textShadow: "0px 0px 10px white" }}>About Me</h1>
 					<h2 className="text-5xl max-[540px]:text-3xl mb-4">Ahmed Ali Rashed</h2>
 					<p className="text-2xl font-bold max-[540px]:text-xl mb-4">Software Engineering Student.</p>
-					<p className="text-lg max-[540px]:text-base z-10">I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</p>
+					<p className="text-lg max-[540px]:text-base z-10">I am an Egyptian 21 years old student. I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</p>
 				</div>
 			</motion.div>
 			<div className="w-full h-fit flex justify-between gap-4 max-[1800px]:flex-col">

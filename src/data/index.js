@@ -1,4 +1,4 @@
-import ReactLogo from "../assets/tech/react.webp";
+import ReactLogo from "../assets/tech/react.svg";
 import NextLogo from "../assets/tech/Next.js/Next.js_Symbol_Alternative_0.svg";
 import BootstrapLogo from "../assets/tech/bootstrap.webp";
 import CppLogo from "../assets/tech/C++-Logo.wine.webp";
@@ -6,6 +6,7 @@ import FigmaLogo from "../assets/tech/figma.webp";
 import GitHubLogo from "../assets/tech/GitHub-Logo.webp";
 import JavaLogo from "../assets/tech/java-logo-vector.webp";
 import JsLogo from "../assets/tech/js.webp";
+import TsLogo from "../assets/tech/typescript.svg";
 import LinuxLogo from "../assets/tech/linux.webp";
 import MySqlLogo from "../assets/tech/MySQL.webp";
 import NodeLogo from "../assets/tech/node.webp";
@@ -15,6 +16,8 @@ import FramerMotion from "../assets/tech/framer-motion.webp";
 import csharpLogo from "../assets/tech/cSharp.webp";
 import pythonLogo from "../assets/tech/pythonLogo.webp";
 import MSSql from "../assets/tech/microsoft-sql-server-logo.svg";
+import appwritelogo from "../assets/tech/appwrite.svg"
+import gitlogo from "../assets/tech/git.svg"
 
 
 export const technologies = [
@@ -33,11 +36,25 @@ export const technologies = [
 		hover: "hover:shadow-[0px_0px_50px_1px_rgb(255,255,255,0.5)]"
 	},
 	{
-		name: "Javascript",
+		name: "Appwrite",
+		imgURL: appwritelogo,
+		ImageBgColor: "bg-[#fd366e]/30",
+		decription: "Backend Service",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(227,46,55,0.5)]"
+	},
+	{
+		name: "JavaScript",
 		imgURL: JsLogo,
 		ImageBgColor: "bg-yellow-300",
 		decription: "Programming Language",
 		hover: "hover:shadow-[0px_0px_50px_1px_rgb(240,219,79,0.5)]"
+	},
+	{
+		name: "TypeScript",
+		imgURL: TsLogo,
+		ImageBgColor: "bg-blue-700/50",
+		decription: "Programming Language",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
 	},
 	{
 		name: "Tailwind CSS",
@@ -59,6 +76,13 @@ export const technologies = [
 		ImageBgColor: "bg-black",
 		decription: "CI/CD Tool",
 		hover: "hover:shadow-[0px_0px_50px_1px_rgb(255,255,255,0.5)]"
+	},
+	{
+		name: "Git",
+		imgURL: gitlogo,
+		ImageBgColor: "bg-[#f1502f]/50",
+		decription: "CI/CD Tool",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(242,78,30,0.5)]"
 	},
 	{
 		name: "Figma",
