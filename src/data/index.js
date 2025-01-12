@@ -25,7 +25,7 @@ export const technologies = [
 		name: "React.js",
 		imgURL: ReactLogo,
 		ImageBgColor: "bg-[#222222]",
-		decription: "Javascript Framework",
+		decription: "Javascript Library",
 		hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
 	},
 	{
