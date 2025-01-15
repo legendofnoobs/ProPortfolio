@@ -11,7 +11,7 @@ const SkillsSection = () => {
 				<div className="flex flex-col justify-center items-center">
 					<div className="flex flex-wrap justify-center items-center gap-8 p-1">
 						{technologies.map((tech, index) => (
-							<motion.div key={index} className={`rounded-xl z-10 flex gap-5 items-center border-[1px] border-gray-500 p-2  bg-zinc-900 bg-gradient-to-r via-transparent ${tech.hover} transition-shadow duration-300 ease w-fit max-[745px]:w-72`} initial={{ opacity: 0, y: 20 }}
+							<motion.div key={index} className={`rounded-xl z-10 flex gap-5 items-center border-[1px] border-gray-800 p-2  bg-zinc-900 bg-gradient-to-r via-transparent ${tech.hover} transition-shadow duration-300 ease w-fit max-[745px]:w-72`} initial={{ opacity: 0, y: 20 }}
 								whileInView={{ opacity: 1, y: 0 }}
 								transition={{ delay: index * 0.2 }} // Delay each card
 								viewport={{ once: true }}>
