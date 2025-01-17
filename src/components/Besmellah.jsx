@@ -2,7 +2,7 @@ import { motion } from "motion/react"
 
 const Besmellah = () => {
 	return (
-		<motion.div className="h-[668px] max-[1036px]:h-[500px] w-full p-2 bg-white/10 rounded-3xl border-2 border-white/20 max-[540px]:h-fit" initial={{ y: "10%", opacity: 0 }} animate={{ y: "0%", opacity: 1 }} transition={{ type: "tween", duration: 1, delay: 0.5 }}>
+		<motion.div className="h-[668px] max-[1036px]:h-[500px] w-full max-w-[1865px] p-2 bg-white/10 rounded-3xl border-2 border-white/20 max-[540px]:h-fit" initial={{ y: "10%", opacity: 0 }} animate={{ y: "0%", opacity: 1 }} transition={{ type: "tween", duration: 1, delay: 0.5 }}>
 			<div className="h-[40px] flex bg-slate-600 w-full rounded-t-2xl px-5 bg-gradient-to-r from-slate-800 via-slate-400 to-slate-800">
 				<ul className="flex gap-3 items-center w-fit">
 					<li className="w-3 h-3 bg-red-600 shadow-md shadow-red-600 rounded-full"></li>
