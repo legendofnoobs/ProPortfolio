@@ -4,7 +4,7 @@ import { OtherProjectsData } from "../data";
 const OtherWork = () => {
 	return (
 		<>
-			<h1 className="text-4xl">⬇️ <span style={{textShadow:"0px 0px 10px white"}}>Other Work</span></h1>
+			<h1 className="text-4xl">⬇️ <span style={{ textShadow: "0px 0px 10px white" }}>Other Work</span></h1>
 			<div className="flex flex-col items-center gap-y-20 w-full">
 				{OtherProjectsData.map((project) => (
 					<ProjectCard
@@ -15,7 +15,9 @@ const OtherWork = () => {
 						live={project.live}
 						gitHUB={project.gitHUB}
 						imgURL={project.imgURL}
+						id={project.id}
 						hover={project.hover}
+						gallery={project.gallery}
 					/>
 				))}
 			</div>

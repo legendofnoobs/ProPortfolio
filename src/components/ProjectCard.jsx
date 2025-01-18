@@ -26,14 +26,16 @@ const ProjectCard = (props) => {
 									Repository 📁
 								</a>
 							</li>
-							<li>
-								<Link
-									className="text-lg px-3 py-1 bg-blue-500/40 border border-transparent transition-all hover:border-blue-500 backdrop-blur-lg rounded-lg max-[540px]:text-base"
-									to={`work/highlights/${props.id}`}
-								>
-									Highlights ✨
-								</Link>
-							</li>
+							{props.gallery &&
+								<li>
+									<Link
+										className="text-lg px-3 py-1 bg-blue-500/40 border border-transparent transition-all hover:border-blue-500 backdrop-blur-lg rounded-lg max-[540px]:text-base"
+										to={`work/highlights/${props.id}`}
+									>
+										Highlights ✨
+									</Link>
+								</li>
+							}
 						</ul>
 					</div>
 					<div className="w-full text-nowrap">

@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
-import { projectsData } from "../data";
+import { OtherProjectsData, projectsData } from "../data";
+OtherProjectsData
 import { useEffect } from "react";
 
 const Highlights = () => {
@@ -13,7 +14,7 @@ const Highlights = () => {
 
 
 	const { id } = useParams();
-	const project = projectsData.find((proj) => proj.id === id); // Find the project
+	const project = projectsData.find((proj) => proj.id === id) || OtherProjectsData.find((proj) => proj.id === id); // Find the project
 
 	if (!project) {
 		return <div className="text-center text-xl text-red-500">Project not found.</div>;
