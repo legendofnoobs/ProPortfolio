@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react"; // Import useEffect
 import Besmellah from "../components/Besmellah";
 import SelectedWork from "../components/SelectedWork";
 import OtherWork from "../components/OtherWork";
@@ -17,6 +17,20 @@ const Work = () => {
 	// State to manage the current section
 	const [selectedSection, setSelectedSection] = useState("Selected Work");
 
+	// Load the selected section from localStorage when the component mounts
+	useEffect(() => {
+		const savedSection = localStorage.getItem("selectedSection");
+		if (savedSection) {
+			setSelectedSection(savedSection);
+		}
+	}, []);
+
+	// Update localStorage whenever the selected section changes
+	const handleSectionChange = (section) => {
+		setSelectedSection(section);
+		localStorage.setItem("selectedSection", section);
+	};
+
 	return (
 		<section className="w-full max-w-[1743px] m-auto flex flex-col items-start pt-10 pb-44 px-64 gap-y-10 max-[1400px]:px-60 max-[1200px]:px-48 max-[1024px]:px-36 max-[900px]:px-20 max-[430px]:px-0 max-[636px]:px-7 fle ">
 			<div className=" mb-20 m-auto flex flex-col justify-center items-center">
@@ -33,7 +47,7 @@ const Work = () => {
 						? "bg-white/10 text-white"
 						: ""
 						}`}
-					onClick={() => setSelectedSection("Selected Work")}
+					onClick={() => handleSectionChange("Selected Work")}
 				>
 					Selected Work
 				</button>
@@ -42,7 +56,7 @@ const Work = () => {
 						? "bg-white/10 text-white"
 						: ""
 						}`}
-					onClick={() => setSelectedSection("Other Work")}
+					onClick={() => handleSectionChange("Other Work")}
 				>
 					Other Work
 				</button>
