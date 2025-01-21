@@ -377,7 +377,7 @@ export const OtherProjectsData = [
 	{
 		id: "6",
 		imgURL: MusicPlayer,
-		title: "Music Player website",
+		title: "Music Player",
 		description: "A simple Music app to demonstrate my skills in JavaScript and CSS. Some music to chill and keep calm. It is Fully functional and responsive",
 		live: "https://musicplayerlegendofnoobs.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/music-player",
