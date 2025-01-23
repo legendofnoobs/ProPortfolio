@@ -2,6 +2,8 @@ import { useParams } from "react-router-dom";
 import { OtherProjectsData, projectsData } from "../data";
 OtherProjectsData
 import { useEffect } from "react";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Highlights = () => {
 
@@ -49,13 +51,13 @@ const Highlights = () => {
 			{/* Highlights Section */}
 			<ul className="flex gap-5 max-[1200px]:flex-row max-[1200px]:gap-x-5 flex-wrap max-[540px]:flex-row">
 				<li>
-					<a className="text-xl px-3 py-1 bg-green-700/30 border border-green-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={project.live}>
-						Live Demo 🔗
+					<a className="text-xl p-2 bg-green-700/30 border border-green-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={project.live}>
+						🔗
 					</a>
 				</li>
 				<li>
-					<a className="text-xl px-3 py-1 bg-yellow-500/30 border border-yellow-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={project.gitHUB}>
-						Repository 📁
+					<a className="text-xl p-2 bg-yellow-500/30 border border-yellow-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={project.gitHUB}>
+						<FontAwesomeIcon icon={faGithub} className=" size-6" />
 					</a>
 				</li>
 			</ul>
