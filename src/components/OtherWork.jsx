@@ -1,13 +1,13 @@
-import ProjectCard from "../components/ProjectCard";
+import OtherProjectCard from "../components/OtherProjectCard";
 import { OtherProjectsData } from "../data";
 
 const OtherWork = () => {
 	return (
 		<>
 			<h1 className="text-4xl">⬇️ <span style={{ textShadow: "0px 0px 10px white" }}>Other Work</span></h1>
-			<div className="flex flex-col items-center gap-y-20 w-full">
+			<div className="flex flex-wrap items-center justify-center gap-5 w-full">
 				{OtherProjectsData.map((project) => (
-					<ProjectCard
+					<OtherProjectCard
 						key={project.id}
 						title={project.title}
 						description={project.description}
