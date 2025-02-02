@@ -25,13 +25,25 @@ const Highlights = () => {
 	return (
 		<section className="w-full max-w-5xl flex flex-col items-start py-10 gap-y-10 m-auto">
 			<h1 className="text-4xl font-bold">{project.title}</h1>
-			<p className="text-xl max-w-4xl">{project.description}</p>
+			{project.features &&
+				<div>
+					<h1 className="text-3xl mb-3">Features:</h1>
+					<ul className="flex flex-wrap gap-3">
+						{project.features?.map((tech, index) => (
+							<li key={index} className="px-3 py-1 w-fit bg-white/10 rounded-full max-[540px]:text-sm">{tech}</li>
+						))}
+					</ul>
+				</div>
+			}
 
-			<ul className="flex flex-wrap gap-3">
-				{project.usedTech.map((tech, index) => (
-					<li key={index} className="px-3 py-1 w-fit bg-white/10 rounded-full max-[540px]:text-sm">{tech}</li>
-				))}
-			</ul>
+			<div>
+				<h1 className="text-3xl mb-3">Tech Stack:</h1>
+				<ul className="flex flex-wrap gap-3">
+					{project.usedTech.map((tech, index) => (
+						<li key={index} className="px-3 py-1 w-fit bg-white/10 rounded-full max-[540px]:text-sm">{tech}</li>
+					))}
+				</ul>
+			</div>
 
 			{/* Gallery Section */}
 			<div className="w-full flex flex-col gap-y-10">
@@ -47,6 +59,8 @@ const Highlights = () => {
 					</div>
 				))}
 			</div>
+
+			<p className="text-xl max-w-5xl">{project.description}</p>
 
 			{/* Highlights Section */}
 			<ul className="flex gap-5 max-[1200px]:flex-row max-[1200px]:gap-x-5 flex-wrap max-[540px]:flex-row">

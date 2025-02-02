@@ -218,6 +218,16 @@ import editor4 from "../assets/ProjectsAssets/Highlights/codeEditor/editor4.webp
 import editor5 from "../assets/ProjectsAssets/Highlights/codeEditor/editor5.webp"
 import editor6 from "../assets/ProjectsAssets/Highlights/codeEditor/editor6.webp"
 // =====================================================================
+import image0 from "../assets/ProjectsAssets/Highlights/jiraClone/image0.webp"
+import image1 from "../assets/ProjectsAssets/Highlights/jiraClone/image1.webp"
+import image2 from "../assets/ProjectsAssets/Highlights/jiraClone/image2.webp"
+import image3 from "../assets/ProjectsAssets/Highlights/jiraClone/image3.webp"
+import image4 from "../assets/ProjectsAssets/Highlights/jiraClone/image4.webp"
+import image5 from "../assets/ProjectsAssets/Highlights/jiraClone/image5.webp"
+import image6 from "../assets/ProjectsAssets/Highlights/jiraClone/image6.webp"
+import image7 from "../assets/ProjectsAssets/Highlights/jiraClone/image7.webp"
+import image8 from "../assets/ProjectsAssets/Highlights/jiraClone/image0 (2).webp"
+// =====================================================================
 
 import groovePdf from "../assets/pdf/GrooveMusicApp.pdf"
 
@@ -226,10 +236,51 @@ export const cvLink = "https://docs.google.com/document/d/e/2PACX-1vRXb2_UZhZKpH
 
 export const projectsData = [
 	{
+		id: "13",
+		imgURL: image1,
+		title: "Jira Clone",
+		description: "A simple Jira Clone to demonstrate Next.js skills. It is Fully functional and responsive. Enjoy a better project management experience with my new Jira Clone. It comes with a clean and modern design. The app uses Next.js, TypeScript, Tailwind CSS, and a custom API to fetch and display project data. You can easily create, edit, and delete projects, as well as add tasks to them. Keep track of your progress with a detailed statistics dashboard.",
+		live: "https://jira-clone-gamma-cyan.vercel.app//",
+		gitHub: "https://github.com/legendofnoobs/jira_clone",
+		usedTech: ["Next.js","Typescript", "Appwrite", "Tailwind.css", "Hono.js", "Shadcn ui", "Tanstack query"],
+		gallery: [
+			image8,
+			image1,
+			image5,
+			image6,
+			image7,
+			image0,
+			image2,
+			image3,
+			image4,
+		],
+		hover: "group-hover:bg-green-600/50 group-hover:blur-[150px]",
+		features: [
+			"Workspaces",
+			"Projects / Epics",
+			"Tasks",
+			"Kanban Board View",
+			"Data Table View",
+			"Calendar View",
+			"Invite System",
+			"Workspace and Project Settings",
+			"Image Uploads (for avatars and attachments)",
+			"Appwrite SDK Integration",
+			"Next.js 14 Framework",
+			"Shadcn UI & TailwindCSS Styling",
+			"Advanced Search and Filtering",
+			"Analytics Dashboard",
+			"User Roles and Permissions",
+			"Authentication (OAuth and Email)",
+			"Responsive Design (Mobile-friendly)",
+			"API using Hono.js",
+		]
+	},
+	{
 		id: "12",
 		imgURL: codeEditor,
 		title: "Code Editor",
-		description: "A simple Code Editor to demonstrate Next.js skills. It is Fully functional and responsive. Online IDE with multi-language support (10 languages). Customizable experience with 5 VSCode themes. Smart output handling with Success & Error states. Community-driven code sharing system. Advanced filtering & search capabilities. Personal profile with execution history tracking. Comprehensive statistics dashboard. Customizable font size controls.",
+		description: "A simple Code Editor to demonstrate Next.js skills. It is Fully functional and responsive. Enjoy a better coding experience with my new code editor. It comes with colorful themes like those in VSCode and supports 10 different programming languages. Keep track of your work with a personal profile that shows your code history, and easily see if your code runs successfully or has errors. Find what you need quickly with advanced search and filtering features. Share your code with others in our community and see your progress with a detailed statistics dashboard. Plus, you can adjust the font size to make your coding environment just right for you.",
 		live: "https://code-editor-nine-chi.vercel.app/",
 		gitHUB: "https://github.com/legendofnoobs/code_editor",
 		usedTech: ["Next.js", "Typescript", "Tailwind.css", "Clerk", "Convex", "Framer Motion", "Zustand"],
@@ -242,13 +293,23 @@ export const projectsData = [
 			editor5,
 			editor6,
 		],
-		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]"
+		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]",
+		features: [
+			"5 VSCode themes",
+			"multi-language support (10 languages)",
+			"Personal profile with execution history tracking",
+			"Smart output handling with Success & Error states",
+			"Advanced filtering & search capabilities",
+			"Community-driven code sharing system",
+			"Comprehensive statistics dashboard",
+			"Customizable font size controls",
+		]
 	},
 	{
 		id: "1",
 		imgURL: SnapGram,
 		title: "SnapGram",
-		description: "SnapGram website to demonstrate skills in React.js, Typescript, Tailwind.css, Shadcn/ui, TanStack, and Appwrite services. It is Fully functional and responsive",
+		description: "Build a modern social app with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance. It is Fully functional and responsive",
 		live: "https://snap-graam.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/SnapGram",
 		usedTech: ["React.js", "Tailwind.css", "Typescript", "Shadcn/ui", "TanStack", "Appwrite"],
@@ -262,7 +323,21 @@ export const projectsData = [
 			snapgramHighlight6,
 			snapgramHighlight7,
 		],
-		hover: "group-hover:bg-pink-600/50 group-hover:blur-[150px]"
+		hover: "group-hover:bg-pink-600/50 group-hover:blur-[150px]",
+		features: [
+			"Authentication System",
+			"Explore Page",
+			"Create and delete posts",
+			"Like and Save Functionality",
+			"Detailed Post Page",
+			"Profile Page that grant the user ability to edit info",
+			"Browse Other Users",
+			"Create Post Page",
+			"Edit Post Functionality",
+			"Responsive UI with Bottom Bar",
+			"Backend as a Service (BaaS) - Appwrite",
+		]
+
 	},
 	{
 		id: "3",
@@ -286,22 +361,6 @@ export const projectsData = [
 		],
 		hover: "group-hover:bg-purple-600/50 group-hover:blur-[150px]"
 	},
-	{
-		id: "5",
-		imgURL: SpaceTourism,
-		title: "Space Tourism website",
-		description: "Space tourism website to demonstrate skills. It was a challenge on Frontend Mentor. It is Fully functional and responsive",
-		live: "https://space-tourism-ahmed-rashed.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/space-tourism-revisited",
-		usedTech: ["React.js", "Tailwind.css", "Framer Motion"],
-		gallery: [
-			space1,
-			space2,
-			space3,
-			space4,
-		],
-		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]"
-	},
 ]
 
 
@@ -323,6 +382,37 @@ export const OtherProjectsData = [
 			gym5,
 		],
 		hover: "group-hover:bg-red-600/50 group-hover:blur-[150px]"
+	},
+	{
+		id: "5",
+		imgURL: SpaceTourism,
+		title: "Space Tourism website",
+		description: "Space tourism website to demonstrate skills. It was a challenge on Frontend Mentor. It is Fully functional and responsive",
+		live: "https://space-tourism-ahmed-rashed.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/space-tourism-revisited",
+		usedTech: ["React.js", "Tailwind.css", "Framer Motion"],
+		gallery: [
+			space1,
+			space2,
+			space3,
+			space4,
+		],
+		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]"
+	},
+	{
+		id: "6",
+		imgURL: MusicPlayer,
+		title: "Music Player",
+		description: "A simple Music app to demonstrate my skills in JavaScript and CSS. Some music to chill and keep calm. It is Fully functional and responsive",
+		live: "https://musicplayerlegendofnoobs.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/music-player",
+		usedTech: ["HTML", "CSS", "JavaScript"],
+		gallery: [
+			music1,
+			music2,
+			music3,
+		],
+		hover: "group-hover:bg-yellow-600/50 group-hover:blur-[150px]"
 	},
 	{
 		id: "7",
@@ -374,19 +464,5 @@ export const OtherProjectsData = [
 		usedTech: ["React.js", "CSS", "Local Storage"],
 		hover: "group-hover:bg-red-600/50 group-hover:blur-[150px]"
 	},
-	{
-		id: "6",
-		imgURL: MusicPlayer,
-		title: "Music Player",
-		description: "A simple Music app to demonstrate my skills in JavaScript and CSS. Some music to chill and keep calm. It is Fully functional and responsive",
-		live: "https://musicplayerlegendofnoobs.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/music-player",
-		usedTech: ["HTML", "CSS", "JavaScript"],
-		gallery: [
-			music1,
-			music2,
-			music3,
-		],
-		hover: "group-hover:bg-yellow-600/50 group-hover:blur-[150px]"
-	},
+
 ]

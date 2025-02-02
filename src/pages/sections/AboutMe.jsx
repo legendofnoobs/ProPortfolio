@@ -11,7 +11,7 @@ const AboutMe = () => {
 					<p className="text-lg max-[540px]:text-base z-10">I am an Egyptian 21 years old student. I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</p>
 				</div>
 			</motion.div>
-			<div className="w-full h-fit flex justify-between gap-4 max-[1800px]:flex-col">
+			<div className="w-full h-fit flex max-[1080px]:flex-wrap justify-between gap-4">
 				<motion.div className="w-full h-fit p-2 bg-white/10 border-2 border-white/20 hover:shadow-2xl hover:shadow-red-600/30 transition-shadow ease relative overflow-hidden rounded-2xl" initial={{ opacity: 0 }} animate={{ opacity: 1 }} viewport={{ once: true, amount: 0.5 }} transition={{ duration: 0.7, ease: "easeInOut", delay: 0.5 }}>
 					<div className="bg-zinc-900 w-full h-full rounded-xl p-3">
 						<div className="w-96 h-96 absolute bg-green-800/40 blur-[100px] rounded-full -top-52 right-2/4 translate-x-2/4 z-0"></div>

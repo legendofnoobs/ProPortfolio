@@ -5,8 +5,7 @@ import { motion } from 'motion/react';
 const SkillsSection = () => {
 	return (
 		<div className="w-full rounded-3xl p-2 h-fit relative">
-			{/* <div className="w-96 h-96 absolute bg-green-700/30 blur-[100px] rounded-full -top-52 -right-10 z-0"></div> */}
-			<div className='flex flex-col justify-center items-center gap-y-10  p-8 rounded-2xl z-10 max-[540px]:p-3'>
+			<div className='flex flex-col justify-center items-center gap-y-10 rounded-2xl z-10 max-[540px]:p-3'>
 				<h1 className="text-7xl" style={{ textShadow: "0px 0px 10px white" }}>Skills</h1>
 				<div className="flex flex-col justify-center items-center">
 					<div className="flex flex-wrap justify-center items-center gap-8 p-1">
@@ -27,7 +26,6 @@ const SkillsSection = () => {
 					</div>
 				</div>
 			</div>
-			{/* <div className="w-96 h-96 absolute bg-yellow-500/30 blur-[100px] rounded-full -bottom-52 -left-10 z-0"></div> */}
 		</div>
 	);
 }
