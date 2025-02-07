@@ -18,6 +18,7 @@ import pythonLogo from "../assets/tech/pythonLogo.webp";
 import MSSql from "../assets/tech/microsoft-sql-server-logo.svg";
 import appwritelogo from "../assets/tech/appwrite.svg"
 import gitlogo from "../assets/tech/git.svg"
+import convex from "../assets/tech/convex.webp"
 
 
 export const technologies = [
@@ -39,6 +40,13 @@ export const technologies = [
 		name: "Appwrite",
 		imgURL: appwritelogo,
 		ImageBgColor: "bg-[#fd366e]/30",
+		decription: "Backend Service",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(227,46,55,0.5)]"
+	},
+	{
+		name: "Convex",
+		imgURL: convex,
+		ImageBgColor: "bg-gradient-to-r from-purple-500/30 to-red-500/50",
 		decription: "Backend Service",
 		hover: "hover:shadow-[0px_0px_50px_1px_rgb(227,46,55,0.5)]"
 	},
