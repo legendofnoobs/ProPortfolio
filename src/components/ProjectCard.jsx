@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "motion/react";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 /* eslint-disable react/prop-types */
 
@@ -16,29 +17,6 @@ const ProjectCard = (props) => {
 				<div className="flex flex-col justify-between items-start gap-5 w-full z-20 max-[1200px]:flex-col max-[1200px]:gap-y-5">
 					<div className="flex flex-row justify-between items-center w-full">
 						<h1 className="text-3xl z-10 text-nowrap">{props.title}</h1>
-						{/* <p className="text-xl z-10 text-wrap max-[540px]:text-base ">{props.description}</p> */}
-						<ul className="flex flex-row gap-5 max-[1200px]:flex-row max-[1200px]:gap-x-5 flex-wrap max-[540px]:flex-row justify-end max-[1655px]:hidden">
-							<li>
-								<a className="text-lg p-2 bg-green-700/40 border border-transparent transition-all hover:border-green-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={props.live}>
-									🔗
-								</a>
-							</li>
-							<li>
-								<a className="text-lg p-2 bg-yellow-500/40 border border-transparent transition-all hover:border-yellow-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={props.gitHUB}>
-									<FontAwesomeIcon icon={faGithub} className=" size-6 translate-y-1" />
-								</a>
-							</li>
-							{props.gallery &&
-								<li>
-									<Link
-										className="text-lg p-2 bg-blue-500/40 border border-transparent transition-all hover:border-blue-500 backdrop-blur-lg rounded-lg max-[540px]:text-base"
-										to={`work/highlights/${props.id}`}
-									>
-										Highlights ✨
-									</Link>
-								</li>
-							}
-						</ul>
 					</div>
 					<div className="w-full text-nowrap">
 						<ul className="flex flex-wrap gap-3 mb-5">
@@ -46,13 +24,13 @@ const ProjectCard = (props) => {
 								<li key={index} className="px-3 py-1 w-fit bg-white/10 rounded-full max-[540px]:text-sm">{tech}</li>
 							))}
 						</ul>
-						<ul className="flex flex-row gap-3 max-[1200px]:flex-row max-[1200px]:gap-5 flex-wrap max-[540px]:flex-row justify-start min-[1656px]:hidden mb-5 h-10 items-center">
-							<li>
+						<ul className="flex flex-row gap-3 flex-wrap justify-start items-center w-fit h-auto mb-5">
+							<li className="w-fit h-auto">
 								<a className="text-lg p-2 bg-green-700/40 border border-transparent transition-all hover:border-green-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={props.live}>
-									🔗
+									<FontAwesomeIcon icon={faLink} className="size-6 translate-y-1" />
 								</a>
 							</li>
-							<li className="-translate-y-0.5">
+							<li className="w-fit h-auto">
 								<a className="text-lg p-2 bg-yellow-500/40 border border-transparent transition-all hover:border-yellow-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={props.gitHUB}>
 									<FontAwesomeIcon icon={faGithub} className=" size-6 translate-y-1" />
 								</a>

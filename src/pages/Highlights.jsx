@@ -36,15 +36,6 @@ const Highlights = () => {
 				</div>
 			}
 
-			<div>
-				<h1 className="text-3xl mb-3">Tech Stack:</h1>
-				<ul className="flex flex-wrap gap-3">
-					{project.usedTech.map((tech, index) => (
-						<li key={index} className="px-3 py-1 w-fit bg-white/10 rounded-full max-[540px]:text-sm">{tech}</li>
-					))}
-				</ul>
-			</div>
-
 			{/* Gallery Section */}
 			<div className="w-full flex flex-col gap-y-10">
 				{project.gallery.map((image, index) => (
@@ -60,17 +51,26 @@ const Highlights = () => {
 				))}
 			</div>
 
+			<div>
+				<h1 className="text-3xl mb-3">Tech Stack:</h1>
+				<ul className="flex flex-wrap gap-3">
+					{project.usedTech.map((tech, index) => (
+						<li key={index} className="px-3 py-1 w-fit bg-white/10 rounded-full max-[540px]:text-sm">{tech}</li>
+					))}
+				</ul>
+			</div>
+
 			<p className="text-xl max-w-5xl">{project.description}</p>
 
 			{/* Highlights Section */}
-			<ul className="flex gap-5 max-[1200px]:flex-row max-[1200px]:gap-x-5 flex-wrap max-[540px]:flex-row">
+			<ul className="flex gap-5 flex-wrap">
 				<li>
-					<a className="text-xl p-2 bg-green-700/30 border border-green-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={project.live}>
+					<a className="text-xl p-2 bg-green-700/30 border border-green-500 rounded-lg" target="_blank" rel="noopener noreferrer" href={project.live}>
 						🔗
 					</a>
 				</li>
 				<li>
-					<a className="text-xl p-2 bg-yellow-500/30 border border-yellow-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={project.gitHUB}>
+					<a className="text-xl p-2 bg-yellow-500/30 border border-yellow-500 rounded-lg" target="_blank" rel="noopener noreferrer" href={project.gitHUB}>
 						<FontAwesomeIcon icon={faGithub} className=" size-6" />
 					</a>
 				</li>
