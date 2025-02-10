@@ -39,11 +39,11 @@ const Highlights = () => {
 			{/* Gallery Section */}
 			<div className="w-full flex flex-col gap-y-10">
 				{project.gallery.map((image, index) => (
-					<div key={index} className="relative border-2 border-white/20 rounded-xl bg-gradient-to-r from-slate-800 via-slate-400 to-slate-800 hover:shadow-2xl hover:scale-[1.02] transition ease-linear p-2">
+					<div key={index} className="relative border-2 border-white/20 rounded-xl bg-gradient-to-r from-slate-800 via-slate-400 to-slate-800 hover:shadow-[0px_0px_50px_10px_rgb(66,135,245,0.1)] hover:scale-[1.02] transition ease-linear p-2">
 						<img
 							src={image}
 							alt={`${project.title} screenshot ${index + 1}`}
-							className="shadow-lg rounded-lg"
+							className="shadow-lg rounded-lg aspect-video"
 							width={1100}
 							height={600}
 						/>

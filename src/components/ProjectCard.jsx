@@ -49,11 +49,10 @@ const ProjectCard = (props) => {
 					</div>
 				</div>
 				<div className="rounded-xl z-20 relative">
-					<img src={props.imgURL} alt={props.title} className="rounded-xl w-full h-auto relative top-16 group-hover:top-0 transition-all duration-300 max-[768px]:top-0" loading="lazy"
+					<img src={props.imgURL} alt={props.title} className="rounded-xl w-full h-auto relative top-16 group-hover:top-0 transition-all duration-300 max-[768px]:top-0 aspect-video" loading="lazy"
 						width={16}
 						height={9} />
 				</div>
-				{/* <div className="w-96 h-96 absolute bg-blue-700/80 blur-[100px] rounded-full -bottom-52 -left-10 z-0"></div> */}
 			</div>
 		</motion.div>
 	);
