@@ -31,7 +31,7 @@ const ProjectCard = (props) => {
 								</a>
 							</li>
 							<li className="w-fit h-auto">
-								<a className="text-lg p-2 bg-yellow-500/40 border border-transparent transition-all hover:border-yellow-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={props.gitHUB}>
+								<a className="text-lg p-2 bg-purple-500/40 border border-transparent transition-all hover:border-purple-500 backdrop-blur-lg rounded-lg max-[540px]:text-base" target="_blank" rel="noopener noreferrer" href={props.gitHUB}>
 									<FontAwesomeIcon icon={faGithub} className=" size-6 translate-y-1" />
 								</a>
 							</li>
