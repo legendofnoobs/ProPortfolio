@@ -25,7 +25,6 @@ export default function App() {
   );
 }
 
-// Separate layout to detect route changes
 const MainLayout = () => {
   const location = useLocation();
   const isHighlightsPage = location.pathname.includes("/work/highlights/");

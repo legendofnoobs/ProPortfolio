@@ -236,6 +236,12 @@ import image6 from "../assets/ProjectsAssets/Highlights/jiraClone/image6.webp"
 import image7 from "../assets/ProjectsAssets/Highlights/jiraClone/image7.webp"
 import image8 from "../assets/ProjectsAssets/Highlights/jiraClone/image0 (2).webp"
 // =====================================================================
+import layers0 from "../assets/ProjectsAssets/Highlights/Layers/image0.webp"
+import layers1 from "../assets/ProjectsAssets/Highlights/Layers/image1.webp"
+import layers2 from "../assets/ProjectsAssets/Highlights/Layers/image2.webp"
+import layers3 from "../assets/ProjectsAssets/Highlights/Layers/image3.webp"
+import layers4 from "../assets/ProjectsAssets/Highlights/Layers/image4.webp"
+// =====================================================================
 
 import groovePdf from "../assets/pdf/GrooveMusicApp.pdf"
 
@@ -244,11 +250,28 @@ export const cvLink = "https://docs.google.com/document/d/e/2PACX-1vRXb2_UZhZKpH
 
 export const projectsData = [
 	{
+		id: "14",
+		imgURL: layers0,
+		title: "Layers Landing Page",
+		description: "Layers landing page is a fully animated experience, bringing design to life with smooth transitions and interactive motion effects. Every scroll showcases the app’s features dynamically, making the introduction as engaging as the design process itself.",
+		live: "https://layers-design-tool.netlify.app/",
+		gitHub: "https://github.com/legendofnoobs/layers",
+		usedTech: ["Next.js","Typescript", "Tailwind.css", "Framer Motion"],
+		gallery: [
+			layers0,
+			layers1,
+			layers2,
+			layers3,
+			layers4,
+		],
+		hover: "group-hover:bg-lime-600/50 group-hover:blur-[150px]",
+	},
+	{
 		id: "13",
 		imgURL: image1,
 		title: "Jira Clone",
 		description: "Enjoy a better project management experience with my new Jira Clone. It comes with a clean and modern design. The app uses Next.js, TypeScript, Tailwind CSS, and a custom API to fetch and display project data. You can easily create, edit, and delete projects, as well as add tasks to them. Keep track of your progress with a detailed statistics dashboard.",
-		live: "https://jira-clone-gamma-cyan.vercel.app//",
+		live: "https://jira-clone-gamma-cyan.vercel.app/",
 		gitHub: "https://github.com/legendofnoobs/jira_clone",
 		usedTech: ["Next.js","Typescript", "Appwrite", "Tailwind.css", "Hono.js", "Shadcn ui", "Tanstack query"],
 		gallery: [
@@ -262,7 +285,7 @@ export const projectsData = [
 			image3,
 			image4,
 		],
-		hover: "group-hover:bg-green-600/50 group-hover:blur-[150px]",
+		hover: "group-hover:bg-red-600/50 group-hover:blur-[150px]",
 		features: [
 			"Workspaces",
 			"Projects / Epics",
