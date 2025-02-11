@@ -17,7 +17,7 @@ const SelectedWork = () => {
 						imgURL={project.imgURL}
 						id={project.id}
 						hover={project.hover}
-						gallery={project.gallery}
+						featuresWithImages={project.featuresWithImages}
 					/>
 				))}
 			</div>

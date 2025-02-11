@@ -35,7 +35,7 @@ const ProjectCard = (props) => {
 									<FontAwesomeIcon icon={faGithub} className=" size-6 translate-y-1" />
 								</a>
 							</li>
-							{props.gallery &&
+							{props.featuresWithImages &&
 								<li>
 									<Link
 										className="text-lg p-2 bg-blue-500/40 border border-transparent transition-all hover:border-blue-500 backdrop-blur-lg rounded-lg max-[540px]:text-base"

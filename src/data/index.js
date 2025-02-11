@@ -203,10 +203,6 @@ import space2 from "../assets/ProjectsAssets/Highlights/space/space2.webp"
 import space3 from "../assets/ProjectsAssets/Highlights/space/space3.webp"
 import space4 from "../assets/ProjectsAssets/Highlights/space/space4.webp"
 // =====================================================================
-import music1 from "../assets/ProjectsAssets/Highlights/musicplayer/music1.webp"
-import music2 from "../assets/ProjectsAssets/Highlights/musicplayer/music2.webp"
-import music3 from "../assets/ProjectsAssets/Highlights/musicplayer/music3.webp"
-// =====================================================================
 import groove1 from "../assets/ProjectsAssets/Highlights/groove/1.webp"
 import groove2 from "../assets/ProjectsAssets/Highlights/groove/2.webp"
 import groove3 from "../assets/ProjectsAssets/Highlights/groove/3.webp"
@@ -222,7 +218,6 @@ import codeEditor from "../assets/ProjectsAssets/codeEditor.png"
 import editor1 from "../assets/ProjectsAssets/Highlights/codeEditor/editor1.webp"
 import editor2 from "../assets/ProjectsAssets/Highlights/codeEditor/editor2.webp"
 import editor3 from "../assets/ProjectsAssets/Highlights/codeEditor/editor3.webp"
-import editor4 from "../assets/ProjectsAssets/Highlights/codeEditor/editor4.webp"
 import editor5 from "../assets/ProjectsAssets/Highlights/codeEditor/editor5.webp"
 import editor6 from "../assets/ProjectsAssets/Highlights/codeEditor/editor6.webp"
 // =====================================================================
@@ -257,12 +252,27 @@ export const projectsData = [
 		live: "https://layers-design-tool.netlify.app/",
 		gitHub: "https://github.com/legendofnoobs/layers",
 		usedTech: ["Next.js","Typescript", "Tailwind.css", "Framer Motion"],
-		gallery: [
-			layers0,
-			layers1,
-			layers2,
-			layers3,
-			layers4,
+		featuresWithImages: [
+			{
+                description: "2 draggable designs (left and right)",
+                image: layers0,
+            },
+            {
+                description: "A moving logoticker and a text-based scroll animation",
+                image: layers1,
+            },
+            {
+                description: "Cards with multible effects and animations",
+                image: layers2,
+            },
+            {
+                description: "A single logoticker component with 2 directions passed as a property",
+                image: layers3,
+            },
+            {
+                description: "Accordions with beautiful animations",
+                image: layers4,
+            },
 		],
 		hover: "group-hover:bg-lime-600/50 group-hover:blur-[150px]",
 	},
@@ -274,67 +284,81 @@ export const projectsData = [
 		live: "https://jira-clone-gamma-cyan.vercel.app/",
 		gitHub: "https://github.com/legendofnoobs/jira_clone",
 		usedTech: ["Next.js","Typescript", "Appwrite", "Tailwind.css", "Hono.js", "Shadcn ui", "Tanstack query"],
-		gallery: [
-			image8,
-			image1,
-			image5,
-			image6,
-			image7,
-			image0,
-			image2,
-			image3,
-			image4,
+		featuresWithImages: [
+			{
+				description: "Simple Authentication",
+				image: image0,
+			},
+			{
+                description: "A dashboard to see and manage tasks, projects and members with workspaces",
+                image: image8,
+            },
+            {
+                description: "My tasks page for managing tasks accross all projects",
+                image: image1,
+            },
+            {
+                description: "A kanban board for managing tasks easily",
+                image: image5,
+            },
+            {
+                description: "Calendar view for better visualization about datelines",
+                image: image6,
+            },
+            {
+                description: "Deatailed Task page to add discription",
+                image: image7,
+            },
+            {
+                description: "Task creaction Modal",
+                image: image2,
+            },
+            {
+                description: "Workspace settings with invite system",
+                image: image3,
+            },
+            {
+                description: "A members list which can be used to set admins and regular members",
+                image: image4,
+            },
 		],
 		hover: "group-hover:bg-red-600/50 group-hover:blur-[150px]",
-		features: [
-			"Workspaces",
-			"Projects / Epics",
-			"Tasks",
-			"Kanban Board View",
-			"Data Table View",
-			"Calendar View",
-			"Invite System",
-			"Workspace and Project Settings",
-			"Image Uploads (for avatars)",
-			"Appwrite SDK Integration",
-			"Next.js 14 Framework",
-			"Shadcn UI & TailwindCSS Styling",
-			"Advanced Search and Filtering",
-			"Analytics Dashboard",
-			"User Roles and Permissions",
-			"Authentication (OAuth and Email)",
-			"Responsive Design (Mobile-friendly)",
-			"API using Hono.js",
-		]
 	},
 	{
 		id: "12",
 		imgURL: codeEditor,
 		title: "Code Editor",
-		description: "A simple Code Editor to demonstrate Next.js skills. It is Fully functional and responsive. Enjoy a better coding experience with my new code editor. It comes with colorful themes like those in VSCode and supports 10 different programming languages. Keep track of your work with a personal profile that shows your code history, and easily see if your code runs successfully or has errors. Find what you need quickly with advanced search and filtering features. Share your code with others in our community and see your progress with a detailed statistics dashboard. Plus, you can adjust the font size to make your coding environment just right for you.",
+		description: "Enjoy a better coding experience with my new code editor. It comes with colorful themes like those in VSCode and supports 10 different programming languages. Keep track of your work with a personal profile that shows your code history, and easily see if your code runs successfully or has errors. Find what you need quickly with advanced search and filtering features. Share your code with others in our community and see your progress with a detailed statistics dashboard. Plus, you can adjust the font size to make your coding environment just right for you.",
 		live: "https://code-editor-nine-chi.vercel.app/",
 		gitHUB: "https://github.com/legendofnoobs/code_editor",
 		usedTech: ["Next.js", "Typescript", "Tailwind.css", "Clerk", "Convex", "Framer Motion", "Zustand"],
-		gallery: [
-			codeEditor,
-			editor1,
-			editor2,
-			editor3,
-			editor4,
-			editor5,
-			editor6,
+		featuresWithImages: [
+			{
+				description: "A Simple Code Editor",
+				image: codeEditor,
+			},
+			{
+                description: "Different text sizes",
+                image: editor1,
+            },
+            {
+                description: "multi-language support (10 languages)",
+                image: editor2,
+            },
+            {
+                description: "Community-driven code sharing system",
+                image: editor3,
+            },
+            {
+                description: "Comments for the snippets",
+                image: editor5,
+            },
+            {
+                description: "Comprehensive statistics dashboard",
+                image: editor6,
+            },
 		],
 		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]",
-		features: [
-			"5 VSCode themes",
-			"multi-language support (10 languages)",
-			"Personal profile with execution history tracking",
-			"Smart output handling with Success & Error states",
-			"Advanced filtering & search capabilities",
-			"Community-driven code sharing system",
-			"Comprehensive statistics dashboard",
-			"Customizable font size controls",
-		]
 	},
 	{
 		id: "1",
@@ -344,31 +368,41 @@ export const projectsData = [
 		live: "https://snap-graam.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/SnapGram",
 		usedTech: ["React.js", "Tailwind.css", "Typescript", "Shadcn/ui", "TanStack", "Appwrite"],
-		gallery: [
-			snapgramHighlight1,
-			SnapGram,
-			snapgramHighlight4,
-			snapgramHighlight5,
-			snapgramHighlight2,
-			snapgramHighlight3,
-			snapgramHighlight6,
-			snapgramHighlight7,
+		featuresWithImages: [
+			{
+				description: "Simple Authentication",
+				image: snapgramHighlight1,
+			},
+			{
+                description: "Homepage with sidebar navigation and top creator to follow",
+                image: SnapGram,
+            },
+            {
+                description: "Explore with search functionality",
+                image: snapgramHighlight4,
+            },
+            {
+                description: "Users page to follow",
+                image: snapgramHighlight5,
+            },
+            {
+                description: "Saving posts functionality",
+                image: snapgramHighlight2,
+            },
+            {
+                description: "post creation with uploading photos",
+                image: snapgramHighlight3,
+            },
+            {
+                description: "Profile editing page",
+                image: snapgramHighlight6,
+            },
+            {
+                description: "Profile page with viewing posted posts",
+                image: snapgramHighlight7,
+            },
 		],
 		hover: "group-hover:bg-pink-600/50 group-hover:blur-[150px]",
-		features: [
-			"Authentication System",
-			"Explore Page",
-			"Create and delete posts",
-			"Like and Save Functionality",
-			"Detailed Post Page",
-			"Profile Page that grant the user ability to edit info",
-			"Browse Other Users",
-			"Create Post Page",
-			"Edit Post Functionality",
-			"Responsive UI with Bottom Bar",
-			"Backend as a Service (BaaS) - Appwrite",
-		]
-
 	},
 	{
 		id: "3",
@@ -378,17 +412,47 @@ export const projectsData = [
 		live: "https://www.figma.com/design/SzKp1UwvKAnQsD3bWHa3bO/Music-App?node-id=0-1&t=59wQ2QfPncoLflLg-1",
 		gitHUB: groovePdf,
 		usedTech: ["Figma"],
-		gallery: [
-			Cover,
-			groove1,
-			groove2,
-			groove3,
-			groove4,
-			groove5,
-			groove6,
-			groove7,
-			groove8,
-			groove9,
+		featuresWithImages: [
+			{
+				description: "",
+				image: Cover,
+			},
+			{
+                description: "",
+                image: groove1,
+            },
+            {
+                description: "",
+                image: groove2,
+            },
+            {
+                description: "",
+                image: groove3,
+            },
+            {
+                description: "",
+                image: groove4,
+            },
+            {
+                description: "",
+                image: groove5,
+            },
+            {
+                description: "",
+                image: groove6,
+            },
+            {
+                description: "",
+                image: groove7,
+            },
+            {
+                description: "",
+                image: groove8,
+            },
+            {
+                description: "",
+                image: groove9,
+            },
 		],
 		hover: "group-hover:bg-purple-600/50 group-hover:blur-[150px]"
 	},
@@ -404,13 +468,31 @@ export const OtherProjectsData = [
 		live: "https://minegymandexercisesapp.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/gym-app",
 		usedTech: ["React.js", "Tailwind.css", "RapidAPI", "MaterialUI"],
-		gallery: [
-			GymApp,
-			gym1,
-			gym2,
-			gym3,
-			gym4,
-			gym5,
+		featuresWithImages: [
+			{
+				description: "",
+                image: GymApp,
+			},
+			{
+				description: "",
+                image: gym1,
+			},
+			{
+				description: "",
+                image: gym2,
+			},
+			{
+				description: "",
+                image: gym3,
+			},
+			{
+				description: "",
+                image: gym4,
+			},
+			{
+				description: "",
+                image: gym5,
+			}
 		],
 		hover: "group-hover:bg-red-600/50 group-hover:blur-[150px]"
 	},
@@ -422,11 +504,23 @@ export const OtherProjectsData = [
 		live: "https://space-tourism-ahmed-rashed.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/space-tourism-revisited",
 		usedTech: ["React.js", "Tailwind.css", "Framer Motion"],
-		gallery: [
-			space1,
-			space2,
-			space3,
-			space4,
+		featuresWithImages: [
+			{
+				description: "",
+                image: space1,
+			},
+			{
+				description: "",
+                image: space2,
+			},
+			{
+				description: "",
+                image: space3,
+			},
+			{
+				description: "",
+                image: space4,
+			},
 		],
 		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]"
 	},
@@ -438,11 +532,6 @@ export const OtherProjectsData = [
 		live: "https://musicplayerlegendofnoobs.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/music-player",
 		usedTech: ["HTML", "CSS", "JavaScript"],
-		gallery: [
-			music1,
-			music2,
-			music3,
-		],
 		hover: "group-hover:bg-yellow-600/50 group-hover:blur-[150px]"
 	},
 	{
