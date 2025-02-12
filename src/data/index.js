@@ -250,7 +250,7 @@ export const projectsData = [
 		title: "Layers Landing Page",
 		description: "Layers landing page is a fully animated experience, bringing design to life with smooth transitions and interactive motion effects. Every scroll showcases the app’s features dynamically, making the introduction as engaging as the design process itself.",
 		live: "https://layers-design-tool.netlify.app/",
-		gitHub: "https://github.com/legendofnoobs/layers",
+		gitHUB: "https://github.com/legendofnoobs/layers",
 		usedTech: ["Next.js","Typescript", "Tailwind.css", "Framer Motion"],
 		featuresWithImages: [
 			{
@@ -282,7 +282,7 @@ export const projectsData = [
 		title: "Jira Clone",
 		description: "Enjoy a better project management experience with my new Jira Clone. It comes with a clean and modern design. The app uses Next.js, TypeScript, Tailwind CSS, and a custom API to fetch and display project data. You can easily create, edit, and delete projects, as well as add tasks to them. Keep track of your progress with a detailed statistics dashboard.",
 		live: "https://jira-clone-gamma-cyan.vercel.app/",
-		gitHub: "https://github.com/legendofnoobs/jira_clone",
+		gitHUB: "https://github.com/legendofnoobs/jira_clone",
 		usedTech: ["Next.js","Typescript", "Appwrite", "Tailwind.css", "Hono.js", "Shadcn ui", "Tanstack query"],
 		featuresWithImages: [
 			{
