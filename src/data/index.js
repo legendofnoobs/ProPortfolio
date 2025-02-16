@@ -7,10 +7,8 @@ import GitHubLogo from "../assets/tech/GitHub-Logo.webp";
 import JavaLogo from "../assets/tech/java-logo-vector.webp";
 import JsLogo from "../assets/tech/js.webp";
 import TsLogo from "../assets/tech/typescript.svg";
-import LinuxLogo from "../assets/tech/linux.webp";
 import MySqlLogo from "../assets/tech/MySQL.webp";
 import NodeLogo from "../assets/tech/node.webp";
-import NpmLogo from "../assets/tech/npm-logo.webp";
 import TailwindLogo from "../assets/tech/tailwindcss.webp";
 import FramerMotion from "../assets/tech/framer-motion.webp";
 import csharpLogo from "../assets/tech/cSharp.webp";
@@ -19,9 +17,14 @@ import MSSql from "../assets/tech/microsoft-sql-server-logo.svg";
 import appwritelogo from "../assets/tech/appwrite.svg"
 import gitlogo from "../assets/tech/git.svg"
 import convex from "../assets/tech/convex.webp"
+import canva from "../assets/tech/1691829322canva-app-logo-png.png"
+import vercel from "../assets/tech/Vercel_favicon.svg"
+import docker from "../assets/tech/Docker.webp"
+import netlify from "../assets/tech/netlify.png"
+import postman from "../assets/tech/postman.svg"
+import vscode from "../assets/tech/vscode.png"
 
-
-export const technologies = [
+export const frontendTech = [
 	{
 		name: "React.js",
 		imgURL: ReactLogo,
@@ -35,20 +38,6 @@ export const technologies = [
 		ImageBgColor: "bg-[#000000]",
 		decription: "React Framework",
 		hover: "hover:shadow-[0px_0px_50px_1px_rgb(255,255,255,0.5)]"
-	},
-	{
-		name: "Appwrite",
-		imgURL: appwritelogo,
-		ImageBgColor: "bg-[#fd366e]/30",
-		decription: "Backend Service",
-		hover: "hover:shadow-[0px_0px_50px_1px_rgb(227,46,55,0.5)]"
-	},
-	{
-		name: "Convex",
-		imgURL: convex,
-		ImageBgColor: "bg-gradient-to-r from-purple-500/30 to-red-500/50",
-		decription: "Backend Service",
-		hover: "hover:shadow-[0px_0px_50px_1px_rgb(227,46,55,0.5)]"
 	},
 	{
 		name: "JavaScript",
@@ -79,25 +68,28 @@ export const technologies = [
 		hover: "hover:shadow-[0px_0px_50px_1px_rgb(174,23,208,0.5)]"
 	},
 	{
-		name: "GitHub",
-		imgURL: GitHubLogo,
-		ImageBgColor: "bg-black",
-		decription: "CI/CD Tool",
-		hover: "hover:shadow-[0px_0px_50px_1px_rgb(255,255,255,0.5)]"
+		name: "Bootstrap",
+		imgURL: BootstrapLogo,
+		ImageBgColor: "bg-purple-950",
+		decription: "Css Library",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(174,23,208,0.5)]"
+	},
+]
+
+export const backendTech = [
+	{
+		name: "Appwrite",
+		imgURL: appwritelogo,
+		ImageBgColor: "bg-[#fd366e]/30",
+		decription: "Backend Service",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(227,46,55,0.5)]"
 	},
 	{
-		name: "Git",
-		imgURL: gitlogo,
-		ImageBgColor: "bg-[#f1502f]/50",
-		decription: "CI/CD Tool",
-		hover: "hover:shadow-[0px_0px_50px_1px_rgb(242,78,30,0.5)]"
-	},
-	{
-		name: "Figma",
-		imgURL: FigmaLogo,
-		ImageBgColor: "bg-gradient-to-r from-orange-500 via-purple-500 to-green-500",
-		decription: "Designing Tool",
-		hover: "hover:shadow-[0px_0px_50px_1px_rgb(242,78,30,0.5)]"
+		name: "Convex",
+		imgURL: convex,
+		ImageBgColor: "bg-gradient-to-r from-purple-500/30 to-red-500/50",
+		decription: "Backend Service",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(227,46,55,0.5)]"
 	},
 	{
 		name: "Node.js",
@@ -105,34 +97,6 @@ export const technologies = [
 		ImageBgColor: "bg-green-950",
 		decription: "Javascript Runtime",
 		hover: "hover:shadow-[0px_0px_50px_1px_rgb(131,205,41,0.5)]"
-	},
-	{
-		name: "Npm",
-		imgURL: NpmLogo,
-		ImageBgColor: "bg-[#e32e37]",
-		decription: "Package Manager",
-		hover: "hover:shadow-[0px_0px_50px_1px_rgb(227,46,55,0.5)]"
-	},
-	{
-		name: "Bootstrap",
-		imgURL: BootstrapLogo,
-		ImageBgColor: "bg-purple-950",
-		decription: "Css Library",
-		hover: "hover:shadow-[0px_0px_50px_1px_rgb(174,23,208,0.5)]"
-	},
-	{
-		name: "Python",
-		imgURL: pythonLogo,
-		ImageBgColor: "bg-gradient-to-r from-yellow-500/50 to-blue-500/50",
-		decription: "Programming Language",
-		hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
-	},
-	{
-		name: "c#",
-		imgURL: csharpLogo,
-		ImageBgColor: "bg-purple-950",
-		decription: "Programming Language",
-		hover: "hover:shadow-[0px_0px_50px_1px_rgb(174,23,208,0.5)]"
 	},
 	{
 		name: "MSSQL server",
@@ -148,12 +112,95 @@ export const technologies = [
 		decription: "Database Tool",
 		hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
 	},
+]
+
+export const designTech = [
 	{
-		name: "Linux",
-		imgURL: LinuxLogo,
-		ImageBgColor: "bg-white",
-		decription: "Operating System",
+		name: "Figma",
+		imgURL: FigmaLogo,
+		ImageBgColor: "bg-gradient-to-r from-orange-500 via-purple-500 to-green-500",
+		decription: "Designing Tool",
 		hover: "hover:shadow-[0px_0px_50px_1px_rgb(242,78,30,0.5)]"
+	},
+	{
+		name: "Canva",
+        imgURL: canva,
+        ImageBgColor: "bg-blue-500",
+        decription: "Simple Designing tool",
+        hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
+	}
+]
+
+export const cloudTech = [
+	{
+		name: "Vercel",
+        imgURL: vercel,
+        ImageBgColor: "bg-white",
+        decription: "Cloud Hosting Platform",
+        hover: "hover:shadow-[0px_0px_50px_1px_rgb(255,255,245,0.5)]"
+	},
+	{
+		name: "Netlify",
+        imgURL: netlify,
+        ImageBgColor: "bg-blue-950",
+        decription: "Cloud Hosting Platform",
+        hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,255,245,0.5)]"
+	},
+	{
+		name: "Docker",
+        imgURL: docker,
+        ImageBgColor: "bg-blue-800",
+        decription: "Virtualizer",
+        hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
+	}
+]
+
+export const devTools = [
+	{
+		name: "GitHub",
+		imgURL: GitHubLogo,
+		ImageBgColor: "bg-black",
+		decription: "Code Sharibg Platform",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(255,255,255,0.5)]"
+	},
+	{
+		name: "Git",
+		imgURL: gitlogo,
+		ImageBgColor: "bg-[#f1502f]/50",
+		decription: "CI/CD Tool",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(242,78,30,0.5)]"
+	},
+	{
+		name: "Postman",
+		imgURL: postman,
+		ImageBgColor: "bg-[#f1502f]/50",
+		decription: "API Testing Tool",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(242,78,30,0.5)]"
+	},
+	{
+		name: "Visual Studio Code",
+		imgURL: vscode,
+		ImageBgColor: "bg-white",
+		decription: "IDE",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(63,120,245,0.5)]"
+	},
+]
+
+export const progLang = [
+	
+	{
+		name: "Python",
+		imgURL: pythonLogo,
+		ImageBgColor: "bg-gradient-to-r from-yellow-500/50 to-blue-500/50",
+		decription: "Programming Language",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
+	},
+	{
+		name: "c#",
+		imgURL: csharpLogo,
+		ImageBgColor: "bg-purple-950",
+		decription: "Programming Language",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(174,23,208,0.5)]"
 	},
 	{
 		name: "Java",
@@ -251,28 +298,28 @@ export const projectsData = [
 		description: "Layers landing page is a fully animated experience, bringing design to life with smooth transitions and interactive motion effects. Every scroll showcases the app’s features dynamically, making the introduction as engaging as the design process itself.",
 		live: "https://layers-design-tool.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/layers",
-		usedTech: ["Next.js","Typescript", "Tailwind.css", "Framer Motion"],
+		usedTech: ["Next.js", "Typescript", "Tailwind.css", "Framer Motion"],
 		featuresWithImages: [
 			{
-                description: "2 draggable designs (left and right)",
-                image: layers0,
-            },
-            {
-                description: "A moving logoticker and a text-based scroll animation",
-                image: layers1,
-            },
-            {
-                description: "Cards with multible effects and animations",
-                image: layers2,
-            },
-            {
-                description: "A single logoticker component with 2 directions passed as a property",
-                image: layers3,
-            },
-            {
-                description: "Accordions with beautiful animations",
-                image: layers4,
-            },
+				description: "2 draggable designs (left and right)",
+				image: layers0,
+			},
+			{
+				description: "A moving logoticker and a text-based scroll animation",
+				image: layers1,
+			},
+			{
+				description: "Cards with multible effects and animations",
+				image: layers2,
+			},
+			{
+				description: "A single logoticker component with 2 directions passed as a property",
+				image: layers3,
+			},
+			{
+				description: "Accordions with beautiful animations",
+				image: layers4,
+			},
 		],
 		hover: "group-hover:bg-lime-600/50 group-hover:blur-[150px]",
 	},
@@ -283,44 +330,44 @@ export const projectsData = [
 		description: "Enjoy a better project management experience with my new Jira Clone. It comes with a clean and modern design. The app uses Next.js, TypeScript, Tailwind CSS, and a custom API to fetch and display project data. You can easily create, edit, and delete projects, as well as add tasks to them. Keep track of your progress with a detailed statistics dashboard.",
 		live: "https://jira-clone-gamma-cyan.vercel.app/",
 		gitHUB: "https://github.com/legendofnoobs/jira_clone",
-		usedTech: ["Next.js","Typescript", "Appwrite", "Tailwind.css", "Hono.js", "Shadcn ui", "Tanstack query"],
+		usedTech: ["Next.js", "Typescript", "Appwrite", "Tailwind.css", "Hono.js", "Shadcn ui", "Tanstack query"],
 		featuresWithImages: [
 			{
 				description: "Simple Authentication",
 				image: image0,
 			},
 			{
-                description: "A dashboard to see and manage tasks, projects and members with workspaces",
-                image: image8,
-            },
-            {
-                description: "My tasks page for managing tasks accross all projects",
-                image: image1,
-            },
-            {
-                description: "A kanban board for managing tasks easily",
-                image: image5,
-            },
-            {
-                description: "Calendar view for better visualization about datelines",
-                image: image6,
-            },
-            {
-                description: "Deatailed Task page to add discription",
-                image: image7,
-            },
-            {
-                description: "Task creaction Modal",
-                image: image2,
-            },
-            {
-                description: "Workspace settings with invite system",
-                image: image3,
-            },
-            {
-                description: "A members list which can be used to set admins and regular members",
-                image: image4,
-            },
+				description: "A dashboard to see and manage tasks, projects and members with workspaces",
+				image: image8,
+			},
+			{
+				description: "My tasks page for managing tasks accross all projects",
+				image: image1,
+			},
+			{
+				description: "A kanban board for managing tasks easily",
+				image: image5,
+			},
+			{
+				description: "Calendar view for better visualization about datelines",
+				image: image6,
+			},
+			{
+				description: "Deatailed Task page to add discription",
+				image: image7,
+			},
+			{
+				description: "Task creaction Modal",
+				image: image2,
+			},
+			{
+				description: "Workspace settings with invite system",
+				image: image3,
+			},
+			{
+				description: "A members list which can be used to set admins and regular members",
+				image: image4,
+			},
 		],
 		hover: "group-hover:bg-red-600/50 group-hover:blur-[150px]",
 	},
@@ -338,25 +385,25 @@ export const projectsData = [
 				image: codeEditor,
 			},
 			{
-                description: "Different text sizes",
-                image: editor1,
-            },
-            {
-                description: "multi-language support (10 languages)",
-                image: editor2,
-            },
-            {
-                description: "Community-driven code sharing system",
-                image: editor3,
-            },
-            {
-                description: "Comments for the snippets",
-                image: editor5,
-            },
-            {
-                description: "Comprehensive statistics dashboard",
-                image: editor6,
-            },
+				description: "Different text sizes",
+				image: editor1,
+			},
+			{
+				description: "multi-language support (10 languages)",
+				image: editor2,
+			},
+			{
+				description: "Community-driven code sharing system",
+				image: editor3,
+			},
+			{
+				description: "Comments for the snippets",
+				image: editor5,
+			},
+			{
+				description: "Comprehensive statistics dashboard",
+				image: editor6,
+			},
 		],
 		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]",
 	},
@@ -374,33 +421,33 @@ export const projectsData = [
 				image: snapgramHighlight1,
 			},
 			{
-                description: "Homepage with sidebar navigation and top creator to follow",
-                image: SnapGram,
-            },
-            {
-                description: "Explore with search functionality",
-                image: snapgramHighlight4,
-            },
-            {
-                description: "Users page to follow",
-                image: snapgramHighlight5,
-            },
-            {
-                description: "Saving posts functionality",
-                image: snapgramHighlight2,
-            },
-            {
-                description: "post creation with uploading photos",
-                image: snapgramHighlight3,
-            },
-            {
-                description: "Profile editing page",
-                image: snapgramHighlight6,
-            },
-            {
-                description: "Profile page with viewing posted posts",
-                image: snapgramHighlight7,
-            },
+				description: "Homepage with sidebar navigation and top creator to follow",
+				image: SnapGram,
+			},
+			{
+				description: "Explore with search functionality",
+				image: snapgramHighlight4,
+			},
+			{
+				description: "Users page to follow",
+				image: snapgramHighlight5,
+			},
+			{
+				description: "Saving posts functionality",
+				image: snapgramHighlight2,
+			},
+			{
+				description: "post creation with uploading photos",
+				image: snapgramHighlight3,
+			},
+			{
+				description: "Profile editing page",
+				image: snapgramHighlight6,
+			},
+			{
+				description: "Profile page with viewing posted posts",
+				image: snapgramHighlight7,
+			},
 		],
 		hover: "group-hover:bg-pink-600/50 group-hover:blur-[150px]",
 	},
@@ -418,41 +465,41 @@ export const projectsData = [
 				image: Cover,
 			},
 			{
-                description: "",
-                image: groove1,
-            },
-            {
-                description: "",
-                image: groove2,
-            },
-            {
-                description: "",
-                image: groove3,
-            },
-            {
-                description: "",
-                image: groove4,
-            },
-            {
-                description: "",
-                image: groove5,
-            },
-            {
-                description: "",
-                image: groove6,
-            },
-            {
-                description: "",
-                image: groove7,
-            },
-            {
-                description: "",
-                image: groove8,
-            },
-            {
-                description: "",
-                image: groove9,
-            },
+				description: "",
+				image: groove1,
+			},
+			{
+				description: "",
+				image: groove2,
+			},
+			{
+				description: "",
+				image: groove3,
+			},
+			{
+				description: "",
+				image: groove4,
+			},
+			{
+				description: "",
+				image: groove5,
+			},
+			{
+				description: "",
+				image: groove6,
+			},
+			{
+				description: "",
+				image: groove7,
+			},
+			{
+				description: "",
+				image: groove8,
+			},
+			{
+				description: "",
+				image: groove9,
+			},
 		],
 		hover: "group-hover:bg-purple-600/50 group-hover:blur-[150px]"
 	},
@@ -471,27 +518,27 @@ export const OtherProjectsData = [
 		featuresWithImages: [
 			{
 				description: "",
-                image: GymApp,
+				image: GymApp,
 			},
 			{
 				description: "",
-                image: gym1,
+				image: gym1,
 			},
 			{
 				description: "",
-                image: gym2,
+				image: gym2,
 			},
 			{
 				description: "",
-                image: gym3,
+				image: gym3,
 			},
 			{
 				description: "",
-                image: gym4,
+				image: gym4,
 			},
 			{
 				description: "",
-                image: gym5,
+				image: gym5,
 			}
 		],
 		hover: "group-hover:bg-red-600/50 group-hover:blur-[150px]"
@@ -507,19 +554,19 @@ export const OtherProjectsData = [
 		featuresWithImages: [
 			{
 				description: "",
-                image: space1,
+				image: space1,
 			},
 			{
 				description: "",
-                image: space2,
+				image: space2,
 			},
 			{
 				description: "",
-                image: space3,
+				image: space3,
 			},
 			{
 				description: "",
-                image: space4,
+				image: space4,
 			},
 		],
 		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]"
