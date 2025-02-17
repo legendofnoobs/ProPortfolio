@@ -15,7 +15,7 @@ const SkillsSection = () => {
 				<div className="flex flex-col justify-center gap-6 items-center w-full">
 					<div className='w-fit rounded-xl border text-white shadow overflow-hidden border-neutral-600 bg-neutral-900'>
 						<div className='border-b border-neutral-600 py-4 px-6 w-full text-2xl'>Frontend Development</div>
-						<div className='grid grid-cols-1 md:grid-cols-2 gap-4 p-3 md:p-4 w-full max-w-5xl '>
+						<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-3 md:p-4 w-full max-w-5xl '>
 							{frontendTech.map((tech, index) => (
 								<motion.div key={index} className={`rounded-xl z-10 flex gap-5 items-center border-[1px] border-gray-800 p-2  bg-zinc-950 bg-gradient-to-r via-transparent ${tech.hover} transition-shadow duration-300 ease w-72 max-[745px]:w-72`} initial={{ opacity: 0, y: 20 }}
 									whileInView={{ opacity: 1, y: 0 }}
@@ -34,7 +34,7 @@ const SkillsSection = () => {
 					</div>
 					<div className='w-fit rounded-xl border text-white shadow overflow-hidden border-neutral-600 bg-neutral-900'>
 						<div className='border-b border-neutral-600 py-4 px-6 w-full text-2xl'>Backend Development</div>
-						<div className='grid grid-cols-1 md:grid-cols-2 gap-4 p-3 md:p-4 w-full max-w-5xl '>
+						<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-3 md:p-4 w-full max-w-5xl '>
 							{backendTech.map((tech, index) => (
 								<motion.div key={index} className={`rounded-xl z-10 flex gap-5 items-center border-[1px] border-gray-800 p-2  bg-zinc-950 bg-gradient-to-r via-transparent ${tech.hover} transition-shadow duration-300 ease w-72 max-[745px]:w-72`} initial={{ opacity: 0, y: 20 }}
 									whileInView={{ opacity: 1, y: 0 }}
@@ -54,7 +54,7 @@ const SkillsSection = () => {
 
 					<div className='w-fit rounded-xl border text-white shadow overflow-hidden border-neutral-600 bg-neutral-900'>
 						<div className='border-b border-neutral-600 py-4 px-6 w-full text-2xl'>Cloud Tools</div>
-						<div className='grid grid-cols-1 md:grid-cols-2 gap-4 p-3 md:p-4 w-full max-w-5xl '>
+						<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-3 md:p-4 w-full max-w-5xl '>
 							{cloudTech.map((tech, index) => (
 								<motion.div key={index} className={`rounded-xl z-10 flex gap-5 items-center border-[1px] border-gray-800 p-2  bg-zinc-950 bg-gradient-to-r via-transparent ${tech.hover} transition-shadow duration-300 ease w-72 max-[745px]:w-72`} initial={{ opacity: 0, y: 20 }}
 									whileInView={{ opacity: 1, y: 0 }}
@@ -74,7 +74,7 @@ const SkillsSection = () => {
 
 					<div className='w-fit rounded-xl border text-white shadow overflow-hidden border-neutral-600 bg-neutral-900'>
 						<div className='border-b border-neutral-600 py-4 px-6 w-full text-2xl'>Designing Tools</div>
-						<div className='grid grid-cols-1 md:grid-cols-2 gap-4 p-3 md:p-4 w-full max-w-5xl '>
+						<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-3 md:p-4 w-full max-w-5xl '>
 							{designTech.map((tech, index) => (
 								<motion.div key={index} className={`rounded-xl z-10 flex gap-5 items-center border-[1px] border-gray-800 p-2  bg-zinc-950 bg-gradient-to-r via-transparent ${tech.hover} transition-shadow duration-300 ease w-72 max-[745px]:w-72`} initial={{ opacity: 0, y: 20 }}
 									whileInView={{ opacity: 1, y: 0 }}
@@ -94,7 +94,7 @@ const SkillsSection = () => {
 
 					<div className='w-fit rounded-xl border text-white shadow overflow-hidden border-neutral-600 bg-neutral-900'>
 						<div className='border-b border-neutral-600 py-4 px-6 w-full text-2xl'>Development Tools</div>
-						<div className='grid grid-cols-1 md:grid-cols-2 gap-4 p-3 md:p-4 w-full max-w-5xl '>
+						<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-3 md:p-4 w-full max-w-5xl '>
 							{devTools.map((tech, index) => (
 								<motion.div key={index} className={`rounded-xl z-10 flex gap-5 items-center border-[1px] border-gray-800 p-2  bg-zinc-950 bg-gradient-to-r via-transparent ${tech.hover} transition-shadow duration-300 ease w-72 max-[745px]:w-72`} initial={{ opacity: 0, y: 20 }}
 									whileInView={{ opacity: 1, y: 0 }}
@@ -113,7 +113,7 @@ const SkillsSection = () => {
 					</div>
 					<div className='w-fit rounded-xl border text-white shadow overflow-hidden border-neutral-600 bg-neutral-900'>
 						<div className='border-b border-neutral-600 py-4 px-6 w-full text-2xl'>Programming Languages</div>
-						<div className='grid grid-cols-1 md:grid-cols-2 gap-4 p-3 md:p-4 w-full max-w-5xl '>
+						<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-3 md:p-4 w-full max-w-5xl '>
 							{progLang.map((tech, index) => (
 								<motion.div key={index} className={`rounded-xl z-10 flex gap-5 items-center border-[1px] border-gray-800 p-2  bg-zinc-950 bg-gradient-to-r via-transparent ${tech.hover} transition-shadow duration-300 ease w-72 max-[745px]:w-72`} initial={{ opacity: 0, y: 20 }}
 									whileInView={{ opacity: 1, y: 0 }}
