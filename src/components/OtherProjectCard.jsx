@@ -11,7 +11,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 const OtherProjectCard = (props) => {
 
 	return (
-		<motion.div className="h-fit w-[500px] p-2 rounded-3xl border-2 border-white/20 hover:shadow-[0px_0px_550px_10px_rgb(66,135,245,0.1)] transition-shadow duration-300 ease bg-gradient-to-r from-slate-800 via-slate-400 to-slate-800 group max-[1075px]:w-full" initial={{ opacity: 0, y: 200 }} whileInView={{ opacity: 1, y: 0 }} transition={{ type: "tween", duration: 0.5, delay: 0.2 }} viewport={{ once: true, amount: 0.3 }}>
+		<motion.div className="h-fit w-[440px] p-2 rounded-3xl border-2 border-white/20 hover:shadow-[0px_0px_550px_10px_rgb(66,135,245,0.1)] transition-shadow duration-300 ease bg-gradient-to-r from-slate-800 via-slate-400 to-slate-800 group max-[1075px]:w-full" initial={{ opacity: 0, y: 200 }} whileInView={{ opacity: 1, y: 0 }} transition={{ type: "tween", duration: 0.5, delay: 0.2 }} viewport={{ once: true, amount: 0.3 }}>
 			<div className="max-w-full h-fit p-6 bg-zinc-900 rounded-2xl flex flex-col items-start justify-start relative overflow-hidden gap-1 max-[450px]:p-3 max-[768px]:bg-gradient-to-b max-[768px]:from-red-600/50 max-[768px]:via-zinc-900 max-[768px]:to-blue-600/50">
 				<div className={`w-full h-full absolute bg-transparent transition-all ease-linear duration-300 rounded-full -top-72 z-0 ${props.hover}  max-[768px]:hidden`}></div>
 				<div className="flex flex-col justify-between items-start gap-5 w-full z-20 max-[1200px]:flex-col max-[1200px]:gap-y-5">

@@ -32,7 +32,7 @@ const Work = () => {
 	};
 
 	return (
-		<section className="w-full max-w-5xl m-auto flex flex-col items-start pt-10 pb-44 gap-y-10">
+		<section className="w-full max-w-5xl xl:max-w-4xl 2xl:max-w-5xl m-auto flex flex-col items-start pt-10 pb-44 gap-y-10">
 			<div className=" mb-20 m-auto flex flex-col justify-center items-center">
 				<Besmellah />
 				<motion.div animate={floatAnimation} className="w-fit h-fit bg-transparent border-[1px] rounded-full m-auto mt-16 p-2">

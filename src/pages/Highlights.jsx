@@ -21,7 +21,7 @@ const Highlights = () => {
 	}
 
 	return (
-		<section className="w-full max-w-5xl flex flex-col items-start pb-28 gap-y-5 m-auto">
+		<section className="w-full 2xl:max-w-5xl xl:max-w-4xl flex flex-col items-start pb-28 gap-y-5 m-auto">
 			{/* Back Button */}
 			<div className="fixed top-10 left-7 z-30">
 				<motion.button

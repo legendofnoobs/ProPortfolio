@@ -19,7 +19,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<motion.nav className="bg-transparent flex justify-between items-center p-7 max-[1560px]:bg-black/30 max-[1560px]:backdrop-blur-2xl" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ type: "tween", duration: 1 }}>
+		<motion.nav className="bg-transparent flex justify-between items-center p-7 backdrop-blur-2xl xl:backdrop-blur-none" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ type: "tween", duration: 1 }}>
 			<div className="w-60 max-[360px]:hidden text-nowrap">
 				<Link to={`/`}>
 					<h1 className="text-2xl max-[430px]:text-lg">Ahmed Rashed</h1>

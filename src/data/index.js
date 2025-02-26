@@ -294,7 +294,7 @@ export const projectsData = [
 	{
 		id: "14",
 		imgURL: layers0,
-		title: "Layers Landing Page",
+		title: "Layers Landing",
 		description: "Layers landing page is a fully animated experience, bringing design to life with smooth transitions and interactive motion effects. Every scroll showcases the app’s features dynamically, making the introduction as engaging as the design process itself.",
 		live: "https://layers-design-tool.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/layers",
@@ -454,7 +454,7 @@ export const projectsData = [
 	{
 		id: "3",
 		imgURL: Cover,
-		title: "A Music App Design",
+		title: "Music App Design",
 		description: "For Human Computer Interaction's course, I worked on this project with my colleagues to make a good looking UI inspired by Apple music and Spotify.",
 		live: "https://www.figma.com/design/SzKp1UwvKAnQsD3bWHa3bO/Music-App?node-id=0-1&t=59wQ2QfPncoLflLg-1",
 		gitHUB: groovePdf,
@@ -514,7 +514,7 @@ export const OtherProjectsData = [
 		description: "A simple Gym app to demonstrate React.js, Material UI and API skills. Made with a Freemium API so do not panic if the app do not load any exersices. It is Fully functional and responsive",
 		live: "https://minegymandexercisesapp.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/gym-app",
-		usedTech: ["React.js", "Tailwind.css", "RapidAPI", "MaterialUI"],
+		usedTech: ["React.js", "RapidAPI", "MaterialUI"],
 		featuresWithImages: [
 			{
 				description: "",
