@@ -11,6 +11,7 @@ const Besmellah = () => {
 				</ul>
 			</div>
 			<div className="max-w-full h-fit bg-zinc-900 rounded-b-2xl flex flex-col items-center justify-center gap-y-10 relative overflow-hidden py-16 md:py-32 lg:py-40 xl:py-32">
+				
 				<div className="w-[300px] h-[300px] absolute bg-red-600 blur-[100px] rounded-full -top-52 -right-10 z-0"></div>
 				<h1
 					className="text-8xl px-10 z-10 leading-tight max-[450px]:text-5xl max-[1036px]:text-6xl group"
