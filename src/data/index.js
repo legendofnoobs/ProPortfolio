@@ -124,34 +124,34 @@ export const designTech = [
 	},
 	{
 		name: "Canva",
-        imgURL: canva,
-        ImageBgColor: "bg-blue-500",
-        decription: "Simple Designing tool",
-        hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
+		imgURL: canva,
+		ImageBgColor: "bg-blue-500",
+		decription: "Simple Designing tool",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
 	}
 ]
 
 export const cloudTech = [
 	{
 		name: "Vercel",
-        imgURL: vercel,
-        ImageBgColor: "bg-white",
-        decription: "Cloud Hosting Platform",
-        hover: "hover:shadow-[0px_0px_50px_1px_rgb(255,255,245,0.5)]"
+		imgURL: vercel,
+		ImageBgColor: "bg-white",
+		decription: "Cloud Hosting Platform",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(255,255,245,0.5)]"
 	},
 	{
 		name: "Netlify",
-        imgURL: netlify,
-        ImageBgColor: "bg-blue-950",
-        decription: "Cloud Hosting Platform",
-        hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,255,245,0.5)]"
+		imgURL: netlify,
+		ImageBgColor: "bg-blue-950",
+		decription: "Cloud Hosting Platform",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,255,245,0.5)]"
 	},
 	{
 		name: "Docker",
-        imgURL: docker,
-        ImageBgColor: "bg-blue-800",
-        decription: "Virtualizer",
-        hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
+		imgURL: docker,
+		ImageBgColor: "bg-blue-800",
+		decription: "Virtualizer",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
 	}
 ]
 
@@ -187,7 +187,7 @@ export const devTools = [
 ]
 
 export const progLang = [
-	
+
 	{
 		name: "Python",
 		imgURL: pythonLogo,
@@ -220,13 +220,9 @@ export const progLang = [
 
 // =================================================================
 import Cover from "../assets/ProjectsAssets/Cover.webp";
-import MusicPlayer from "../assets/ProjectsAssets/Music Player.webp";
 import SpaceTourism from "../assets/ProjectsAssets/Space tourism.webp";
-import TodoApp from "../assets/ProjectsAssets/Todo app.webp";
 import WeatherApp from "../assets/ProjectsAssets/Weather app.webp";
-import PortfolioV2 from "../assets/ProjectsAssets/PortfolioV2.png";
 import NikeLanding from "../assets/ProjectsAssets/Nike Landing.webp";
-import MoviesLand from "../assets/ProjectsAssets/MoviesLand.webp";
 import GymApp from "../assets/ProjectsAssets/GymApp.webp";
 import SnapGram from "../assets/ProjectsAssets/SnapGram.png";
 // =====================================================================
@@ -291,38 +287,6 @@ export const cvLink = "https://docs.google.com/document/d/e/2PACX-1vRXb2_UZhZKpH
 
 
 export const projectsData = [
-	{
-		id: "14",
-		imgURL: layers0,
-		title: "Layers Landing",
-		description: "Layers landing page is a fully animated experience, bringing design to life with smooth transitions and interactive motion effects. Every scroll showcases the app’s features dynamically, making the introduction as engaging as the design process itself.",
-		live: "https://layers-design-tool.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/layers",
-		usedTech: ["Next.js", "Typescript", "Tailwind.css", "Framer Motion"],
-		featuresWithImages: [
-			{
-				description: "2 draggable designs (left and right)",
-				image: layers0,
-			},
-			{
-				description: "A moving logoticker and a text-based scroll animation",
-				image: layers1,
-			},
-			{
-				description: "Cards with multible effects and animations",
-				image: layers2,
-			},
-			{
-				description: "A single logoticker component with 2 directions passed as a property",
-				image: layers3,
-			},
-			{
-				description: "Accordions with beautiful animations",
-				image: layers4,
-			},
-		],
-		hover: "group-hover:bg-lime-600/50 group-hover:blur-[150px]",
-	},
 	{
 		id: "13",
 		imgURL: image1,
@@ -410,7 +374,7 @@ export const projectsData = [
 	{
 		id: "1",
 		imgURL: SnapGram,
-		title: "SnapGram",
+		title: "Snapgram",
 		description: "Build a modern social app with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance. It is Fully functional and responsive",
 		live: "https://snap-graam.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/SnapGram",
@@ -451,62 +415,42 @@ export const projectsData = [
 		],
 		hover: "group-hover:bg-pink-600/50 group-hover:blur-[150px]",
 	},
-	{
-		id: "3",
-		imgURL: Cover,
-		title: "Music App Design",
-		description: "For Human Computer Interaction's course, I worked on this project with my colleagues to make a good looking UI inspired by Apple music and Spotify.",
-		live: "https://www.figma.com/design/SzKp1UwvKAnQsD3bWHa3bO/Music-App?node-id=0-1&t=59wQ2QfPncoLflLg-1",
-		gitHUB: groovePdf,
-		usedTech: ["Figma"],
-		featuresWithImages: [
-			{
-				description: "",
-				image: Cover,
-			},
-			{
-				description: "",
-				image: groove1,
-			},
-			{
-				description: "",
-				image: groove2,
-			},
-			{
-				description: "",
-				image: groove3,
-			},
-			{
-				description: "",
-				image: groove4,
-			},
-			{
-				description: "",
-				image: groove5,
-			},
-			{
-				description: "",
-				image: groove6,
-			},
-			{
-				description: "",
-				image: groove7,
-			},
-			{
-				description: "",
-				image: groove8,
-			},
-			{
-				description: "",
-				image: groove9,
-			},
-		],
-		hover: "group-hover:bg-purple-600/50 group-hover:blur-[150px]"
-	},
 ]
 
 
 export const OtherProjectsData = [
+	{
+		id: "14",
+		imgURL: layers0,
+		title: "Layers Landing",
+		description: "Layers landing page is a fully animated experience, bringing design to life with smooth transitions and interactive motion effects. Every scroll showcases the app’s features dynamically, making the introduction as engaging as the design process itself.",
+		live: "https://layers-design-tool.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/layers",
+		usedTech: ["Next.js", "Tailwind.css", "Framer Motion"],
+		featuresWithImages: [
+			{
+				description: "2 draggable designs (left and right)",
+				image: layers0,
+			},
+			{
+				description: "A moving logoticker and a text-based scroll animation",
+				image: layers1,
+			},
+			{
+				description: "Cards with multible effects and animations",
+				image: layers2,
+			},
+			{
+				description: "A single logoticker component with 2 directions passed as a property",
+				image: layers3,
+			},
+			{
+				description: "Accordions with beautiful animations",
+				image: layers4,
+			},
+		],
+		hover: "group-hover:bg-lime-600/50 group-hover:blur-[150px]",
+	},
 	{
 		id: "2",
 		imgURL: GymApp,
@@ -572,34 +516,56 @@ export const OtherProjectsData = [
 		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]"
 	},
 	{
-		id: "6",
-		imgURL: MusicPlayer,
-		title: "Music Player",
-		description: "A simple Music app to demonstrate my skills in JavaScript and CSS. Some music to chill and keep calm. It is Fully functional and responsive",
-		live: "https://musicplayerlegendofnoobs.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/music-player",
-		usedTech: ["HTML", "CSS", "JavaScript"],
-		hover: "group-hover:bg-yellow-600/50 group-hover:blur-[150px]"
-	},
-	{
-		id: "7",
-		imgURL: PortfolioV2,
-		title: "PortfolioV2",
-		description: "A simple PortfolioV2 to demonstrate React.js, Tailwind.css, and Framer Motion skills. It is Fully functional and responsive",
-		live: "https://ahmedalirashedv2.netlify.app/#Home",
-		gitHUB: "https://github.com/legendofnoobs/React-Portfolio",
-		usedTech: ["React.js", "Tailwind.css", "Framer Motion"],
-		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]"
-	},
-	{
-		id: "8",
-		imgURL: WeatherApp,
-		title: "Weather App",
-		description: "A simple Weather app to demonstrate JavaScript skills. Made this app as an individual project before college requested a web development course's project and just handed it 💀. It is Fully functional and responsive",
-		live: "https://weatherapplegendofnoobs.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/WeatherApp",
-		usedTech: ["HTML", "CSS", "JavaScript", "API"],
-		hover: "group-hover:bg-violet-600/50 group-hover:blur-[150px]"
+		id: "3",
+		imgURL: Cover,
+		title: "Music App Design",
+		description: "For Human Computer Interaction's course, I worked on this project with my colleagues to make a good looking UI inspired by Apple music and Spotify.",
+		live: "https://www.figma.com/design/SzKp1UwvKAnQsD3bWHa3bO/Music-App?node-id=0-1&t=59wQ2QfPncoLflLg-1",
+		gitHUB: groovePdf,
+		usedTech: ["Figma"],
+		featuresWithImages: [
+			{
+				description: "",
+				image: Cover,
+			},
+			{
+				description: "",
+				image: groove1,
+			},
+			{
+				description: "",
+				image: groove2,
+			},
+			{
+				description: "",
+				image: groove3,
+			},
+			{
+				description: "",
+				image: groove4,
+			},
+			{
+				description: "",
+				image: groove5,
+			},
+			{
+				description: "",
+				image: groove6,
+			},
+			{
+				description: "",
+				image: groove7,
+			},
+			{
+				description: "",
+				image: groove8,
+			},
+			{
+				description: "",
+				image: groove9,
+			},
+		],
+		hover: "group-hover:bg-purple-600/50 group-hover:blur-[150px]"
 	},
 	{
 		id: "9",
@@ -612,24 +578,13 @@ export const OtherProjectsData = [
 		hover: "group-hover:bg-orange-600/50 group-hover:blur-[150px]"
 	},
 	{
-		id: "10",
-		imgURL: MoviesLand,
-		title: "MoviesLand Website",
-		description: "A simple movies website to demonstrate React.js, css, and API skills. It is Fully functional and responsive",
-		live: "https://movieslandlegendofnoobs.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/movie-app",
-		usedTech: ["React.js", "CSS", "API"],
-		hover: "group-hover:bg-yellow-600/50 group-hover:blur-[150px]"
+		id: "8",
+		imgURL: WeatherApp,
+		title: "Weather App",
+		description: "A simple Weather app to demonstrate JavaScript skills. Made this app as an individual project before college requested a web development course's project and just handed it 💀. It is Fully functional and responsive",
+		live: "https://weatherapplegendofnoobs.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/WeatherApp",
+		usedTech: ["HTML", "CSS", "JavaScript", "API"],
+		hover: "group-hover:bg-violet-600/50 group-hover:blur-[150px]"
 	},
-	{
-		id: "11",
-		imgURL: TodoApp,
-		title: "Todo App",
-		description: "A simple Todo app to demonstrate JavaScript and React skills. It is Fully functional and responsive",
-		live: "https://todoappahemdali.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/todo-app",
-		usedTech: ["React.js", "CSS", "Local Storage"],
-		hover: "group-hover:bg-red-600/50 group-hover:blur-[150px]"
-	},
-
 ]

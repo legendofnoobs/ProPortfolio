@@ -19,7 +19,7 @@ const OtherProjectCard = (props) => {
 						<h1 className="text-3xl z-10 text-nowrap">{props.title}</h1>
 					</div>
 					<div className="w-full text-nowrap flex flex-col gap-5 mb-5">
-						<ul className="flex flex-wrap gap-3">
+						<ul className="flex flex-wrap gap-2">
 							{props.usedTech.map((tech, index) => (
 								<li key={index} className="px-3 py-1 w-fit bg-white/10 rounded-full max-[540px]:text-sm">{tech}</li>
 							))}
