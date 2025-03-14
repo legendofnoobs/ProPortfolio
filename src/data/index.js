@@ -233,6 +233,7 @@ import snapgramHighlight4 from "../assets/ProjectsAssets/Highlights/snapgram/sna
 import snapgramHighlight5 from "../assets/ProjectsAssets/Highlights/snapgram/snapgramHighlight5.webp"
 import snapgramHighlight6 from "../assets/ProjectsAssets/Highlights/snapgram/snapgram6.png"
 import snapgramHighlight7 from "../assets/ProjectsAssets/Highlights/snapgram/snapgram7.png"
+import snapgramMain from "../assets/ProjectsAssets/Highlights/snapgram/660shots_so.png"
 // =====================================================================
 import gym1 from "../assets/ProjectsAssets/Highlights/gymapp/gym1.webp"
 import gym2 from "../assets/ProjectsAssets/Highlights/gymapp/gym2.webp"
@@ -263,6 +264,7 @@ import editor2 from "../assets/ProjectsAssets/Highlights/codeEditor/editor2.webp
 import editor3 from "../assets/ProjectsAssets/Highlights/codeEditor/editor3.webp"
 import editor5 from "../assets/ProjectsAssets/Highlights/codeEditor/editor5.webp"
 import editor6 from "../assets/ProjectsAssets/Highlights/codeEditor/editor6.webp"
+import editorMainImage from "../assets/ProjectsAssets/Highlights/codeEditor/970shots_so.png"
 // =====================================================================
 import image0 from "../assets/ProjectsAssets/Highlights/jiraClone/image0.webp"
 import image1 from "../assets/ProjectsAssets/Highlights/jiraClone/image1.webp"
@@ -273,6 +275,7 @@ import image5 from "../assets/ProjectsAssets/Highlights/jiraClone/image5.webp"
 import image6 from "../assets/ProjectsAssets/Highlights/jiraClone/image6.webp"
 import image7 from "../assets/ProjectsAssets/Highlights/jiraClone/image7.webp"
 import image8 from "../assets/ProjectsAssets/Highlights/jiraClone/image0 (2).webp"
+import jiraMainImage from "../assets/ProjectsAssets/Highlights/jiraClone/500shots_so.png"
 // =====================================================================
 import layers0 from "../assets/ProjectsAssets/Highlights/Layers/image0.webp"
 import layers1 from "../assets/ProjectsAssets/Highlights/Layers/image1.webp"
@@ -289,7 +292,7 @@ export const cvLink = "https://docs.google.com/document/d/e/2PACX-1vRXb2_UZhZKpH
 export const projectsData = [
 	{
 		id: "13",
-		imgURL: image1,
+		imgURL: jiraMainImage,
 		title: "Jira Clone",
 		description: "Enjoy a better project management experience with my new Jira Clone. It comes with a clean and modern design. The app uses Next.js, TypeScript, Tailwind CSS, and a custom API to fetch and display project data. You can easily create, edit, and delete projects, as well as add tasks to them. Keep track of your progress with a detailed statistics dashboard.",
 		live: "https://jira-clone-gamma-cyan.vercel.app/",
@@ -337,7 +340,7 @@ export const projectsData = [
 	},
 	{
 		id: "12",
-		imgURL: codeEditor,
+		imgURL: editorMainImage,
 		title: "Code Editor",
 		description: "Enjoy a better coding experience with my new code editor. It comes with colorful themes like those in VSCode and supports 10 different programming languages. Keep track of your work with a personal profile that shows your code history, and easily see if your code runs successfully or has errors. Find what you need quickly with advanced search and filtering features. Share your code with others in our community and see your progress with a detailed statistics dashboard. Plus, you can adjust the font size to make your coding environment just right for you.",
 		live: "https://code-editor-nine-chi.vercel.app/",
@@ -373,7 +376,7 @@ export const projectsData = [
 	},
 	{
 		id: "1",
-		imgURL: SnapGram,
+		imgURL: snapgramMain,
 		title: "Snapgram",
 		description: "Build a modern social app with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance. It is Fully functional and responsive",
 		live: "https://snap-graam.netlify.app/",
