@@ -160,7 +160,7 @@ export const devTools = [
 		name: "GitHub",
 		imgURL: GitHubLogo,
 		ImageBgColor: "bg-black",
-		decription: "Code Sharibg Platform",
+		decription: "Code Sharing Platform",
 		hover: "hover:shadow-[0px_0px_50px_1px_rgb(255,255,255,0.5)]"
 	},
 	{
