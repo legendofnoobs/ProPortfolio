@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 
 import Lenis from "lenis";
 import { useEffect } from "react";
+import CursorBlur from "./components/CursorBlur";
 
 export default function App() {
   useEffect(() => {
@@ -31,6 +32,7 @@ const MainLayout = () => {
 
   return (
     <>
+      <CursorBlur />
       {!isHighlightsPage && (
         <header className="fixed w-full z-30">
           <Navbar />
