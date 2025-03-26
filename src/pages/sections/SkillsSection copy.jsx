@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { frontendTech, backendTech, designTech, cloudTech, devTools, progLang } from '../../data/index.js'; 
+import { frontendTech, backendTech, designTech, cloudTech, devTools, progLang } from '../../data/index.js';
 import { motion } from 'motion/react';
 
 const categories = [
@@ -19,7 +19,9 @@ const TechCategory = ({ title, data }) => (
                 <motion.div key={index} className={`rounded-xl z-10 flex gap-5 items-center border-[1px] border-gray-800 p-2 bg-zinc-950 bg-gradient-to-r via-transparent ${tech.hover} transition-shadow duration-300 ease w-72 md:w-72`} initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: index * 0.2 }}
-                    viewport={{ once: true }}>
+                    viewport={{ once: true }}
+                    drag
+                    dragConstraints={{ top: 0, bottom: 0, right: 0, left: 0 }}>
                     <div className={`p-2 ${tech.ImageBgColor} rounded-lg aspect-square`}>
                         <img src={tech.imgURL} alt={tech.name} className="w-9 h-9 max-[540px]:rounded-md aspect-square" />
                     </div>
