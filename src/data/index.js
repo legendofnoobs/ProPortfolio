@@ -23,6 +23,9 @@ import docker from "../assets/tech/Docker.webp"
 import netlify from "../assets/tech/netlify.png"
 import postman from "../assets/tech/postman.svg"
 import vscode from "../assets/tech/vscode.png"
+import express from "../assets/tech/express-js.png"
+import mongo from "../assets/tech/mongodb.svg"
+import trae from "../assets/tech/trae.png"
 
 export const frontendTech = [
 	{
@@ -99,11 +102,18 @@ export const backendTech = [
 		hover: "hover:shadow-[0px_0px_50px_1px_rgb(131,205,41,0.5)]"
 	},
 	{
-		name: "MSSQL server",
-		imgURL: MSSql,
-		ImageBgColor: "bg-white/50",
+		name: "Express.js",
+		imgURL: express,
+		ImageBgColor: "bg-yellow-500",
+		decription: "Javascript Framework",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(240,219,79,0.5)]"	
+	},
+	{
+		name: "MongoDB",
+		imgURL: mongo,
+		ImageBgColor: "bg-green-950",
 		decription: "Database Tool",
-		hover: "hover:shadow-[0px_0px_50px_1px_rgb(255,255,255,0.5)]"
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(131,205,41,0.5)]"	
 	},
 	{
 		name: "MySql",
@@ -112,6 +122,13 @@ export const backendTech = [
 		decription: "Database Tool",
 		hover: "hover:shadow-[0px_0px_50px_1px_rgb(66,135,245,0.5)]"
 	},
+	{
+		name: "MSSQL server",
+		imgURL: MSSql,
+		ImageBgColor: "bg-white/50",
+		decription: "Database Tool",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(255,255,255,0.5)]"
+	}
 ]
 
 export const designTech = [
@@ -184,6 +201,13 @@ export const devTools = [
 		decription: "IDE",
 		hover: "hover:shadow-[0px_0px_50px_1px_rgb(63,120,245,0.5)]"
 	},
+	{
+		name: "Trae",
+		imgURL: trae,
+		ImageBgColor: "bg-[#f1502f]/50",
+		decription: "IDE (using it now)",
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(242,78,30,0.5)]"
+	}
 ]
 
 export const progLang = [
@@ -283,6 +307,9 @@ import layers2 from "../assets/ProjectsAssets/Highlights/Layers/image2.webp"
 import layers3 from "../assets/ProjectsAssets/Highlights/Layers/image3.webp"
 import layers4 from "../assets/ProjectsAssets/Highlights/Layers/image4.webp"
 // =====================================================================
+import notely from "../assets/ProjectsAssets/Highlights/notely/notely.webp"
+import notely2 from "../assets/ProjectsAssets/Highlights/notely/notely2.webp"
+import notelyin from "../assets/ProjectsAssets/Highlights/notely/notelyin.webp"
 
 import groovePdf from "../assets/pdf/GrooveMusicApp.pdf"
 
@@ -418,6 +445,26 @@ export const projectsData = [
 		],
 		hover: "group-hover:bg-pink-600/50 group-hover:blur-[150px]",
 	},
+	{
+		id: "15",
+		imgURL: notely,
+		title: "Notely",
+		description: "Notely is a simple and elegant note-taking app that allows you to create, edit, and organize your notes with ease. It is built with React.js, Tailwind.css, Express.js and mongodb. It is fully functional.",
+		live: "https://note-taking-app-five-wine.vercel.app/",
+		gitHUB: "https://github.com/legendofnoobs/note-taking-app",
+		usedTech: ["React.js", "Tailwind.css", "Express.js", "MongoDB", "Prime React Editor"],
+		featuresWithImages: [
+			{
+				description: "Simple Authentication",
+				image: notely2,
+			},
+			{
+				description: "Homepage with sidebar navigation for several tabs. note creation, update, delete, archieve and view notes. Autosave and search notes",
+				image: notelyin,
+			},
+		],
+		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]",
+	}
 ]
 
 
