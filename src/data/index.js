@@ -211,7 +211,6 @@ export const devTools = [
 ]
 
 export const progLang = [
-
 	{
 		name: "Python",
 		imgURL: pythonLogo,
@@ -310,6 +309,15 @@ import layers4 from "../assets/ProjectsAssets/Highlights/Layers/image4.webp"
 import notely from "../assets/ProjectsAssets/Highlights/notely/notely.webp"
 import notely2 from "../assets/ProjectsAssets/Highlights/notely/notely2.webp"
 import notelyin from "../assets/ProjectsAssets/Highlights/notely/notelyin.webp"
+// =====================================================================
+import liveDocs1 from "../assets/ProjectsAssets/Highlights/liveDocs/liveDocs1.webp"
+import liveDocs2 from "../assets/ProjectsAssets/Highlights/liveDocs/liveDocs2.webp"
+import liveDocs3 from "../assets/ProjectsAssets/Highlights/liveDocs/liveDocs3.webp"
+import liveDocs4 from "../assets/ProjectsAssets/Highlights/liveDocs/liveDocs4.webp"
+import liveDocs5 from "../assets/ProjectsAssets/Highlights/liveDocs/liveDocs5.webp"
+import liveDocsCover from "../assets/ProjectsAssets/Highlights/liveDocs/LiveDocsCover.png"
+
+// =====================================================================
 
 import groovePdf from "../assets/pdf/GrooveMusicApp.pdf"
 
@@ -317,6 +325,37 @@ export const cvLink = "https://docs.google.com/document/d/e/2PACX-1vRXb2_UZhZKpH
 
 
 export const projectsData = [
+	{
+		id: "14",
+		imgURL: liveDocsCover,
+		title: "Live Docs",
+		description: "Live Docs is a real-time document collaboration platform that allows multiple users to work on the same document simultaneously. It uses Next.js, TypeScript, Tailwind CSS, and a Liveblocks to fetch and display project data. You can easily create, edit, and delete projects. Keep track of your progress with a dashboard.",
+		live: "https://live-docs-kappa-virid.vercel.app",
+		gitHUB: "https://github.com/legendofnoobs/live-docs",
+		usedTech: ["Next.js", "Typescript", "Tailwind.css", "Liveblocks", "Shadcn ui", "JSM Editor"],
+		featuresWithImages: [
+			{
+				discription: "Authentication with Google",
+				image: liveDocs2
+			},
+			{
+				discription: "Comments and Mentions System",
+				image: liveDocs1
+			},
+			{
+				discription: "Real-time collaboration with share modal and permissions",
+				image: liveDocs5
+			},
+			{
+				discription: "Multiple Documents support",
+				image: liveDocs3
+			},
+			{
+				discription: "Notification System and User-friendly interface",
+				image: liveDocs4
+			},
+		]
+	},
 	{
 		id: "13",
 		imgURL: jiraMainImage,
