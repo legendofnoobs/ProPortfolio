@@ -335,23 +335,23 @@ export const projectsData = [
 		usedTech: ["Next.js", "Typescript", "Tailwind.css", "Liveblocks", "Shadcn ui", "JSM Editor"],
 		featuresWithImages: [
 			{
-				discription: "Authentication with Google",
+				description: "Authentication with Google",
 				image: liveDocs2
 			},
 			{
-				discription: "Comments and Mentions System",
+				description: "Comments and Mentions System",
 				image: liveDocs1
 			},
 			{
-				discription: "Real-time collaboration with share modal and permissions",
+				description: "Real-time collaboration with share modal and permissions",
 				image: liveDocs5
 			},
 			{
-				discription: "Multiple Documents support",
+				description: "Multiple Documents support",
 				image: liveDocs3
 			},
 			{
-				discription: "Notification System and User-friendly interface",
+				description: "Notification System and User-friendly interface",
 				image: liveDocs4
 			},
 		],
