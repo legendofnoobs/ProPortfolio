@@ -354,7 +354,8 @@ export const projectsData = [
 				discription: "Notification System and User-friendly interface",
 				image: liveDocs4
 			},
-		]
+		],
+		hover: "group-hover:bg-orange-600/50 group-hover:blur-[150px]",
 	},
 	{
 		id: "13",
@@ -483,26 +484,6 @@ export const projectsData = [
 			},
 		],
 		hover: "group-hover:bg-pink-600/50 group-hover:blur-[150px]",
-	},
-	{
-		id: "15",
-		imgURL: notely,
-		title: "Notely",
-		description: "Notely is a simple and elegant note-taking app that allows you to create, edit, and organize your notes with ease. It is built with React.js, Tailwind.css, Express.js and mongodb. It is fully functional.",
-		live: "https://note-taking-app-five-wine.vercel.app/",
-		gitHUB: "https://github.com/legendofnoobs/note-taking-app",
-		usedTech: ["React.js", "Tailwind.css", "Express.js", "MongoDB", "Prime React Editor"],
-		featuresWithImages: [
-			{
-				description: "Simple Authentication",
-				image: notely2,
-			},
-			{
-				description: "Homepage with sidebar navigation for several tabs. note creation, update, delete, archieve and view notes. Autosave and search notes",
-				image: notelyin,
-			},
-		],
-		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]",
 	}
 ]
 
@@ -575,6 +556,26 @@ export const OtherProjectsData = [
 			}
 		],
 		hover: "group-hover:bg-red-600/50 group-hover:blur-[150px]"
+	},
+	{
+		id: "15",
+		imgURL: notely,
+		title: "Notely",
+		description: "Notely is a simple and elegant note-taking app that allows you to create, edit, and organize your notes with ease. It is built with React.js, Tailwind.css, Express.js and mongodb. It is fully functional.",
+		live: "https://note-taking-app-five-wine.vercel.app/",
+		gitHUB: "https://github.com/legendofnoobs/note-taking-app",
+		usedTech: ["React.js", "Tailwind.css", "Express.js", "MongoDB"],
+		featuresWithImages: [
+			{
+				description: "Simple Authentication",
+				image: notely2,
+			},
+			{
+				description: "Homepage with sidebar navigation for several tabs. note creation, update, delete, archieve and view notes. Autosave and search notes",
+				image: notelyin,
+			},
+		],
+		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]",
 	},
 	{
 		id: "5",

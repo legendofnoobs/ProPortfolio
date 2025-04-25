@@ -9,9 +9,9 @@ const OtherWork = () => {
 		<>
 			<h1 className="text-4xl">⬇️ <span style={{ textShadow: "0px 0px 10px white" }}>Other Work</span></h1>
 			<div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-5 w-full">
-				{OtherProjectsData.map((project) => (
+				{OtherProjectsData.map((project, index) => (
 					<div
-						key={project.id}
+						key={index}
 						className={`transition-all duration-300 ${
 							hoveredId !== null && hoveredId !== project.id ? "blur-sm" : "opacity-100"
 						}`}
