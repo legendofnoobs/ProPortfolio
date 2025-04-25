@@ -310,12 +310,12 @@ import notely from "../assets/ProjectsAssets/Highlights/notely/notely.webp"
 import notely2 from "../assets/ProjectsAssets/Highlights/notely/notely2.webp"
 import notelyin from "../assets/ProjectsAssets/Highlights/notely/notelyin.webp"
 // =====================================================================
-import liveDocs1 from "../assets/ProjectsAssets/Highlights/liveDocs/liveDocs1.webp"
-import liveDocs2 from "../assets/ProjectsAssets/Highlights/liveDocs/liveDocs2.webp"
-import liveDocs3 from "../assets/ProjectsAssets/Highlights/liveDocs/liveDocs3.webp"
-import liveDocs4 from "../assets/ProjectsAssets/Highlights/liveDocs/liveDocs4.webp"
-import liveDocs5 from "../assets/ProjectsAssets/Highlights/liveDocs/liveDocs5.webp"
-import liveDocsCover from "../assets/ProjectsAssets/Highlights/liveDocs/LiveDocsCover.png"
+import liveDocsCover from "../assets/ProjectsAssets/Highlights/LiveDocs/LiveDocsCover.png"
+import liveDocs1 from "../assets/ProjectsAssets/Highlights/LiveDocs/liveDocs1.webp"
+import liveDocs2 from "../assets/ProjectsAssets/Highlights/LiveDocs/liveDocs2.webp"
+import liveDocs3 from "../assets/ProjectsAssets/Highlights/LiveDocs/liveDocs3.webp"
+import liveDocs4 from "../assets/ProjectsAssets/Highlights/LiveDocs/liveDocs4.webp"
+import liveDocs5 from "../assets/ProjectsAssets/Highlights/LiveDocs/liveDocs5.webp"
 
 // =====================================================================
 
