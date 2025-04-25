@@ -13,7 +13,7 @@ const HighlightsCard = (props) => {
             transition={{ duration: 1 }}
         >
             <div className="mb-3 w-full">
-                <img src={props.image} alt="image" className="rounded-lg border border-neutral-900 aspect-video" width={1600} height={900} />
+                <img src={props.image} alt="image" className="rounded-lg border border-neutral-900 aspect-video hover:shadow-[0px_0px_550px_10px_rgb(66,135,245,0.1)] transition-shadow duration-300 ease" width={1600} height={900} />
             </div>
             {
                 props.description && <div className="mb-10">
