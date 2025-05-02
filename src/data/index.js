@@ -326,7 +326,7 @@ export const cvLink = "https://docs.google.com/document/d/e/2PACX-1vRXb2_UZhZKpH
 
 export const projectsData = [
 	{
-		id: "15",
+		id: "16",
 		imgURL: liveDocsCover,
 		title: "Live Docs",
 		description: "Live Docs is a real-time document collaboration platform that allows multiple users to work on the same document simultaneously. It uses Next.js, TypeScript, Tailwind CSS, and a Liveblocks to fetch and display project data. You can easily create, edit, and delete projects. Keep track of your progress with a dashboard.",
