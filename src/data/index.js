@@ -106,14 +106,14 @@ export const backendTech = [
 		imgURL: express,
 		ImageBgColor: "bg-yellow-500",
 		decription: "Javascript Framework",
-		hover: "hover:shadow-[0px_0px_50px_1px_rgb(240,219,79,0.5)]"	
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(240,219,79,0.5)]"
 	},
 	{
 		name: "MongoDB",
 		imgURL: mongo,
 		ImageBgColor: "bg-green-950",
 		decription: "Database Tool",
-		hover: "hover:shadow-[0px_0px_50px_1px_rgb(131,205,41,0.5)]"	
+		hover: "hover:shadow-[0px_0px_50px_1px_rgb(131,205,41,0.5)]"
 	},
 	{
 		name: "MySql",
@@ -247,16 +247,12 @@ import SpaceTourism from "../assets/ProjectsAssets/Space tourism.webp";
 import WeatherApp from "../assets/ProjectsAssets/Weather app.webp";
 import NikeLanding from "../assets/ProjectsAssets/Nike Landing.webp";
 import GymApp from "../assets/ProjectsAssets/GymApp.webp";
-import SnapGram from "../assets/ProjectsAssets/SnapGram.png";
 // =====================================================================
-import snapgramHighlight1 from "../assets/ProjectsAssets/Highlights/snapgram/snapgramHighlight1.webp"
-import snapgramHighlight2 from "../assets/ProjectsAssets/Highlights/snapgram/snapgramHighlight2.webp"
-import snapgramHighlight3 from "../assets/ProjectsAssets/Highlights/snapgram/snapgramHighlight3.webp"
-import snapgramHighlight4 from "../assets/ProjectsAssets/Highlights/snapgram/snapgramHighlight4.webp"
-import snapgramHighlight5 from "../assets/ProjectsAssets/Highlights/snapgram/snapgramHighlight5.webp"
-import snapgramHighlight6 from "../assets/ProjectsAssets/Highlights/snapgram/snapgram6.png"
-import snapgramHighlight7 from "../assets/ProjectsAssets/Highlights/snapgram/snapgram7.png"
-import snapgramMain from "../assets/ProjectsAssets/Highlights/snapgram/660shots_so.png"
+import forensicLanding from "../assets/ProjectsAssets/Highlights/Forensic Painter/Landing.png"
+import forensicDocumentation from "../assets/ProjectsAssets/Highlights/Forensic Painter/Documentation.png"
+import FaceGenerating from "../assets/ProjectsAssets/Highlights/Forensic Painter/FaceGenerating.png"
+import FaceEdit from "../assets/ProjectsAssets/Highlights/Forensic Painter/FaceEdit.png"
+import forensicSaved from "../assets/ProjectsAssets/Highlights/Forensic Painter/SavedImages.png"
 // =====================================================================
 import gym1 from "../assets/ProjectsAssets/Highlights/gymapp/gym1.webp"
 import gym2 from "../assets/ProjectsAssets/Highlights/gymapp/gym2.webp"
@@ -306,9 +302,11 @@ import layers2 from "../assets/ProjectsAssets/Highlights/Layers/image2.webp"
 import layers3 from "../assets/ProjectsAssets/Highlights/Layers/image3.webp"
 import layers4 from "../assets/ProjectsAssets/Highlights/Layers/image4.webp"
 // =====================================================================
-import notely from "../assets/ProjectsAssets/Highlights/notely/notely.webp"
-import notely2 from "../assets/ProjectsAssets/Highlights/notely/notely2.webp"
-import notelyin from "../assets/ProjectsAssets/Highlights/notely/notelyin.webp"
+import socialMain from "../assets/ProjectsAssets/Highlights/Socially/Main.png"
+import socialSearch from "../assets/ProjectsAssets/Highlights/Socially/Search.png"
+import socialNotifications from "../assets/ProjectsAssets/Highlights/Socially/Notifications.png"
+import socialProfile from "../assets/ProjectsAssets/Highlights/Socially/Profile.png"
+import FollowSystem from "../assets/ProjectsAssets/Highlights/Socially/FollowSystem.png"
 // =====================================================================
 import liveDocsCover from "../assets/ProjectsAssets/Highlights/LiveDocs/LiveDocsCover.png"
 import liveDocs1 from "../assets/ProjectsAssets/Highlights/LiveDocs/liveDocs1.webp"
@@ -325,6 +323,68 @@ export const cvLink = "https://docs.google.com/document/d/e/2PACX-1vRXb2_UZhZKpH
 
 
 export const projectsData = [
+	{
+		id: "15",
+		imgURL: FaceGenerating,
+		title: "Forensic Painter",
+		description: "Forensic painter is a realtime face generator and and editor where users can enter description and the ai will generate it and if the results where not accurate you can edit the generated face or even upload your own sketch",
+		live: "https://image-generator-liard-theta.vercel.app/",
+		gitHUB: "https://github.com/legendofnoobs/image_generator",
+		usedTech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind.css", "Clipdrop"],
+		featuresWithImages: [
+			{
+				description: "Landing page for the main entrance as it serves as main router to generating face, editing them or show saved faces",
+				image: forensicLanding
+			},
+			{
+				description: "The page where you can generate faces via text or voice commands",
+				image: FaceGenerating
+			},
+			{
+				description: "The page where you can edit the faces you generated or uploaded faces",
+				image: FaceEdit
+			},
+			{
+				description: "The page where you can see saved faces",
+				image: forensicSaved
+			},
+			{
+				description: "This page is the Documentation for the app",
+				image: forensicDocumentation
+			}
+		]
+	},
+	{
+		id: "17",
+		imgURL: socialMain,
+		title: "Socially",
+		description: "Socially is a real-time social Media App where users can share their thoughts and photos",
+		live: "https://social-media-chi-six.vercel.app/",
+		gitHUB: "https://github.com/legendofnoobs/social-media",
+		usedTech: ["Next.js","Prisma","Tailwind.css","Clerk", "Typescript", "Shadcn ui", "uploadthing"],
+		featuresWithImages: [
+			{
+				description: "Main page where users can share their thoughts and photos and see others posts and accounts they don't follow",
+				image: socialMain
+			},
+			{
+				description: "Search page where users can search for posts and users accounts",
+				image: socialSearch
+			},
+			{
+				description: "Notifications page where users can see their notifications",
+				image: socialNotifications
+			},
+			{
+				description: "Profile page where users can show their profile and edit it",
+				image: socialProfile			
+			},
+			{
+				description:"Follow system where users can follow and unfollow other users",
+				image: FollowSystem
+			}
+		]
+	},
 	{
 		id: "16",
 		imgURL: liveDocsCover,
@@ -441,50 +501,6 @@ export const projectsData = [
 		],
 		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]",
 	},
-	{
-		id: "1",
-		imgURL: snapgramMain,
-		title: "Snapgram",
-		description: "Build a modern social app with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance. It is Fully functional and responsive",
-		live: "https://snap-graam.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/SnapGram",
-		usedTech: ["React.js", "Tailwind.css", "Typescript", "Shadcn/ui", "TanStack", "Appwrite"],
-		featuresWithImages: [
-			{
-				description: "Simple Authentication",
-				image: snapgramHighlight1,
-			},
-			{
-				description: "Homepage with sidebar navigation and top creator to follow",
-				image: SnapGram,
-			},
-			{
-				description: "Explore with search functionality",
-				image: snapgramHighlight4,
-			},
-			{
-				description: "Users page to follow",
-				image: snapgramHighlight5,
-			},
-			{
-				description: "Saving posts functionality",
-				image: snapgramHighlight2,
-			},
-			{
-				description: "post creation with uploading photos",
-				image: snapgramHighlight3,
-			},
-			{
-				description: "Profile editing page",
-				image: snapgramHighlight6,
-			},
-			{
-				description: "Profile page with viewing posted posts",
-				image: snapgramHighlight7,
-			},
-		],
-		hover: "group-hover:bg-pink-600/50 group-hover:blur-[150px]",
-	}
 ]
 
 
@@ -556,26 +572,6 @@ export const OtherProjectsData = [
 			}
 		],
 		hover: "group-hover:bg-red-600/50 group-hover:blur-[150px]"
-	},
-	{
-		id: "15",
-		imgURL: notely,
-		title: "Notely",
-		description: "Notely is a simple and elegant note-taking app that allows you to create, edit, and organize your notes with ease. It is built with React.js, Tailwind.css, Express.js and mongodb. It is fully functional.",
-		live: "https://note-taking-app-five-wine.vercel.app/",
-		gitHUB: "https://github.com/legendofnoobs/note-taking-app",
-		usedTech: ["React.js", "Tailwind.css", "Express.js", "MongoDB"],
-		featuresWithImages: [
-			{
-				description: "Simple Authentication",
-				image: notely2,
-			},
-			{
-				description: "Homepage with sidebar navigation for several tabs. note creation, update, delete, archieve and view notes. Autosave and search notes",
-				image: notelyin,
-			},
-		],
-		hover: "group-hover:bg-blue-600/50 group-hover:blur-[150px]",
 	},
 	{
 		id: "5",
